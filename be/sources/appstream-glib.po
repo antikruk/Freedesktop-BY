@@ -1,0 +1,371 @@
+# Translators:
+# Andi Chandler <andi@gowling.com>, 2016
+# Richard Hughes <richard@hughsie.com>, 2014-2016
+# Richard Hughes <richard@hughsie.com>, 2016. #zanata
+msgid ""
+msgstr ""
+"Project-Id-Version: freedesktop-by\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-28 10:43+0000\n"
+"PO-Revision-Date: 2019-09-19 18:41\n"
+"Last-Translator: Zmicer Turok (zmicer)\n"
+"Language-Team: Belarusian\n"
+"Language: be_BY\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || n%10>=5 && n%10<=9 || n%100>=11 && n%100<=14 ? 2 : 3);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: freedesktop-by\n"
+"X-Crowdin-Language: be\n"
+"X-Crowdin-File: /master/sources/appstream-glib/en_GB.po\n"
+
+#. TRANSLATORS: command line option
+msgid "Add HiDPI icons to the tarball"
+msgstr "Дадаць значкі ў HiDPI у архіў"
+
+#. TRANSLATORS: command line option
+msgid "Add a cache ID to each component"
+msgstr "Дадаць ідэнтыфікатар кэшу ў кожны кампанент"
+
+#. TRANSLATORS: command line option
+msgid "Add encoded icons to the XML"
+msgstr "Дадаць закадаваныя значкі ў XML"
+
+#. TRANSLATORS: application was added
+msgid "Added"
+msgstr "Дададзена"
+
+#. TRANSLATORS: this is a command alias
+#, c-format
+msgid "Alias to %s"
+msgstr "Псеўданім да %s"
+
+#. TRANSLATORS: program name
+msgid "AppStream Utility"
+msgstr "Утыліта AppStream"
+
+#. TRANSLATORS: command description
+msgid "Check installed application data"
+msgstr "Праверыць даныя ўсталяванай праграмы"
+
+msgid "Command not found, valid commands are:"
+msgstr "Загад не знойдзены, прыдатныя загады:"
+
+#. TRANSLATORS: command description
+msgid "Compare the contents of two AppStream files"
+msgstr "Параўнаць змесціва двух файлаў AppStream"
+
+#. TRANSLATORS: the %s and %s are file types,
+#. * e.g. "appdata" to "appstream"
+#, c-format
+msgid "Conversion %s to %s is not implemented"
+msgstr "Пераўтварэнне з %s у %s не рэалізавана"
+
+#. TRANSLATORS: command description
+msgid "Convert an AppData file to NEWS format"
+msgstr "Пераўтварыць файл AppData у фармат NEWS"
+
+#. TRANSLATORS: command description
+msgid "Convert an NEWS file to AppData format"
+msgstr "Пераўтварыць файл NEWS у фармат AppData"
+
+#. TRANSLATORS: command description
+msgid "Converts AppStream metadata from one version to another"
+msgstr "Пераўтварае метаданыя AppStream з адной версіі ў другую"
+
+#. TRANSLATORS: command description
+msgid "Create an CSV status document"
+msgstr "Стварыць дакумент статусу ў фармаце CSV"
+
+#. TRANSLATORS: command description
+msgid "Create an HTML matrix page"
+msgstr "Стварыць старонку матрыцы ў фармаце HTML"
+
+#. TRANSLATORS: command description
+msgid "Create an HTML status page"
+msgstr "Стварыць старонку статусу ў фармаце HTML"
+
+#. TRANSLATORS: command description
+msgid "Display application search tokens"
+msgstr "Паказаць токены пошуку праграм"
+
+#. TRANSLATORS: command line option
+msgid "Do not compress the icons into a tarball"
+msgstr "Не сціскаць значкі ў архіў"
+
+#. TRANSLATORS: this is the --nonet argument
+msgid "Do not use network access"
+msgstr "Не выкарыстоўваць доступ да сеткі"
+
+#. success
+#. TRANSLATORS: information message
+msgid "Done!"
+msgstr "Завершана!"
+
+#. TRANSLATORS: command description
+msgid "Dumps the applications in the AppStream metadata"
+msgstr "Стварае дамп праграм у метаданыя AppStream"
+
+#. TRANSLATORS: command line option
+msgid "Enable profiling"
+msgstr "Уключыць прафіляванне"
+
+#. TRANSLATORS: this is when the folder could
+#. * not be created
+msgid "Error creating output directory"
+msgstr "Падчас стварэння каталога вываду адбылася памылка"
+
+#. TRANSLATORS: the .appdata.xml file could not
+#. * be loaded
+msgid "Error loading AppData file"
+msgstr "Падчас загрузкі файла AppData адбылася памылка"
+
+#. TRANSLATORS: the .desktop file could not
+#. * be loaded
+msgid "Error loading desktop file"
+msgstr "Падчас загрузкі файла працоўнага стала адбылася памылка"
+
+#. TRANSLATORS: we could not auto-add the kudo
+msgid "Error parsing kudos"
+msgstr "Падчас разбору падзяк адбылася памылка"
+
+#. TRANSLATORS: we could not auto-add the provides
+msgid "Error parsing provides"
+msgstr "Падчас разбору забеспячэння адбылася памылка"
+
+#. TRANSLATORS: the .mo files could not be parsed
+msgid "Error parsing translations"
+msgstr "Падчас разбору перакладаў адбылася памылка"
+
+#. TRANSLATORS: this is when the destination file
+#. * cannot be saved for some reason
+msgid "Error saving AppStream file"
+msgstr "Падчас захавання файла AppStream адбылася памылка"
+
+#. list failures
+msgid "FAILED"
+msgstr "НЕ АТРЫМАЛАСЯ"
+
+#. TRANSLATORS: error message
+msgid "Failed to add package"
+msgstr "Не атрымалася дадаць пакунак"
+
+#. TRANSLATORS: error message
+msgid "Failed to generate metadata"
+msgstr "Не атрымалася стварыць метаданыя"
+
+#. TRANSLATORS: error message
+msgid "Failed to open packages"
+msgstr "Не атрымалася адкрыць пакункі"
+
+#. TRANSLATORS: error message
+msgid "Failed to parse arguments"
+msgstr "Не атрымалася разабраць аргумент"
+
+#. TRANSLATORS: error message
+msgid "Failed to set up builder"
+msgstr "Не атрымалася наладзіць сродак зборкі"
+
+#. TRANSLATORS: %s is a file type,
+#. * e.g. 'appdata'
+#, c-format
+msgid "File format '%s' cannot be upgraded"
+msgstr "Файл фармату \"%s\" немагчыма абнавіць"
+
+#. TRANSLATORS: not a recognised file type
+msgid "Format not recognised"
+msgstr "Фармат не распазнаны"
+
+#. TRANSLATORS: command description
+msgid "Generate a GUID from an input string"
+msgstr "Стварыць GUID з радка ўводу"
+
+#. TRANSLATORS: command line option
+msgid "Ignore certain types of veto"
+msgstr "Ігнараваць пэўныя тыпы забароны"
+
+#. TRANSLATORS: command description
+msgid "Import a file to AppStream markup"
+msgstr "Імпартаваць файл у разметку AppStream"
+
+#. TRANSLATORS: command line option
+msgid "Include failed results in the output"
+msgstr "Уключыць хібныя вынікі ў вывад"
+
+#. TRANSLATORS: command description
+msgid "Incorporate extra metadata from an external file"
+msgstr "Уключыць дадатковыя метаданыя з вонкавага файла"
+
+#. TRANSLATORS: command description
+msgid "Installs AppStream metadata"
+msgstr "Усталёўвае метаданыя AppStream"
+
+#. TRANSLATORS: command description
+msgid "Installs AppStream metadata with new origin"
+msgstr "Усталёўвае метаданыя AppStream новага паходжання"
+
+#. TRANSLATORS: command description
+msgid "List applications not backed by packages"
+msgstr "Спіс праграм не з пакункаў"
+
+#. TRANSLATORS: command description
+msgid "Merge several files to an AppStream file"
+msgstr "Аб’яднаць некалькі файлаў у файл AppStream"
+
+#. TRANSLATORS: command description
+msgid "Mirror upstream screenshots"
+msgstr "Адлюстраваць здымкі экрана з асноўнай галіны распрацоўкі"
+
+#. TRANSLATORS: command description
+msgid "Modify an AppData file"
+msgstr "Змяніць файл AppData"
+
+#. TRANSLATORS: information message
+msgid "New API version"
+msgstr "Новая версія API"
+
+#. TRANSLATORS: probably wrong XML
+msgid "No desktop applications found"
+msgstr "Праграм не знойдзена"
+
+msgid "Not enough arguments, expected file.xml"
+msgstr "Не хапае аргументаў, чакаўся file.xml"
+
+msgid "Not enough arguments, expected old.xml new.xml version"
+msgstr "Не хапае аргументаў, чакалася old.xml new.xml version"
+
+#. TRANSLATORS: the file is valid
+msgid "OK"
+msgstr "Добра"
+
+#. TRANSLATORS: information message
+msgid "Old API version"
+msgstr "Старая версія API"
+
+#. TRANSLATORS: any manual changes required?
+#. * also note: FIXME is a hardcoded string
+msgid "Please review the file and fix any 'FIXME' items"
+msgstr "Калі ласка, пераглядзіце файл, і выпраўце пункты, да якіх дададзена \"FIXME\""
+
+#. TRANSLATORS: we're generating the AppStream data
+msgid "Processing application"
+msgstr "Апрацоўка праграмы"
+
+#. TRANSLATORS: application was removed
+msgid "Removed"
+msgstr "Выдалена"
+
+#. TRANSLATORS: command description
+msgid "Replace screenshots in source file"
+msgstr "Замяніць здымкі экрана ў зыходным файле"
+
+#. TRANSLATORS: we've saving the XML file to disk
+msgid "Saving AppStream"
+msgstr "Захаванне AppStream"
+
+#. TRANSLATORS: we've saving the icon file to disk
+msgid "Saving icon"
+msgstr "Захаванне значка"
+
+#. TRANSLATORS: information message
+msgid "Scanning packages..."
+msgstr "Сканаванне пакункаў..."
+
+#. TRANSLATORS: command description
+msgid "Search for AppStream applications"
+msgstr "Пошук праграм AppStream"
+
+#. TRANSLATORS: command description
+msgid "Search for AppStream applications by package name"
+msgstr "Пошук праграм AppStream па назве пакунка"
+
+#. TRANSLATORS: command line option
+msgid "Set the basenames of the output files"
+msgstr "Вызначыць базавыя назвы выходных файлаў"
+
+#. TRANSLATORS: command line option
+msgid "Set the cache directory"
+msgstr "Вызначыць каталог кэшу"
+
+#. TRANSLATORS: command line option
+msgid "Set the icons directory"
+msgstr "Вызначыць каталог значкоў"
+
+#. TRANSLATORS: command line option
+msgid "Set the logging directory"
+msgstr "Вызначыць каталог журналаў"
+
+#. TRANSLATORS: command line option
+msgid "Set the minimum icon size in pixels"
+msgstr "Вызначыць мінімальны памер значкоў у пікселях"
+
+#. TRANSLATORS: command line option
+msgid "Set the number of threads"
+msgstr "Вызначыць колькасць струменяў"
+
+#. TRANSLATORS: command line option
+msgid "Set the old metadata location"
+msgstr "Вызначыць месцазнаходжанне старых метаданых"
+
+#. TRANSLATORS: command line option
+msgid "Set the origin name"
+msgstr "Вызначыць арыгінальную назву"
+
+#. TRANSLATORS: command line option
+msgid "Set the output directory"
+msgstr "Вызначыць каталог вываду"
+
+#. TRANSLATORS: command line option
+msgid "Set the packages directory"
+msgstr "Вызначыць каталог пакункаў"
+
+#. TRANSLATORS: command line option
+msgid "Set the prefix"
+msgstr "Вызначыць прэфікс"
+
+#. TRANSLATORS: command line option
+msgid "Set the temporary directory"
+msgstr "Вызначыць часовы каталог"
+
+#. TRANSLATORS: command line option
+msgid "Show extra debugging information"
+msgstr "Паказваць дадатковую адладачную інфармацыю"
+
+#. TRANSLATORS: command line option
+msgid "Show version"
+msgstr "Паказаць версію"
+
+#. TRANSLATORS: command description
+msgid "Split an AppStream file to AppData and Metainfo files"
+msgstr "Падзяліць файл AppStream на файлы AppData і Metainfo"
+
+#. TRANSLATORS: command description
+msgid "Uninstalls AppStream metadata"
+msgstr "Выдаляе метаданыя AppStream"
+
+#. TRANSLATORS: command description
+msgid "Upgrade AppData metadata to the latest version"
+msgstr "Абнавіць метаданыя AppStream да апошняй версіі"
+
+#. TRANSLATORS: command description
+msgid "Validate an AppData or AppStream file"
+msgstr "Праверыць файл AppData альбо AppStream"
+
+#. TRANSLATORS: command description
+msgid "Validate an AppData or AppStream file (relaxed)"
+msgstr "Праверыць файл AppData альбо AppStream (асцярожна)"
+
+#. TRANSLATORS: command description
+msgid "Validate an AppData or AppStream file (strict)"
+msgstr "Праверыць файл AppData альбо AppStream (строга)"
+
+msgid "Validation failed"
+msgstr "Праверыць не атрымалася"
+
+msgid "Validation of files failed"
+msgstr "Праверыць файлы не атрымалася"
+
+msgid "Version:"
+msgstr "Версія:"
+
