@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: freedesktop-by\n"
 "Report-Msgid-Bugs-To: https://gitlab.freedesktop.org/polkit/polkit/issues\n"
 "POT-Creation-Date: 2019-09-20 03:29+0000\n"
-"PO-Revision-Date: 2019-09-20 11:48\n"
+"PO-Revision-Date: 2019-09-20 11:54\n"
 "Last-Translator: Zmicer Turok (zmicer)\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -18,51 +18,52 @@ msgstr ""
 
 #: ../actions/org.freedesktop.policykit.policy.in.h:1
 msgid "Run a program as another user"
-msgstr ""
+msgstr "Запусціць праграму ад імя іншага карыстальніка"
 
 #: ../actions/org.freedesktop.policykit.policy.in.h:2
 msgid "Authentication is required to run a program as another user"
-msgstr ""
+msgstr "Для запуску праграмы ад імя іншага карыстальніка патрабуецца аўтэнтыфікацыя"
 
 #: ../src/examples/org.freedesktop.policykit.examples.pkexec.policy.in.h:1
 msgid "Run the polkit example program Frobnicate"
-msgstr ""
+msgstr "Запусціць праграму Frobnicate як прыклад polkit"
 
 #: ../src/examples/org.freedesktop.policykit.examples.pkexec.policy.in.h:2
 msgid "Authentication is required to run the polkit example program Frobnicate (user=$(user), user.gecos=$(user.gecos), user.display=$(user.display), program=$(program), command_line=$(command_line))"
-msgstr ""
+msgstr "Для запуску праграмы Frobnicate патрабуецца аўтэнтыфікацыя (user=$(user), user.gecos=$(user.gecos), user.display=$(user.display), program=$(program), command_line=$(command_line))"
 
 #: ../src/programs/pkaction.c:101
 msgid "Only output information about ACTION"
-msgstr ""
+msgstr "Толькі вывад інфармацыі пра ДЗЕЯННЕ"
 
 #: ../src/programs/pkaction.c:101
 msgid "ACTION"
-msgstr ""
+msgstr "ДЗЕЯННЕ"
 
 #: ../src/programs/pkaction.c:105
 msgid "Output detailed action information"
-msgstr ""
+msgstr "Вывад падрабязнай інфармацыі пра дзеянне"
 
 #: ../src/programs/pkaction.c:109 ../src/programs/pkttyagent.c:95
 msgid "Show version"
-msgstr ""
+msgstr "Паказаць версію"
 
 #: ../src/programs/pkaction.c:132
 msgid "[--action-id ACTION]"
-msgstr ""
+msgstr "[--action-id ДЗЕЯННЕ]"
 
 #: ../src/programs/pkaction.c:133 ../src/programs/pkttyagent.c:118
 #, c-format
 msgid "Report bugs to: %s\n"
 "%s home page: <%s>"
-msgstr ""
+msgstr "Пра памылкі паведамляйце: %s\n"
+"%s хатняя старонка: <%s>"
 
 #: ../src/programs/pkaction.c:147 ../src/programs/pkcheck.c:493
 #: ../src/programs/pkttyagent.c:132
 #, c-format
 msgid "%s: Unexpected argument `%s'\n"
-msgstr ""
+msgstr "%s: нечаканы аргумент \"%s\"\n"
 
 #: ../src/programs/pkcheck.c:36
 #, c-format
@@ -82,28 +83,44 @@ msgid "Usage:\n"
 "  --version                          Show version\n\n"
 "Report bugs to: %s\n"
 "%s home page: <%s>\n"
-msgstr ""
+msgstr "Выкарыстанне:\n"
+"  pkcheck [ПАРАМЕТР...]\n\n"
+"Даведка па параметрах:\n"
+"  -h, --help                         Паказаць даведку\n\n"
+"Параметры праграмы:\n"
+"  -a, --action-id=ДЗЕЯННЕ          Праверыць аўтарызацыю для выканання ДЗЕЯННЯ\n"
+"  -u, --allow-user-interaction       Узаемадзейнічаць з карыстальнікам пры неабходнасці\n"
+"  -d, --details=КЛЮЧ ЗНАЧЭННЕ            Дадаць (КЛЮЧ, ЗНАЧЭННЕ) у інфармацыю пра дзеянне\n"
+"  --enable-internal-agent            Выкарыстоўваць унутранага агента аўтэнтыфікацыі пры неабходнасці \n"
+"  --list-temp                        Спіс часовых аўтарызацый бягучага сеанса\n"
+"  -p, --process=PID[,ПАЧАТКОВЫ_ЧАС,UID] C\n"
+"Праверыць аўтарызацыю вызначанага працэсу\n"
+"  --revoke-temp                      Адклікаць усе аўтарызацыі бягучага сеанса\n"
+"  -s, --system-bus-name=НАЗВА_ШЫНЫ     Праверыць аўтарызацыю ўладальніка НАЗВА_ШЫНЫ\n"
+"  --version                          Паказаць версію\n\n"
+"Пра памылкі паведамляйце: %s\n"
+"%s хатняя старонка: <%s>\n"
 
 #: ../src/programs/pkcheck.c:393 ../src/programs/pkcheck.c:426
 #: ../src/programs/pkcheck.c:438
 #, c-format
 msgid "%s: Argument expected after `%s'\n"
-msgstr ""
+msgstr "%s: аргумент чакаецца пасля \"%s\"\n"
 
 #: ../src/programs/pkcheck.c:416
 #, c-format
 msgid "%s: Invalid --process value `%s'\n"
-msgstr ""
+msgstr "%s: хібнае значэнне --process \"%s\"\n"
 
 #: ../src/programs/pkcheck.c:453 ../src/programs/pkcheck.c:462
 #, c-format
 msgid "%s: Two arguments expected after `--detail'\n"
-msgstr ""
+msgstr "%s: пасля \"--detail\" чакаецца два аргументы\n"
 
 #: ../src/programs/pkcheck.c:523
 #, c-format
 msgid "%s: Subject not specified\n"
-msgstr ""
+msgstr "%s: тэма не вызначаная\n"
 
 #. Translators: message shown when trying to run a program as root. Do not
 #. * translate the $(program) fragment - it will be expanded to the path
@@ -111,7 +128,7 @@ msgstr ""
 #.
 #: ../src/programs/pkexec.c:790
 msgid "Authentication is needed to run `$(program)' as the super user"
-msgstr ""
+msgstr "Для запуску \"$(program)\" ад імя суперкарыстальніка патрабуецца аўтэнтыфікацыя"
 
 #. Translators: message shown when trying to run a program as another user.
 #. * Do not translate the $(program) or $(user) fragments - the former will
@@ -120,38 +137,38 @@ msgstr ""
 #.
 #: ../src/programs/pkexec.c:800
 msgid "Authentication is needed to run `$(program)' as user $(user.display)"
-msgstr ""
+msgstr "Для запуску \"$(program)\" ад імя $(user.display) патрабуецца аўтэнтыфікацыя"
 
 #: ../src/programs/pkttyagent.c:78
 msgid "Don't replace existing agent if any"
-msgstr ""
+msgstr "Не замяняць існых агентаў, калі"
 
 #: ../src/programs/pkttyagent.c:82
 msgid "Close FD when the agent is registered"
-msgstr ""
+msgstr "Закрываць FD, калі агент зарэгістраваны"
 
 #: ../src/programs/pkttyagent.c:82
 msgid "FD"
-msgstr ""
+msgstr "FD"
 
 #: ../src/programs/pkttyagent.c:86
 msgid "Register the agent for the specified process"
-msgstr ""
+msgstr "Зарэгістраваць агента для вызначанага працэсу"
 
 #: ../src/programs/pkttyagent.c:87
 msgid "PID[,START_TIME]"
-msgstr ""
+msgstr "PID[,ПАЧАТКОВЫ_ЧАС]"
 
 #: ../src/programs/pkttyagent.c:91
 msgid "Register the agent for the owner of BUS_NAME"
-msgstr ""
+msgstr "Зарэгістраваць агента для ўладальніка BUS_NAME"
 
 #: ../src/programs/pkttyagent.c:91
 msgid "BUS_NAME"
-msgstr ""
+msgstr "НАЗВА_ШЫНЫ"
 
 #: ../src/programs/pkttyagent.c:164
 #, c-format
 msgid "%s: Invalid process specifier `%s'\n"
-msgstr ""
+msgstr "%s: хібны вызначальнік працэсу \"%s\"\n"
 
