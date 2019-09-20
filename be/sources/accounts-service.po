@@ -1,0 +1,65 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Chris  Leonard <cjl@laptop.org>, 2012
+msgid ""
+msgstr ""
+"Project-Id-Version: freedesktop-by\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-01-17 09:48-0500\n"
+"PO-Revision-Date: 2019-09-20 11:38\n"
+"Last-Translator: Zmicer Turok (zmicer)\n"
+"Language-Team: Belarusian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: be_BY\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || n%10>=5 && n%10<=9 || n%100>=11 && n%100<=14 ? 2 : 3);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: freedesktop-by\n"
+"X-Crowdin-Language: be\n"
+"X-Crowdin-File: /master/sources/accounts-service/en_GB.po\n"
+
+#: ../data/org.freedesktop.accounts.policy.in.h:1
+msgid "Change your own user data"
+msgstr "Змяніць асабістыя карыстальніцкія даныя"
+
+#: ../data/org.freedesktop.accounts.policy.in.h:2
+msgid "Authentication is required to change your own user data"
+msgstr "Для змены асабістых карыстальніцкіх даных патрабуецца аўтэнтыфікацыя"
+
+#: ../data/org.freedesktop.accounts.policy.in.h:3
+msgid "Manage user accounts"
+msgstr "Кіраванне акаўнтамі"
+
+#: ../data/org.freedesktop.accounts.policy.in.h:4
+msgid "Authentication is required to change user data"
+msgstr "Для змены карыстальніцкіх даных патрабуецца аўтэнтыфікацыя"
+
+#: ../data/org.freedesktop.accounts.policy.in.h:5
+msgid "Change the login screen configuration"
+msgstr "Змяніць канфігурацыю экрана ўваходу ў сістэму"
+
+#: ../data/org.freedesktop.accounts.policy.in.h:6
+msgid "Authentication is required to change the login screen configuration"
+msgstr "Для змены канфігурацыі экрана ўваходу ў сістэму патрабуецца аўтэнтыфікацыя"
+
+#: ../src/main.c:127
+msgid "Output version information and exit"
+msgstr "Вывад інфармацыі пра версію і выхад"
+
+#: ../src/main.c:128
+msgid "Replace existing instance"
+msgstr "Замяніць існы асобнік"
+
+#: ../src/main.c:129
+msgid "Enable debugging code"
+msgstr "Уключыць адладачны код"
+
+#: ../src/main.c:149
+msgid "Provides D-Bus interfaces for querying and manipulating\n"
+"user account information."
+msgstr "Падае інтэрфейс D-Bus для апытання і змены інфармацыі акаўнтаў карыстальнікаў."
+
