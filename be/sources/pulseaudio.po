@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: freedesktop-by\n"
 "Report-Msgid-Bugs-To: https://gitlab.freedesktop.org/pulseaudio/pulseaudio/issues\n"
 "POT-Creation-Date: 2019-09-17 15:42+0000\n"
-"PO-Revision-Date: 2019-09-20 11:54\n"
+"PO-Revision-Date: 2019-10-03 05:59\n"
 "Last-Translator: Zmicer Turok (zmicer)\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -2414,7 +2414,7 @@ msgstr "\t\t\tУласцівасці:\n"
 #: src/utils/pactl.c:611
 #, c-format
 msgid "\t\t\tPart of profile(s): %s"
-msgstr "\t\t\tЧастка профіля(яў): %s"
+msgstr "\t\t\tЧастка профілю(яў): %s"
 
 #: src/utils/pactl.c:628 src/utils/pactl.c:948 src/utils/pactl.c:1016
 #, c-format
@@ -2766,7 +2766,7 @@ msgstr "Вы не можаце вызначыць больш адной крын
 
 #: src/utils/pactl.c:1853
 msgid "You have to specify a card name/index and a profile name"
-msgstr "Неабходна вызначыць нумар ці назву карткі і назву профіля"
+msgstr "Неабходна вызначыць нумар ці назву карткі і назву профілю"
 
 #: src/utils/pactl.c:1864
 msgid "You have to specify a sink name/index and a port name"
