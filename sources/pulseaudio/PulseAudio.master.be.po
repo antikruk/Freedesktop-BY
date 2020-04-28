@@ -6,42 +6,23 @@
 #
 msgid ""
 msgstr ""
-<<<<<<< HEAD:be/sources/pulseaudio.po
-"Project-Id-Version: freedesktop-by\n"
-"Report-Msgid-Bugs-To: https://gitlab.freedesktop.org/pulseaudio/pulseaudio/issues\n"
-"POT-Creation-Date: 2019-09-17 15:42+0000\n"
-"PO-Revision-Date: 2019-09-19 16:59\n"
-"Last-Translator: Zmicer Turok (zmicer)\n"
-"Language-Team: Belarusian\n"
-=======
 "Project-Id-Version: PulseAudio\n"
 "Report-Msgid-Bugs-To: https://gitlab.freedesktop.org/pulseaudio/pulseaudio/"
 "issues\n"
-"POT-Creation-Date: 2019-09-17 15:42+0000\n"
+"POT-Creation-Date: 2020-04-23 15:33+0000\n"
 "PO-Revision-Date: 2016-07-19 11:06+0300\n"
 "Last-Translator: Viktar Vaŭčkievič <victorenator@gmail.com>\n"
 "Language-Team: Belarusian <>\n"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 "Language: be\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || n%10>=5 && n%10<=9 || n%100>=11 && n%100<=14 ? 2 : 3);\n"
-"X-Generator: crowdin.com\n"
-"X-Crowdin-Project: freedesktop-by\n"
-"X-Crowdin-Language: be\n"
-"X-Crowdin-File: /master/sources/pulseaudio/PulseAudio.master.be.po\n"
-
-#: src/daemon/cmdline.c:113
-=======
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 2.0\n"
 
 #: src/daemon/cmdline.c:113
 #, fuzzy, c-format
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 #| msgid ""
 #| "%s [options]\n"
 #| "\n"
@@ -117,13 +98,9 @@ msgstr ""
 #| "                                        after startup\n"
 #| "\n"
 #| "  -n                                    Don't load default script file\n"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgid "%s [options]\n\n"
-=======
 msgid ""
 "%s [options]\n"
 "\n"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 "COMMANDS:\n"
 "  -h, --help                            Show this help\n"
 "      --version                         Show version\n"
@@ -190,59 +167,6 @@ msgid ""
 "\n"
 "  -n                                    Don't load default script file\n"
 msgstr ""
-<<<<<<< HEAD:be/sources/pulseaudio.po
-
-#: src/daemon/cmdline.c:246
-msgid "--daemonize expects boolean argument"
-msgstr ""
-
-#: src/daemon/cmdline.c:254
-msgid "--fail expects boolean argument"
-msgstr ""
-
-#: src/daemon/cmdline.c:265
-msgid "--log-level expects log level argument (either numeric in range 0..4 or one of debug, info, notice, warn, error)."
-msgstr ""
-
-#: src/daemon/cmdline.c:277
-msgid "--high-priority expects boolean argument"
-msgstr ""
-
-#: src/daemon/cmdline.c:285
-msgid "--realtime expects boolean argument"
-msgstr ""
-
-#: src/daemon/cmdline.c:293
-msgid "--disallow-module-loading expects boolean argument"
-msgstr ""
-
-#: src/daemon/cmdline.c:301
-msgid "--disallow-exit expects boolean argument"
-msgstr ""
-
-#: src/daemon/cmdline.c:309
-msgid "--use-pid-file expects boolean argument"
-msgstr ""
-
-#: src/daemon/cmdline.c:328
-#| msgid ""
-#| "Invalid log target: use either 'syslog', 'journal','stderr' or 'auto' or "
-#| "a valid file name 'file:<path>', 'newfile:<path>'."
-msgid "Invalid log target: use either 'syslog', 'journal', 'stderr' or 'auto' or a valid file name 'file:<path>', 'newfile:<path>'."
-msgstr ""
-
-#: src/daemon/cmdline.c:330
-msgid "Invalid log target: use either 'syslog', 'stderr' or 'auto' or a valid file name 'file:<path>', 'newfile:<path>'."
-msgstr ""
-
-#: src/daemon/cmdline.c:338
-msgid "--log-time expects boolean argument"
-msgstr ""
-
-#: src/daemon/cmdline.c:346
-msgid "--log-meta expects boolean argument"
-msgstr ""
-=======
 "%s [параметры]\n"
 "\n"
 "Каманды:\n"
@@ -386,30 +310,10 @@ msgstr "--log-time чакае булевы аргумент"
 #: src/daemon/cmdline.c:346
 msgid "--log-meta expects boolean argument"
 msgstr "--log-meta чакае булевы аргумент"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/daemon/cmdline.c:366
 #, c-format
 msgid "Invalid resample method '%s'."
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-
-#: src/daemon/cmdline.c:373
-msgid "--system expects boolean argument"
-msgstr ""
-
-#: src/daemon/cmdline.c:381
-msgid "--no-cpu-limit expects boolean argument"
-msgstr ""
-
-#: src/daemon/cmdline.c:389
-msgid "--disable-shm expects boolean argument"
-msgstr ""
-
-#: src/daemon/cmdline.c:397
-msgid "--enable-memfd expects boolean argument"
-msgstr ""
-=======
 msgstr "Некарэктны метад перадыскрэтызацыі «%s»."
 
 #: src/daemon/cmdline.c:373
@@ -427,290 +331,193 @@ msgstr "--disable-shm чакае булевы аргумент"
 #: src/daemon/cmdline.c:397
 msgid "--enable-memfd expects boolean argument"
 msgstr "--enable-memfd чакае булевы аргумент"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
-#: src/daemon/daemon-conf.c:268
+#: src/daemon/daemon-conf.c:270
 #, c-format
 msgid "[%s:%u] Invalid log target '%s'."
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "[%s:%u] Некарэктны журнал «%s»."
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
-#: src/daemon/daemon-conf.c:283
+#: src/daemon/daemon-conf.c:285
 #, c-format
 msgid "[%s:%u] Invalid log level '%s'."
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "[%s:%u] Некарэктны ўзровень інфармавання «%s»."
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
-#: src/daemon/daemon-conf.c:298
+#: src/daemon/daemon-conf.c:300
 #, c-format
 msgid "[%s:%u] Invalid resample method '%s'."
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "[%s:%u] Некарэктны метад перадыскрэтызацыі «%s»."
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
-#: src/daemon/daemon-conf.c:320
+#: src/daemon/daemon-conf.c:322
 #, c-format
 msgid "[%s:%u] Invalid rlimit '%s'."
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "[%s:%u] Некарэктны rlimit «%s»."
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
-#: src/daemon/daemon-conf.c:340
+#: src/daemon/daemon-conf.c:342
 #, c-format
 msgid "[%s:%u] Invalid sample format '%s'."
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "[%s:%u] Некарэктны фармат сэмлаў «%s»."
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
-#: src/daemon/daemon-conf.c:357 src/daemon/daemon-conf.c:374
+#: src/daemon/daemon-conf.c:359 src/daemon/daemon-conf.c:376
 #, c-format
 msgid "[%s:%u] Invalid sample rate '%s'."
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "[%s:%u] Некарэктная частата дыскрэтызацыі «%s»."
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
-#: src/daemon/daemon-conf.c:397
+#: src/daemon/daemon-conf.c:399
 #, c-format
 msgid "[%s:%u] Invalid sample channels '%s'."
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "[%s:%u] Некарэктная колькасць каналаў «%s»."
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
-#: src/daemon/daemon-conf.c:414
+#: src/daemon/daemon-conf.c:416
 #, c-format
 msgid "[%s:%u] Invalid channel map '%s'."
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "[%s:%u] Некарэктная схема каналаў «%s»."
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
-#: src/daemon/daemon-conf.c:431
+#: src/daemon/daemon-conf.c:433
 #, c-format
 msgid "[%s:%u] Invalid number of fragments '%s'."
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "[%s:%u] Некарэктная колькасць фрагментаў «%s»."
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
-#: src/daemon/daemon-conf.c:448
+#: src/daemon/daemon-conf.c:450
 #, c-format
 msgid "[%s:%u] Invalid fragment size '%s'."
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "[%s:%u] Некарэктная даўжыня фрагмента «%s»."
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
-#: src/daemon/daemon-conf.c:465
+#: src/daemon/daemon-conf.c:467
 #, c-format
 msgid "[%s:%u] Invalid nice level '%s'."
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "[%s:%u] Некарэктны ўзровень прыярытэту (nice) «%s»."
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
-#: src/daemon/daemon-conf.c:508
+#: src/daemon/daemon-conf.c:552
 #, c-format
 msgid "[%s:%u] Invalid server type '%s'."
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "[%s:%u] Некарэктны тып сервера «%s»."
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
-#: src/daemon/daemon-conf.c:626
+#: src/daemon/daemon-conf.c:673
 #, c-format
 msgid "Failed to open configuration file: %s"
-msgstr ""
+msgstr "Не атрымалася адкрыць файл канфігурацыі: %s"
 
-#: src/daemon/daemon-conf.c:642
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgid "The specified default channel map has a different number of channels than the specified default number of channels."
-msgstr ""
-=======
+#: src/daemon/daemon-conf.c:689
 msgid ""
 "The specified default channel map has a different number of channels than "
 "the specified default number of channels."
 msgstr ""
 "У агаданай схеме каналаў колькасць каналаў не супадае з агаданай колькасцю "
 "каналаў."
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
-#: src/daemon/daemon-conf.c:729
+#: src/daemon/daemon-conf.c:776
 #, c-format
 msgid "### Read from configuration file: %s ###\n"
-msgstr ""
+msgstr "### Прачытана з файла канфігурацыі: %s ###\n"
 
 #: src/daemon/dumpmodules.c:57
 #, c-format
 msgid "Name: %s\n"
-msgstr ""
+msgstr "Назва: %s\n"
 
 #: src/daemon/dumpmodules.c:60
 #, c-format
 msgid "No module information available\n"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "Інфармацыя па модулю не даступна\n"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/daemon/dumpmodules.c:63
 #, c-format
 msgid "Version: %s\n"
-msgstr ""
+msgstr "Версія: %s\n"
 
 #: src/daemon/dumpmodules.c:65
 #, c-format
 msgid "Description: %s\n"
-msgstr ""
+msgstr "Апісанне: %s\n"
 
 #: src/daemon/dumpmodules.c:67
 #, c-format
 msgid "Author: %s\n"
-msgstr ""
+msgstr "Аўтар: %s\n"
 
 #: src/daemon/dumpmodules.c:69
 #, c-format
 msgid "Usage: %s\n"
-msgstr ""
+msgstr "Выкарыстанне: %s\n"
 
 #: src/daemon/dumpmodules.c:70
 #, c-format
 msgid "Load Once: %s\n"
-msgstr ""
+msgstr "Загружаць адзін раз: %s\n"
 
 #: src/daemon/dumpmodules.c:72
 #, c-format
 msgid "DEPRECATION WARNING: %s\n"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "Папярэджанне аб састарэласці: %s\n"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/daemon/dumpmodules.c:76
 #, c-format
 msgid "Path: %s\n"
-msgstr ""
+msgstr "Шлях: %s\n"
 
 #: src/daemon/ltdl-bind-now.c:75
 #, c-format
 msgid "Failed to open module %s: %s"
-msgstr ""
+msgstr "Не атрымалася адкрыць модуль %s: %s"
 
 #: src/daemon/ltdl-bind-now.c:126
 msgid "Failed to find original lt_dlopen loader."
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-
-#: src/daemon/ltdl-bind-now.c:131
-msgid "Failed to allocate new dl loader."
-msgstr ""
-=======
 msgstr "Не атрымалася знайсці арыгінальны lt_dlopen-загрузчык."
 
 #: src/daemon/ltdl-bind-now.c:131
 msgid "Failed to allocate new dl loader."
 msgstr "Не атрымалася вылучыць новы dl-загрузчык."
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/daemon/ltdl-bind-now.c:144
 msgid "Failed to add bind-now-loader."
-msgstr ""
+msgstr "Не атрымалася дадаць bind-now-loader."
 
 #: src/daemon/main.c:171
 #, c-format
 msgid "Failed to find user '%s'."
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "Не атрымалася знайсці карыстальніка «%s»."
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/daemon/main.c:176
 #, c-format
 msgid "Failed to find group '%s'."
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "Не атрымалася знайсці групу «%s»."
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/daemon/main.c:185
 #, c-format
 msgid "GID of user '%s' and of group '%s' don't match."
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "GID карыстальніка «%s» і групы «%s» не супадаюць."
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/daemon/main.c:190
 #, c-format
 msgid "Home directory of user '%s' is not '%s', ignoring."
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "Хатні каталог карыстальніка «%s» не «%s» — ігнаруецца."
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/daemon/main.c:193 src/daemon/main.c:198
 #, c-format
 msgid "Failed to create '%s': %s"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "Не атрымалася стварыць «%s»: %s"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/daemon/main.c:205
 #, c-format
 msgid "Failed to change group list: %s"
-msgstr ""
+msgstr "Не атрымалася змяніць спіс груп: %s"
 
 #: src/daemon/main.c:221
 #, c-format
 msgid "Failed to change GID: %s"
-msgstr ""
+msgstr "Не атрымалася змяніць GID: %s"
 
 #: src/daemon/main.c:237
 #, c-format
 msgid "Failed to change UID: %s"
-msgstr ""
+msgstr "Не атрымалася змяніць UID: %s"
 
 #: src/daemon/main.c:266
 msgid "System wide mode unsupported on this platform."
-msgstr ""
+msgstr "Агульнасістэмны рэжым не падтрымліваецца на гэтай платформе."
 
 #: src/daemon/main.c:495
 msgid "Failed to parse command line."
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-
-#: src/daemon/main.c:534
-msgid "System mode refused for non-root user. Only starting the D-Bus server lookup service."
-msgstr ""
-=======
 msgstr "Не атрымалася разабраць камандны радок."
 
 #: src/daemon/main.c:534
@@ -720,26 +527,10 @@ msgid ""
 msgstr ""
 "Агульнасістэмны рэжым немагчымы для звычайнага карыстальніка. Будзе "
 "запушчаны толькі сэрвіс пошуку D-Bus-сервера."
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/daemon/main.c:633
 #, c-format
 msgid "Failed to kill daemon: %s"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-
-#: src/daemon/main.c:662
-msgid "This program is not intended to be run as root (unless --system is specified)."
-msgstr ""
-
-#: src/daemon/main.c:665
-msgid "Root privileges required."
-msgstr ""
-
-#: src/daemon/main.c:672
-msgid "--start not supported for system instances."
-msgstr ""
-=======
 msgstr "Не атрымалася знішчыць сэрвіс: %s"
 
 #: src/daemon/main.c:662
@@ -757,19 +548,10 @@ msgstr "Патрабуюцца прывілеі карыстальніка root.
 #: src/daemon/main.c:672
 msgid "--start not supported for system instances."
 msgstr "--start не падтрымліваецца для агульнасістэмнага экзэмпляра."
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/daemon/main.c:712
 #, c-format
 msgid "User-configured server at %s, refusing to start/autospawn."
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-
-#: src/daemon/main.c:718
-#, c-format
-msgid "User-configured server at %s, which appears to be local. Probing deeper."
-msgstr ""
-=======
 msgstr "Выяўлены сервер карыстальніка ў %s — адмова ад запуску."
 
 #: src/daemon/main.c:718
@@ -779,117 +561,54 @@ msgid ""
 msgstr ""
 "Выяўлены сервер карыстальніка ў %s, які ўяўляецца як лакальны — прадаўжаем "
 "запуск."
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/daemon/main.c:723
 msgid "Running in system mode, but --disallow-exit not set."
 msgstr ""
-<<<<<<< HEAD:be/sources/pulseaudio.po
-=======
 "Выконваецца ў агульнасістэмным рэжыме, але --disallow-exit не зададзены."
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/daemon/main.c:726
 msgid "Running in system mode, but --disallow-module-loading not set."
 msgstr ""
-<<<<<<< HEAD:be/sources/pulseaudio.po
-
-#: src/daemon/main.c:729
-msgid "Running in system mode, forcibly disabling SHM mode."
-msgstr ""
-=======
 "Выконваецца ў агульнасістэмным рэжыме, але --disallow-module-loading не "
 "зададзены."
 
 #: src/daemon/main.c:729
 msgid "Running in system mode, forcibly disabling SHM mode."
 msgstr "Выконваецца ў агульнасістэмным рэжыме — прымусова адключаны SHM-рэжым."
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/daemon/main.c:734
 msgid "Running in system mode, forcibly disabling exit idle time."
 msgstr ""
-<<<<<<< HEAD:be/sources/pulseaudio.po
-
-#: src/daemon/main.c:767
-msgid "Failed to acquire stdio."
-msgstr ""
-=======
 "Выконваецца ў агульнасістэмным рэжыме — прымусова адключана завяршэнне "
 "работы па бяздзеянню."
 
 #: src/daemon/main.c:767
 msgid "Failed to acquire stdio."
 msgstr "Не атрымалася атрымаць stdio."
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/daemon/main.c:773 src/daemon/main.c:844
 #, c-format
 msgid "pipe() failed: %s"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "pipe() пацярпела няўдачу: %s"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/daemon/main.c:778 src/daemon/main.c:849
 #, c-format
 msgid "fork() failed: %s"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "fork() пацярпела няўдачу: %s"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/daemon/main.c:793 src/daemon/main.c:864 src/utils/pacat.c:562
 #, c-format
 msgid "read() failed: %s"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-
-#: src/daemon/main.c:799
-msgid "Daemon startup failed."
-msgstr ""
-=======
 msgstr "read() пацярпела няўдачу: %s"
 
 #: src/daemon/main.c:799
 msgid "Daemon startup failed."
 msgstr "Не атрымалася запусціць фонавы сэрвіс."
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/daemon/main.c:832
 #, c-format
 msgid "setsid() failed: %s"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-
-#: src/daemon/main.c:965
-msgid "Failed to get machine ID"
-msgstr ""
-
-#: src/daemon/main.c:991
-msgid "OK, so you are running PA in system mode. Please make sure that you actually do want to do that.\n"
-"Please read http://www.freedesktop.org/wiki/Software/PulseAudio/Documentation/User/WhatIsWrongWithSystemWide/ for an explanation why system mode is usually a bad idea."
-msgstr ""
-
-#: src/daemon/main.c:1007
-msgid "pa_pid_file_create() failed."
-msgstr ""
-
-#: src/daemon/main.c:1039
-msgid "pa_core_new() failed."
-msgstr ""
-
-#: src/daemon/main.c:1108
-#| msgid "Too many arguments."
-msgid "command line arguments"
-msgstr ""
-
-#: src/daemon/main.c:1115
-#, c-format
-msgid "Failed to initialize daemon due to errors while executing startup commands. Source of commands: %s"
-=======
 msgstr "setsid() пацярпела няўдачу: %s"
 
 #: src/daemon/main.c:965
@@ -918,406 +637,337 @@ msgstr "pa_pid_file_create() пацярпела няўдачу."
 msgid "pa_core_new() failed."
 msgstr "pa_core_new() пацярпела няўдачу."
 
-#: src/daemon/main.c:1108
+#: src/daemon/main.c:1110
 #, fuzzy
 #| msgid "Too many arguments."
 msgid "command line arguments"
 msgstr "Занадта шмат аргументаў."
 
-#: src/daemon/main.c:1115
+#: src/daemon/main.c:1117
 #, c-format
 msgid ""
 "Failed to initialize daemon due to errors while executing startup commands. "
 "Source of commands: %s"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 msgstr ""
 
-#: src/daemon/main.c:1120
+#: src/daemon/main.c:1122
 msgid "Daemon startup without any loaded modules, refusing to work."
 msgstr ""
-<<<<<<< HEAD:be/sources/pulseaudio.po
-=======
 "Запуск фонавага сэрвісу без якіх-небудзь загружаных модуляў — адмова ад "
 "працы."
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/daemon/pulseaudio.desktop.in:4
 msgid "PulseAudio Sound System"
-msgstr ""
+msgstr "Гукавая сістэма PulseAudio"
 
 #: src/daemon/pulseaudio.desktop.in:5
 msgid "Start the PulseAudio Sound System"
-msgstr ""
+msgstr "Запуск гукавой сістэмы PulseAudio"
 
-#: src/modules/alsa/alsa-mixer.c:2443
+#: src/modules/alsa/alsa-mixer.c:2544
 msgid "Input"
-msgstr ""
+msgstr "Уваход"
 
-#: src/modules/alsa/alsa-mixer.c:2444
+#: src/modules/alsa/alsa-mixer.c:2545
 msgid "Docking Station Input"
-msgstr ""
+msgstr "Уваход док-станцыі"
 
-#: src/modules/alsa/alsa-mixer.c:2445
+#: src/modules/alsa/alsa-mixer.c:2546
 msgid "Docking Station Microphone"
-msgstr ""
+msgstr "Мікрафон док-станцыі"
 
-#: src/modules/alsa/alsa-mixer.c:2446
+#: src/modules/alsa/alsa-mixer.c:2547
 msgid "Docking Station Line In"
-msgstr ""
+msgstr "Лінейны ўваход док-станцыі"
 
-#: src/modules/alsa/alsa-mixer.c:2447 src/modules/alsa/alsa-mixer.c:2532
+#: src/modules/alsa/alsa-mixer.c:2548 src/modules/alsa/alsa-mixer.c:2639
 msgid "Line In"
-msgstr ""
+msgstr "Лінейны ўваход"
 
-#: src/modules/alsa/alsa-mixer.c:2448 src/modules/alsa/alsa-mixer.c:2526
-#: src/modules/bluetooth/module-bluez5-device.c:1757
+#: src/modules/alsa/alsa-mixer.c:2549 src/modules/alsa/alsa-mixer.c:2633
+#: src/modules/bluetooth/module-bluez5-device.c:1788
 msgid "Microphone"
-msgstr ""
+msgstr "Мікрафон"
 
-#: src/modules/alsa/alsa-mixer.c:2449 src/modules/alsa/alsa-mixer.c:2527
+#: src/modules/alsa/alsa-mixer.c:2550 src/modules/alsa/alsa-mixer.c:2634
 msgid "Front Microphone"
-msgstr ""
+msgstr "Пярэдні мікрафон"
 
-#: src/modules/alsa/alsa-mixer.c:2450 src/modules/alsa/alsa-mixer.c:2528
+#: src/modules/alsa/alsa-mixer.c:2551 src/modules/alsa/alsa-mixer.c:2635
 msgid "Rear Microphone"
-msgstr ""
+msgstr "Задні мікрафон"
 
-#: src/modules/alsa/alsa-mixer.c:2451
+#: src/modules/alsa/alsa-mixer.c:2552
 msgid "External Microphone"
-msgstr ""
+msgstr "Знешні мікрафон"
 
-#: src/modules/alsa/alsa-mixer.c:2452 src/modules/alsa/alsa-mixer.c:2530
+#: src/modules/alsa/alsa-mixer.c:2553 src/modules/alsa/alsa-mixer.c:2637
 msgid "Internal Microphone"
-msgstr ""
+msgstr "Убудаваны мікрафон"
 
-#: src/modules/alsa/alsa-mixer.c:2453 src/modules/alsa/alsa-mixer.c:2533
+#: src/modules/alsa/alsa-mixer.c:2554 src/modules/alsa/alsa-mixer.c:2640
 msgid "Radio"
-msgstr ""
+msgstr "Радыё"
 
-#: src/modules/alsa/alsa-mixer.c:2454 src/modules/alsa/alsa-mixer.c:2534
+#: src/modules/alsa/alsa-mixer.c:2555 src/modules/alsa/alsa-mixer.c:2641
 msgid "Video"
-msgstr ""
+msgstr "Відэа"
 
-#: src/modules/alsa/alsa-mixer.c:2455
+#: src/modules/alsa/alsa-mixer.c:2556
 msgid "Automatic Gain Control"
-msgstr ""
+msgstr "Аўтаматычнае рэгуляванне ўзмацнення"
 
-#: src/modules/alsa/alsa-mixer.c:2456
+#: src/modules/alsa/alsa-mixer.c:2557
 msgid "No Automatic Gain Control"
-msgstr ""
+msgstr "Без аўтаматычнага рэгулявання ўзмацнення"
 
-#: src/modules/alsa/alsa-mixer.c:2457
+#: src/modules/alsa/alsa-mixer.c:2558
 msgid "Boost"
-msgstr ""
+msgstr "Узмацненне"
 
-#: src/modules/alsa/alsa-mixer.c:2458
+#: src/modules/alsa/alsa-mixer.c:2559
 msgid "No Boost"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "Без ўзмацнення"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
-#: src/modules/alsa/alsa-mixer.c:2459
+#: src/modules/alsa/alsa-mixer.c:2560
 msgid "Amplifier"
-msgstr ""
+msgstr "Узмацняльнік"
 
-#: src/modules/alsa/alsa-mixer.c:2460
+#: src/modules/alsa/alsa-mixer.c:2561
 msgid "No Amplifier"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "Без ўзмацняльніка"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
-#: src/modules/alsa/alsa-mixer.c:2461
+#: src/modules/alsa/alsa-mixer.c:2562
 msgid "Bass Boost"
-msgstr ""
+msgstr "Узмацненне басоў"
 
-#: src/modules/alsa/alsa-mixer.c:2462
+#: src/modules/alsa/alsa-mixer.c:2563
 msgid "No Bass Boost"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "Без ўзмацнення басоў"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
-#: src/modules/alsa/alsa-mixer.c:2463
-#: src/modules/bluetooth/module-bluez5-device.c:1764
+#: src/modules/alsa/alsa-mixer.c:2564
+#: src/modules/bluetooth/module-bluez5-device.c:1795
 msgid "Speaker"
-msgstr ""
+msgstr "Дынамік"
 
-#: src/modules/alsa/alsa-mixer.c:2464 src/modules/alsa/alsa-mixer.c:2536
+#: src/modules/alsa/alsa-mixer.c:2565 src/modules/alsa/alsa-mixer.c:2643
 msgid "Headphones"
-msgstr ""
+msgstr "Навушнікі"
 
-#: src/modules/alsa/alsa-mixer.c:2525
+#: src/modules/alsa/alsa-mixer.c:2632
 msgid "Analog Input"
-msgstr ""
+msgstr "Аналагавы ўваход"
 
-#: src/modules/alsa/alsa-mixer.c:2529
+#: src/modules/alsa/alsa-mixer.c:2636
 msgid "Dock Microphone"
-msgstr ""
+msgstr "Мікрафон док-станцыі"
 
-#: src/modules/alsa/alsa-mixer.c:2531
+#: src/modules/alsa/alsa-mixer.c:2638
 msgid "Headset Microphone"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "Мікрафон гарнітуры"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
-#: src/modules/alsa/alsa-mixer.c:2535
+#: src/modules/alsa/alsa-mixer.c:2642
 msgid "Analog Output"
-msgstr ""
+msgstr "Аналагавы выхад"
 
-#: src/modules/alsa/alsa-mixer.c:2537
-<<<<<<< HEAD:be/sources/pulseaudio.po
-#| msgid "Analog Mono Output"
-msgid "Headphones Mono Output"
-msgstr ""
-
-#: src/modules/alsa/alsa-mixer.c:2538
-msgid "LFE on Separate Mono Output"
-msgstr ""
-=======
+#: src/modules/alsa/alsa-mixer.c:2644
 #, fuzzy
 #| msgid "Analog Mono Output"
 msgid "Headphones Mono Output"
 msgstr "Аналагавы монавыхад"
 
-#: src/modules/alsa/alsa-mixer.c:2538
+#: src/modules/alsa/alsa-mixer.c:2645
 msgid "LFE on Separate Mono Output"
 msgstr "Аналагавы выхад нізкіх частот"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
-#: src/modules/alsa/alsa-mixer.c:2539
+#: src/modules/alsa/alsa-mixer.c:2646
 msgid "Line Out"
-msgstr ""
+msgstr "Лінейны выхад"
 
-#: src/modules/alsa/alsa-mixer.c:2540
+#: src/modules/alsa/alsa-mixer.c:2647
 msgid "Analog Mono Output"
-msgstr ""
+msgstr "Аналагавы монавыхад"
 
-#: src/modules/alsa/alsa-mixer.c:2541
+#: src/modules/alsa/alsa-mixer.c:2648
 msgid "Speakers"
-msgstr ""
+msgstr "Дынамікі"
 
-#: src/modules/alsa/alsa-mixer.c:2542
+#: src/modules/alsa/alsa-mixer.c:2649
 msgid "HDMI / DisplayPort"
-msgstr ""
+msgstr "HDMI / DisplayPort"
 
-#: src/modules/alsa/alsa-mixer.c:2543
+#: src/modules/alsa/alsa-mixer.c:2650
 msgid "Digital Output (S/PDIF)"
-msgstr ""
+msgstr "Лічбавы выхад (S/PDIF)"
 
-#: src/modules/alsa/alsa-mixer.c:2544
+#: src/modules/alsa/alsa-mixer.c:2651
 msgid "Digital Input (S/PDIF)"
-msgstr ""
+msgstr "Лічбавы ўваход (S/PDIF)"
 
-#: src/modules/alsa/alsa-mixer.c:2545
+#: src/modules/alsa/alsa-mixer.c:2652
 msgid "Digital Passthrough (S/PDIF)"
-msgstr ""
+msgstr "Лічбавы скразны (S/PDIF)"
 
-#: src/modules/alsa/alsa-mixer.c:2546
+#: src/modules/alsa/alsa-mixer.c:2653
 msgid "Multichannel Input"
-msgstr ""
+msgstr "Шматканальны ўваход"
 
-#: src/modules/alsa/alsa-mixer.c:2547
+#: src/modules/alsa/alsa-mixer.c:2654
 msgid "Multichannel Output"
-msgstr ""
+msgstr "Шматканальны выхад"
 
-#: src/modules/alsa/alsa-mixer.c:2548
-<<<<<<< HEAD:be/sources/pulseaudio.po
-#| msgid "%s Output"
-msgid "Game Output"
-msgstr ""
-
-#: src/modules/alsa/alsa-mixer.c:2549
-#| msgid "%s Output"
-msgid "Chat Output"
-msgstr ""
-=======
+#: src/modules/alsa/alsa-mixer.c:2655
 #, fuzzy
 #| msgid "%s Output"
 msgid "Game Output"
 msgstr "%s выхад"
 
-#: src/modules/alsa/alsa-mixer.c:2549
+#: src/modules/alsa/alsa-mixer.c:2656
 #, fuzzy
 #| msgid "%s Output"
 msgid "Chat Output"
 msgstr "%s выхад"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
-#: src/modules/alsa/alsa-mixer.c:4063
+#: src/modules/alsa/alsa-mixer.c:4225
 msgid "Analog Mono"
-msgstr ""
+msgstr "Аналагавы мона"
 
 #. Note: Not translated to "Analog Stereo Input", because the source
 #. * name gets "Input" appended to it automatically, so adding "Input"
 #. * here would lead to the source name to become "Analog Stereo Input
 #. * Input". The same logic applies to analog-stereo-output,
 #. * multichannel-input and multichannel-output.
-#: src/modules/alsa/alsa-mixer.c:4064 src/modules/alsa/alsa-mixer.c:4072
-#: src/modules/alsa/alsa-mixer.c:4073
+#: src/modules/alsa/alsa-mixer.c:4226 src/modules/alsa/alsa-mixer.c:4234
+#: src/modules/alsa/alsa-mixer.c:4235
 msgid "Analog Stereo"
-msgstr ""
+msgstr "Аналагавы стэрэа"
 
-#: src/modules/alsa/alsa-mixer.c:4065 src/pulse/channelmap.c:103
+#: src/modules/alsa/alsa-mixer.c:4227 src/pulse/channelmap.c:103
 #: src/pulse/channelmap.c:771
 msgid "Mono"
-msgstr ""
+msgstr "Мона"
 
-#: src/modules/alsa/alsa-mixer.c:4066 src/pulse/channelmap.c:775
+#: src/modules/alsa/alsa-mixer.c:4228 src/pulse/channelmap.c:775
 msgid "Stereo"
-msgstr ""
+msgstr "Стэрэа"
 
-#: src/modules/alsa/alsa-mixer.c:4074 src/modules/alsa/alsa-mixer.c:4075
+#: src/modules/alsa/alsa-mixer.c:4236 src/modules/alsa/alsa-mixer.c:4237
 msgid "Multichannel"
-msgstr ""
+msgstr "Шматканальны"
 
-#: src/modules/alsa/alsa-mixer.c:4076
+#: src/modules/alsa/alsa-mixer.c:4238
 msgid "Analog Surround 2.1"
-msgstr ""
+msgstr "Аналагавы абʼёмны 2.1"
 
-#: src/modules/alsa/alsa-mixer.c:4077
+#: src/modules/alsa/alsa-mixer.c:4239
 msgid "Analog Surround 3.0"
-msgstr ""
+msgstr "Аналагавы абʼёмны 3.0"
 
-#: src/modules/alsa/alsa-mixer.c:4078
+#: src/modules/alsa/alsa-mixer.c:4240
 msgid "Analog Surround 3.1"
-msgstr ""
+msgstr "Аналагавы абʼёмны 3.1"
 
-#: src/modules/alsa/alsa-mixer.c:4079
+#: src/modules/alsa/alsa-mixer.c:4241
 msgid "Analog Surround 4.0"
-msgstr ""
+msgstr "Аналагавы абʼёмны 4.0"
 
-#: src/modules/alsa/alsa-mixer.c:4080
+#: src/modules/alsa/alsa-mixer.c:4242
 msgid "Analog Surround 4.1"
-msgstr ""
+msgstr "Аналагавы абʼёмны 4.1"
 
-#: src/modules/alsa/alsa-mixer.c:4081
+#: src/modules/alsa/alsa-mixer.c:4243
 msgid "Analog Surround 5.0"
-msgstr ""
+msgstr "Аналагавы абʼёмны 5.0"
 
-#: src/modules/alsa/alsa-mixer.c:4082
+#: src/modules/alsa/alsa-mixer.c:4244
 msgid "Analog Surround 5.1"
-msgstr ""
+msgstr "Аналагавы абʼёмны 5.1"
 
-#: src/modules/alsa/alsa-mixer.c:4083
+#: src/modules/alsa/alsa-mixer.c:4245
 msgid "Analog Surround 6.0"
-msgstr ""
+msgstr "Аналагавы абʼёмны 6.0"
 
-#: src/modules/alsa/alsa-mixer.c:4084
+#: src/modules/alsa/alsa-mixer.c:4246
 msgid "Analog Surround 6.1"
-msgstr ""
+msgstr "Аналагавы абʼёмны 6.1"
 
-#: src/modules/alsa/alsa-mixer.c:4085
+#: src/modules/alsa/alsa-mixer.c:4247
 msgid "Analog Surround 7.0"
-msgstr ""
+msgstr "Аналагавы абʼёмны 7.0"
 
-#: src/modules/alsa/alsa-mixer.c:4086
+#: src/modules/alsa/alsa-mixer.c:4248
 msgid "Analog Surround 7.1"
-msgstr ""
+msgstr "Аналагавы абʼёмны 7.1"
 
-#: src/modules/alsa/alsa-mixer.c:4087
+#: src/modules/alsa/alsa-mixer.c:4249
 msgid "Digital Stereo (IEC958)"
-msgstr ""
+msgstr "Лічбавы стэрэа (IEC958)"
 
-#: src/modules/alsa/alsa-mixer.c:4088
-<<<<<<< HEAD:be/sources/pulseaudio.po
-=======
+#: src/modules/alsa/alsa-mixer.c:4250
 #, fuzzy
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 #| msgid "Digital Passthrough  (IEC958)"
 msgid "Digital Passthrough (IEC958)"
-msgstr ""
+msgstr "Лічбавы скразны (IEC958)"
 
-#: src/modules/alsa/alsa-mixer.c:4089
+#: src/modules/alsa/alsa-mixer.c:4251
 msgid "Digital Surround 4.0 (IEC958/AC3)"
-msgstr ""
+msgstr "Лічбавы абʼёмны 4.0 (IEC958/AC3)"
 
-#: src/modules/alsa/alsa-mixer.c:4090
+#: src/modules/alsa/alsa-mixer.c:4252
 msgid "Digital Surround 5.1 (IEC958/AC3)"
-msgstr ""
+msgstr "Лічбавы абʼёмны 5.1 (IEC958/AC3)"
 
-#: src/modules/alsa/alsa-mixer.c:4091
+#: src/modules/alsa/alsa-mixer.c:4253
 msgid "Digital Surround 5.1 (IEC958/DTS)"
-msgstr ""
+msgstr "Лічбавы абʼёмны 5.1 (IEC958/DTS)"
 
-#: src/modules/alsa/alsa-mixer.c:4092
+#: src/modules/alsa/alsa-mixer.c:4254
 msgid "Digital Stereo (HDMI)"
-msgstr ""
+msgstr "Лічбавы стэрэа (HDMI)"
 
-#: src/modules/alsa/alsa-mixer.c:4093
+#: src/modules/alsa/alsa-mixer.c:4255
 msgid "Digital Surround 5.1 (HDMI)"
-msgstr ""
+msgstr "Лічбавы абʼёмны 5.1 (HDMI)"
 
-#: src/modules/alsa/alsa-mixer.c:4226
+#: src/modules/alsa/alsa-mixer.c:4388
 msgid "Analog Mono Duplex"
-msgstr ""
+msgstr "Аналагавы мона дуплекс"
 
-#: src/modules/alsa/alsa-mixer.c:4227
+#: src/modules/alsa/alsa-mixer.c:4389
 msgid "Analog Stereo Duplex"
-msgstr ""
+msgstr "Аналагавы стэрэа дуплекс"
 
-#: src/modules/alsa/alsa-mixer.c:4228
+#: src/modules/alsa/alsa-mixer.c:4390
 msgid "Digital Stereo Duplex (IEC958)"
-msgstr ""
+msgstr "Лічбавы стэрэа дуплекс (IEC958)"
 
-#: src/modules/alsa/alsa-mixer.c:4229
+#: src/modules/alsa/alsa-mixer.c:4391
 msgid "Multichannel Duplex"
-msgstr ""
+msgstr "Шматканальны дуплекс"
 
-#: src/modules/alsa/alsa-mixer.c:4230
-<<<<<<< HEAD:be/sources/pulseaudio.po
-#| msgid "Analog Stereo Duplex"
-msgid "Stereo Duplex"
-msgstr ""
-=======
+#: src/modules/alsa/alsa-mixer.c:4392
 #, fuzzy
 #| msgid "Analog Stereo Duplex"
 msgid "Stereo Duplex"
 msgstr "Аналагавы стэрэа дуплекс"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
-#: src/modules/alsa/alsa-mixer.c:4231 src/modules/alsa/module-alsa-card.c:189
-#: src/modules/bluetooth/module-bluez5-device.c:2012
+#: src/modules/alsa/alsa-mixer.c:4393 src/modules/alsa/module-alsa-card.c:188
+#: src/modules/bluetooth/module-bluez5-device.c:2043
 msgid "Off"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "Адключаны"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
-#: src/modules/alsa/alsa-mixer.c:4330
+#: src/modules/alsa/alsa-mixer.c:4492
 #, c-format
 msgid "%s Output"
-msgstr ""
+msgstr "%s выхад"
 
-#: src/modules/alsa/alsa-mixer.c:4338
+#: src/modules/alsa/alsa-mixer.c:4500
 #, c-format
 msgid "%s Input"
-msgstr ""
+msgstr "%s уваход"
 
-#: src/modules/alsa/alsa-sink.c:651 src/modules/alsa/alsa-sink.c:841
+#: src/modules/alsa/alsa-sink.c:652 src/modules/alsa/alsa-sink.c:842
 #, c-format
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgid "ALSA woke us up to write new data to the device, but there was actually nothing to write.\n"
-"Most likely this is a bug in the ALSA driver '%s'. Please report this issue to the ALSA developers.\n"
-"We were woken up with POLLOUT set -- however a subsequent snd_pcm_avail() returned 0 or another value < min_avail."
-msgstr ""
-
-#: src/modules/alsa/alsa-source.c:610 src/modules/alsa/alsa-source.c:776
-#, c-format
-msgid "ALSA woke us up to read new data from the device, but there was actually nothing to read.\n"
-"Most likely this is a bug in the ALSA driver '%s'. Please report this issue to the ALSA developers.\n"
-"We were woken up with POLLIN set -- however a subsequent snd_pcm_avail() returned 0 or another value < min_avail."
-msgstr ""
-
-#: src/modules/alsa/alsa-util.c:1173 src/modules/alsa/alsa-util.c:1267
-=======
 msgid ""
 "ALSA woke us up to write new data to the device, but there was actually "
 "nothing to write.\n"
@@ -1333,7 +983,7 @@ msgstr ""
 "Мы прачнуліся з устаноўленым POLLOUT, аднак наступны выклік snd_pcm_avail() "
 "вярнуў 0 або іншае значэнне, меншае за min_avail."
 
-#: src/modules/alsa/alsa-source.c:610 src/modules/alsa/alsa-source.c:776
+#: src/modules/alsa/alsa-source.c:611 src/modules/alsa/alsa-source.c:777
 #, c-format
 msgid ""
 "ALSA woke us up to read new data from the device, but there was actually "
@@ -1350,26 +1000,13 @@ msgstr ""
 "Мы прачнуліся з устаноўленым POLLIN, аднак наступны выклік snd_pcm_avail() "
 "вярнуў 0 або іншае значэнне, меншае за min_avail."
 
-#: src/modules/alsa/alsa-util.c:1173 src/modules/alsa/alsa-util.c:1267
+#: src/modules/alsa/alsa-util.c:1183 src/modules/alsa/alsa-util.c:1277
 #, fuzzy, c-format
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 #| msgid ""
 #| "snd_pcm_avail() returned a value that is exceptionally large: %lu bytes "
 #| "(%lu ms).\n"
 #| "Most likely this is a bug in the ALSA driver '%s'. Please report this "
 #| "issue to the ALSA developers."
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgid "snd_pcm_avail() returned a value that is exceptionally large: %lu byte (%lu ms).\n"
-"Most likely this is a bug in the ALSA driver '%s'. Please report this issue to the ALSA developers."
-msgid_plural "snd_pcm_avail() returned a value that is exceptionally large: %lu bytes (%lu ms).\n"
-"Most likely this is a bug in the ALSA driver '%s'. Please report this issue to the ALSA developers."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-
-#: src/modules/alsa/alsa-util.c:1239
-=======
 msgid ""
 "snd_pcm_avail() returned a value that is exceptionally large: %lu byte (%lu "
 "ms).\n"
@@ -1396,32 +1033,13 @@ msgstr[2] ""
 "Хутчэй за ўсё, гэта памылка ў ALSA-драйверы «%s». Калі ласка, паведаміце аб "
 "гэтым распрацоўнікам ALSA."
 
-#: src/modules/alsa/alsa-util.c:1239
+#: src/modules/alsa/alsa-util.c:1249
 #, fuzzy, c-format
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 #| msgid ""
 #| "snd_pcm_delay() returned a value that is exceptionally large: %li bytes "
 #| "(%s%lu ms).\n"
 #| "Most likely this is a bug in the ALSA driver '%s'. Please report this "
 #| "issue to the ALSA developers."
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgid "snd_pcm_delay() returned a value that is exceptionally large: %li byte (%s%lu ms).\n"
-"Most likely this is a bug in the ALSA driver '%s'. Please report this issue to the ALSA developers."
-msgid_plural "snd_pcm_delay() returned a value that is exceptionally large: %li bytes (%s%lu ms).\n"
-"Most likely this is a bug in the ALSA driver '%s'. Please report this issue to the ALSA developers."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-
-#: src/modules/alsa/alsa-util.c:1286
-#, c-format
-msgid "snd_pcm_avail_delay() returned strange values: delay %lu is less than avail %lu.\n"
-"Most likely this is a bug in the ALSA driver '%s'. Please report this issue to the ALSA developers."
-msgstr ""
-
-#: src/modules/alsa/alsa-util.c:1329
-=======
 msgid ""
 "snd_pcm_delay() returned a value that is exceptionally large: %li byte (%s"
 "%lu ms).\n"
@@ -1448,7 +1066,7 @@ msgstr[2] ""
 "Хутчэй за ўсё, гэта памылка ў ALSA-драйверы «%s». Калі ласка, паведаміце аб "
 "гэтым распрацоўнікам ALSA."
 
-#: src/modules/alsa/alsa-util.c:1286
+#: src/modules/alsa/alsa-util.c:1296
 #, c-format
 msgid ""
 "snd_pcm_avail_delay() returned strange values: delay %lu is less than avail "
@@ -1461,24 +1079,13 @@ msgstr ""
 "Хутчэй за ўсё, гэта памылка ў ALSA-драйверы «%s». Калі ласка, паведаміце аб "
 "гэтым распрацоўнікам ALSA."
 
-#: src/modules/alsa/alsa-util.c:1329
+#: src/modules/alsa/alsa-util.c:1339
 #, fuzzy, c-format
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 #| msgid ""
 #| "snd_pcm_mmap_begin() returned a value that is exceptionally large: %lu "
 #| "bytes (%lu ms).\n"
 #| "Most likely this is a bug in the ALSA driver '%s'. Please report this "
 #| "issue to the ALSA developers."
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgid "snd_pcm_mmap_begin() returned a value that is exceptionally large: %lu byte (%lu ms).\n"
-"Most likely this is a bug in the ALSA driver '%s'. Please report this issue to the ALSA developers."
-msgid_plural "snd_pcm_mmap_begin() returned a value that is exceptionally large: %lu bytes (%lu ms).\n"
-"Most likely this is a bug in the ALSA driver '%s'. Please report this issue to the ALSA developers."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-=======
 msgid ""
 "snd_pcm_mmap_begin() returned a value that is exceptionally large: %lu byte "
 "(%lu ms).\n"
@@ -1504,90 +1111,65 @@ msgstr[2] ""
 "(%lu мс).\n"
 "Хутчэй за ўсё, гэта памылка ў ALSA-драйверы «%s». Калі ласка, паведаміце аб "
 "гэтым распрацоўнікам ALSA."
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
-#: src/modules/bluetooth/module-bluez5-device.c:1741
-#: src/modules/bluetooth/module-bluez5-device.c:1763
-#: src/modules/bluetooth/module-bluez5-device.c:1769
-#: src/modules/bluetooth/module-bluez5-device.c:1795
+#: src/modules/bluetooth/module-bluez5-device.c:1772
+#: src/modules/bluetooth/module-bluez5-device.c:1794
+#: src/modules/bluetooth/module-bluez5-device.c:1800
+#: src/modules/bluetooth/module-bluez5-device.c:1826
 msgid "Bluetooth Input"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "Bluetooth-уваход"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
-#: src/modules/bluetooth/module-bluez5-device.c:1742
-#: src/modules/bluetooth/module-bluez5-device.c:1758
-#: src/modules/bluetooth/module-bluez5-device.c:1796
+#: src/modules/bluetooth/module-bluez5-device.c:1773
+#: src/modules/bluetooth/module-bluez5-device.c:1789
+#: src/modules/bluetooth/module-bluez5-device.c:1827
 msgid "Bluetooth Output"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "Bluetooth-выхад"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
-#: src/modules/bluetooth/module-bluez5-device.c:1747
+#: src/modules/bluetooth/module-bluez5-device.c:1778
 msgid "Headset"
-msgstr ""
+msgstr "Гарнітура"
 
-#: src/modules/bluetooth/module-bluez5-device.c:1752
+#: src/modules/bluetooth/module-bluez5-device.c:1783
 msgid "Handsfree"
-msgstr ""
+msgstr "Хэндс-фры"
 
-#: src/modules/bluetooth/module-bluez5-device.c:1770
+#: src/modules/bluetooth/module-bluez5-device.c:1801
 msgid "Headphone"
-msgstr ""
+msgstr "Навушнік"
 
-#: src/modules/bluetooth/module-bluez5-device.c:1775
+#: src/modules/bluetooth/module-bluez5-device.c:1806
 msgid "Portable"
-msgstr ""
+msgstr "Партатыўная сістэма"
 
-#: src/modules/bluetooth/module-bluez5-device.c:1780
+#: src/modules/bluetooth/module-bluez5-device.c:1811
 msgid "Car"
-msgstr ""
+msgstr "Аўтамабільная сістэма"
 
-#: src/modules/bluetooth/module-bluez5-device.c:1785
+#: src/modules/bluetooth/module-bluez5-device.c:1816
 msgid "HiFi"
-msgstr ""
+msgstr "Hi-Fi"
 
-#: src/modules/bluetooth/module-bluez5-device.c:1790
+#: src/modules/bluetooth/module-bluez5-device.c:1821
 msgid "Phone"
-msgstr ""
+msgstr "Тэлефон"
 
-#: src/modules/bluetooth/module-bluez5-device.c:1837
+#: src/modules/bluetooth/module-bluez5-device.c:1868
 msgid "High Fidelity Playback (A2DP Sink)"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-
-#: src/modules/bluetooth/module-bluez5-device.c:1849
-msgid "High Fidelity Capture (A2DP Source)"
-msgstr ""
-
-#: src/modules/bluetooth/module-bluez5-device.c:1861
-msgid "Headset Head Unit (HSP/HFP)"
-msgstr ""
-=======
 msgstr "Прайграванне высокай якасці (A2DP-прыёмнік)"
 
-#: src/modules/bluetooth/module-bluez5-device.c:1849
+#: src/modules/bluetooth/module-bluez5-device.c:1880
 msgid "High Fidelity Capture (A2DP Source)"
 msgstr "Захоп высокай якасці (A2DP-крыніца)"
 
-#: src/modules/bluetooth/module-bluez5-device.c:1861
+#: src/modules/bluetooth/module-bluez5-device.c:1892
 msgid "Headset Head Unit (HSP/HFP)"
 msgstr "Навушнікі гарнітуры (HSP/HFP)"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
-#: src/modules/bluetooth/module-bluez5-device.c:1874
+#: src/modules/bluetooth/module-bluez5-device.c:1905
 msgid "Headset Audio Gateway (HSP/HFP)"
-msgstr ""
+msgstr "Аўдыяшлюз гарнітуры (HSP/HFP)"
 
 #: src/modules/echo-cancel/module-echo-cancel.c:59
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgid "source_name=<name for the source> source_properties=<properties for the source> source_master=<name of source to filter> sink_name=<name for the sink> sink_properties=<properties for the sink> sink_master=<name of sink to filter> adjust_time=<how often to readjust rates in s> adjust_threshold=<how much drift to readjust after in ms> format=<sample format> rate=<sample rate> channels=<number of channels> channel_map=<channel map> aec_method=<implementation to use> aec_args=<parameters for the AEC engine> save_aec=<save AEC data in /tmp> autoloaded=<set if this module is being loaded automatically> use_volume_sharing=<yes or no> use_master_format=<yes or no> "
-msgstr ""
-=======
 msgid ""
 "source_name=<name for the source> source_properties=<properties for the "
 "source> source_master=<name of source to filter> sink_name=<name for the "
@@ -1611,32 +1193,20 @@ msgstr ""
 "рэхападаўлення>save_aec=<захоўваць дадзеныя рэхападаўлення ў /tmp> "
 "autoloaded=<зададзены, калі гэты модуль загружаны аўтаматычна> "
 "use_volume_sharing=<yes ці no> use_master_format=<yes ці no> "
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #. add on profile
 #: src/modules/macosx/module-coreaudio-device.c:824
 msgid "On"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "Уключаны"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/modules/module-allow-passthrough.c:71
 #: src/modules/module-always-sink.c:80
 msgid "Dummy Output"
-msgstr ""
+msgstr "Фіктыўны выхад"
 
 #: src/modules/module-always-sink.c:34
 msgid "Always keeps at least one sink loaded even if it's a null one"
 msgstr ""
-<<<<<<< HEAD:be/sources/pulseaudio.po
-
-#: src/modules/module-always-source.c:35
-#| msgid "Always keeps at least one sink loaded even if it's a null one"
-msgid "Always keeps at least one source loaded even if it's a null one"
-msgstr ""
-=======
 "Заўсёды пакідаць хоць бы адзін прыёмнік загружаным, нават калі ён пусты"
 
 #: src/modules/module-always-source.c:35
@@ -1645,17 +1215,12 @@ msgstr ""
 msgid "Always keeps at least one source loaded even if it's a null one"
 msgstr ""
 "Заўсёды пакідаць хоць бы адзін прыёмнік загружаным, нават калі ён пусты"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/modules/module-equalizer-sink.c:68
 msgid "General Purpose Equalizer"
-msgstr ""
+msgstr "Эквалайзер агульнага прызначэння"
 
 #: src/modules/module-equalizer-sink.c:72
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgid "sink_name=<name of the sink> sink_properties=<properties for the sink> sink_master=<sink to connect to> format=<sample format> rate=<sample rate> channels=<number of channels> channel_map=<channel map> autoloaded=<set if this module is being loaded automatically> use_volume_sharing=<yes or no> "
-msgstr ""
-=======
 msgid ""
 "sink_name=<name of the sink> sink_properties=<properties for the sink> "
 "sink_master=<sink to connect to> format=<sample format> rate=<sample rate> "
@@ -1667,7 +1232,6 @@ msgstr ""
 "сэмлаў> channels=<колькасць каналаў> channel_map=<схема каналаў> "
 "autoloaded=<зададзены, калі гэты модуль загружаны аўтаматычна> "
 "use_volume_sharing=<yes ці no> "
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/modules/module-equalizer-sink.c:1094
 #: src/modules/module-equalizer-sink.c:1217
@@ -1677,20 +1241,14 @@ msgstr ""
 
 #: src/modules/module-filter-apply.c:47
 msgid "autoclean=<automatically unload unused filters?>"
-msgstr ""
+msgstr "autoclean=<аўтаматычна выгрузіць нявыкарыстаныя фільтры?>"
 
 #: src/modules/module-ladspa-sink.c:50
 msgid "Virtual LADSPA sink"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-
-#: src/modules/module-ladspa-sink.c:54
-=======
 msgstr "Віртуальны LADSPA-прыёмнік"
 
 #: src/modules/module-ladspa-sink.c:54
 #, fuzzy
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 #| msgid ""
 #| "sink_name=<name for the sink> sink_properties=<properties for the sink> "
 #| "master=<name of sink to filter> format=<sample format> rate=<sample rate> "
@@ -1699,14 +1257,6 @@ msgstr "Віртуальны LADSPA-прыёмнік"
 #| "separated list of input control values> input_ladspaport_map=<comma "
 #| "separated list of input LADSPA port names> output_ladspaport_map=<comma "
 #| "separated list of output LADSPA port names> "
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgid "sink_name=<name for the sink> sink_properties=<properties for the sink> sink_input_properties=<properties for the sink input> master=<name of sink to filter> sink_master=<name of sink to filter> format=<sample format> rate=<sample rate> channels=<number of channels> channel_map=<input channel map> plugin=<ladspa plugin name> label=<ladspa plugin label> control=<comma separated list of input control values> input_ladspaport_map=<comma separated list of input LADSPA port names> output_ladspaport_map=<comma separated list of output LADSPA port names> autoloaded=<set if this module is being loaded automatically> "
-msgstr ""
-
-#: src/modules/module-null-sink.c:46
-msgid "Clocked NULL sink"
-msgstr ""
-=======
 msgid ""
 "sink_name=<name for the sink> sink_properties=<properties for the sink> "
 "sink_input_properties=<properties for the sink input> master=<name of sink "
@@ -1729,40 +1279,31 @@ msgstr ""
 #: src/modules/module-null-sink.c:46
 msgid "Clocked NULL sink"
 msgstr "Сінхронны пусты прыёмнік"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/modules/module-null-sink.c:333
 msgid "Null Output"
-msgstr ""
+msgstr "Пусты выхад"
 
 #: src/modules/module-null-sink.c:345 src/utils/pactl.c:1058
 #, c-format
 msgid "Failed to set format: invalid format string %s"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "Не атрымалася задаць фармат: некарэктны фармат «%s»"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/modules/module-rygel-media-server.c:506
 #: src/modules/module-rygel-media-server.c:544
 #: src/modules/module-rygel-media-server.c:903
 msgid "Output Devices"
-msgstr ""
+msgstr "Прылады вываду"
 
 #: src/modules/module-rygel-media-server.c:507
 #: src/modules/module-rygel-media-server.c:545
 #: src/modules/module-rygel-media-server.c:904
 msgid "Input Devices"
-msgstr ""
+msgstr "Прылады ўводу"
 
 #: src/modules/module-rygel-media-server.c:1061
 msgid "Audio on @HOSTNAME@"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "Аўдыя на @HOSTNAME@"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #. TODO: old tunnel put here the remote sink_name into stream name e.g. 'Null Output for lynxis@lazus'
 #. TODO: old tunnel put here the remote source_name into stream name e.g. 'Null Output for lynxis@lazus'
@@ -1770,41 +1311,26 @@ msgstr "Аўдыя на @HOSTNAME@"
 #: src/modules/module-tunnel-source-new.c:305
 #, c-format
 msgid "Tunnel for %s@%s"
-msgstr ""
+msgstr "Тунэль для %s@%s"
 
 #: src/modules/module-tunnel-sink-new.c:544
 #: src/modules/module-tunnel-source-new.c:540
 #, c-format
 msgid "Tunnel to %s/%s"
-msgstr ""
+msgstr "Тунэль да %s/%s"
 
 #: src/modules/module-virtual-surround-sink.c:45
 msgid "Virtual surround sink"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-
-#: src/modules/module-virtual-surround-sink.c:49
-=======
 msgstr "Віртуальны абʼёмны прыёмнік"
 
 #: src/modules/module-virtual-surround-sink.c:49
 #, fuzzy
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 #| msgid ""
 #| "sink_name=<name for the sink> sink_properties=<properties for the sink> "
 #| "master=<name of sink to filter> format=<sample format> rate=<sample rate> "
 #| "channels=<number of channels> channel_map=<channel map> "
 #| "use_volume_sharing=<yes or no> force_flat_volume=<yes or no> hrir=/path/"
 #| "to/left_hrir.wav "
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgid "sink_name=<name for the sink> sink_properties=<properties for the sink> master=<name of sink to filter> sink_master=<name of sink to filter> format=<sample format> rate=<sample rate> channels=<number of channels> channel_map=<channel map> use_volume_sharing=<yes or no> force_flat_volume=<yes or no> hrir=/path/to/left_hrir.wav autoloaded=<set if this module is being loaded automatically> "
-msgstr ""
-
-#: src/modules/raop/module-raop-discover.c:295
-#| msgid "Unknown error code"
-msgid "Unknown device model"
-msgstr ""
-=======
 msgid ""
 "sink_name=<name for the sink> sink_properties=<properties for the sink> "
 "master=<name of sink to filter> sink_master=<name of sink to filter> "
@@ -1824,267 +1350,243 @@ msgstr ""
 #| msgid "Unknown error code"
 msgid "Unknown device model"
 msgstr "Невядомы код памылкі"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
-#: src/modules/raop/raop-sink.c:511
+#: src/modules/raop/raop-sink.c:653
 msgid "RAOP standard profile"
 msgstr ""
 
 #: src/modules/reserve-wrap.c:149
 msgid "PulseAudio Sound Server"
-msgstr ""
+msgstr "Гукавы сервер PulseAudio"
 
 #: src/pulse/channelmap.c:105
 msgid "Front Center"
-msgstr ""
+msgstr "Пярэдні цэнтральны"
 
 #: src/pulse/channelmap.c:106
 msgid "Front Left"
-msgstr ""
+msgstr "Пярэдні левы"
 
 #: src/pulse/channelmap.c:107
 msgid "Front Right"
-msgstr ""
+msgstr "Пярэдні правы"
 
 #: src/pulse/channelmap.c:109
 msgid "Rear Center"
-msgstr ""
+msgstr "Задні цэнтральны"
 
 #: src/pulse/channelmap.c:110
 msgid "Rear Left"
-msgstr ""
+msgstr "Задні левы"
 
 #: src/pulse/channelmap.c:111
 msgid "Rear Right"
-msgstr ""
+msgstr "Задні правы"
 
 #: src/pulse/channelmap.c:113
 msgid "Subwoofer"
-msgstr ""
+msgstr "Сабвуфер"
 
 #: src/pulse/channelmap.c:115
 msgid "Front Left-of-center"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-
-#: src/pulse/channelmap.c:116
-msgid "Front Right-of-center"
-msgstr ""
-=======
 msgstr "Пярэдні левацэнтральны"
 
 #: src/pulse/channelmap.c:116
 msgid "Front Right-of-center"
 msgstr "Пярэдні правацэнтральны"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/pulse/channelmap.c:118
 msgid "Side Left"
-msgstr ""
+msgstr "Бакавы левы"
 
 #: src/pulse/channelmap.c:119
 msgid "Side Right"
-msgstr ""
+msgstr "Бакавы правы"
 
 #: src/pulse/channelmap.c:121
 msgid "Auxiliary 0"
-msgstr ""
+msgstr "Дапаможны 0"
 
 #: src/pulse/channelmap.c:122
 msgid "Auxiliary 1"
-msgstr ""
+msgstr "Дапаможны 1"
 
 #: src/pulse/channelmap.c:123
 msgid "Auxiliary 2"
-msgstr ""
+msgstr "Дапаможны 2"
 
 #: src/pulse/channelmap.c:124
 msgid "Auxiliary 3"
-msgstr ""
+msgstr "Дапаможны 3"
 
 #: src/pulse/channelmap.c:125
 msgid "Auxiliary 4"
-msgstr ""
+msgstr "Дапаможны 4"
 
 #: src/pulse/channelmap.c:126
 msgid "Auxiliary 5"
-msgstr ""
+msgstr "Дапаможны 5"
 
 #: src/pulse/channelmap.c:127
 msgid "Auxiliary 6"
-msgstr ""
+msgstr "Дапаможны 6"
 
 #: src/pulse/channelmap.c:128
 msgid "Auxiliary 7"
-msgstr ""
+msgstr "Дапаможны 7"
 
 #: src/pulse/channelmap.c:129
 msgid "Auxiliary 8"
-msgstr ""
+msgstr "Дапаможны 8"
 
 #: src/pulse/channelmap.c:130
 msgid "Auxiliary 9"
-msgstr ""
+msgstr "Дапаможны 9"
 
 #: src/pulse/channelmap.c:131
 msgid "Auxiliary 10"
-msgstr ""
+msgstr "Дапаможны 10"
 
 #: src/pulse/channelmap.c:132
 msgid "Auxiliary 11"
-msgstr ""
+msgstr "Дапаможны 11"
 
 #: src/pulse/channelmap.c:133
 msgid "Auxiliary 12"
-msgstr ""
+msgstr "Дапаможны 12"
 
 #: src/pulse/channelmap.c:134
 msgid "Auxiliary 13"
-msgstr ""
+msgstr "Дапаможны 13"
 
 #: src/pulse/channelmap.c:135
 msgid "Auxiliary 14"
-msgstr ""
+msgstr "Дапаможны 14"
 
 #: src/pulse/channelmap.c:136
 msgid "Auxiliary 15"
-msgstr ""
+msgstr "Дапаможны 15"
 
 #: src/pulse/channelmap.c:137
 msgid "Auxiliary 16"
-msgstr ""
+msgstr "Дапаможны 16"
 
 #: src/pulse/channelmap.c:138
 msgid "Auxiliary 17"
-msgstr ""
+msgstr "Дапаможны 17"
 
 #: src/pulse/channelmap.c:139
 msgid "Auxiliary 18"
-msgstr ""
+msgstr "Дапаможны 18"
 
 #: src/pulse/channelmap.c:140
 msgid "Auxiliary 19"
-msgstr ""
+msgstr "Дапаможны 19"
 
 #: src/pulse/channelmap.c:141
 msgid "Auxiliary 20"
-msgstr ""
+msgstr "Дапаможны 20"
 
 #: src/pulse/channelmap.c:142
 msgid "Auxiliary 21"
-msgstr ""
+msgstr "Дапаможны 21"
 
 #: src/pulse/channelmap.c:143
 msgid "Auxiliary 22"
-msgstr ""
+msgstr "Дапаможны 22"
 
 #: src/pulse/channelmap.c:144
 msgid "Auxiliary 23"
-msgstr ""
+msgstr "Дапаможны 23"
 
 #: src/pulse/channelmap.c:145
 msgid "Auxiliary 24"
-msgstr ""
+msgstr "Дапаможны 24"
 
 #: src/pulse/channelmap.c:146
 msgid "Auxiliary 25"
-msgstr ""
+msgstr "Дапаможны 25"
 
 #: src/pulse/channelmap.c:147
 msgid "Auxiliary 26"
-msgstr ""
+msgstr "Дапаможны 26"
 
 #: src/pulse/channelmap.c:148
 msgid "Auxiliary 27"
-msgstr ""
+msgstr "Дапаможны 27"
 
 #: src/pulse/channelmap.c:149
 msgid "Auxiliary 28"
-msgstr ""
+msgstr "Дапаможны 28"
 
 #: src/pulse/channelmap.c:150
 msgid "Auxiliary 29"
-msgstr ""
+msgstr "Дапаможны 29"
 
 #: src/pulse/channelmap.c:151
 msgid "Auxiliary 30"
-msgstr ""
+msgstr "Дапаможны 30"
 
 #: src/pulse/channelmap.c:152
 msgid "Auxiliary 31"
-msgstr ""
+msgstr "Дапаможны 31"
 
 #: src/pulse/channelmap.c:154
 msgid "Top Center"
-msgstr ""
+msgstr "Верхні цэнтральны"
 
 #: src/pulse/channelmap.c:156
 msgid "Top Front Center"
-msgstr ""
+msgstr "Верхні пярэдні цэнтральны"
 
 #: src/pulse/channelmap.c:157
 msgid "Top Front Left"
-msgstr ""
+msgstr "Верхні пярэдні левы"
 
 #: src/pulse/channelmap.c:158
 msgid "Top Front Right"
-msgstr ""
+msgstr "Верхні пярэдні правы"
 
 #: src/pulse/channelmap.c:160
 msgid "Top Rear Center"
-msgstr ""
+msgstr "Верхні задні цэнтральны"
 
 #: src/pulse/channelmap.c:161
 msgid "Top Rear Left"
-msgstr ""
+msgstr "Верхні задні левы"
 
 #: src/pulse/channelmap.c:162
 msgid "Top Rear Right"
-msgstr ""
+msgstr "Верхні задні правы"
 
 #: src/pulse/channelmap.c:479 src/pulse/format.c:123 src/pulse/sample.c:177
 #: src/pulse/volume.c:306 src/pulse/volume.c:332 src/pulse/volume.c:352
 #: src/pulse/volume.c:384 src/pulse/volume.c:424 src/pulse/volume.c:443
 msgid "(invalid)"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "(некарэктнае)"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/pulse/channelmap.c:780
 msgid "Surround 4.0"
-msgstr ""
+msgstr "Абʼёмны 4.0"
 
 #: src/pulse/channelmap.c:786
 msgid "Surround 4.1"
-msgstr ""
+msgstr "Абʼёмны 4.1"
 
 #: src/pulse/channelmap.c:792
 msgid "Surround 5.0"
-msgstr ""
+msgstr "Абʼёмны 5.0"
 
 #: src/pulse/channelmap.c:798
 msgid "Surround 5.1"
-msgstr ""
+msgstr "Абʼёмны 5.1"
 
 #: src/pulse/channelmap.c:805
 msgid "Surround 7.1"
-msgstr ""
+msgstr "Абʼёмны 7.1"
 
 #: src/pulse/client-conf-x11.c:61 src/utils/pax11publish.c:97
 msgid "xcb_connect() failed"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-
-#: src/pulse/client-conf-x11.c:66 src/utils/pax11publish.c:102
-msgid "xcb_connection_has_error() returned true"
-msgstr ""
-
-#: src/pulse/client-conf-x11.c:102
-msgid "Failed to parse cookie data"
-msgstr ""
-=======
 msgstr "xcb_connect() пацярпела няўдачу"
 
 #: src/pulse/client-conf-x11.c:66 src/utils/pax11publish.c:102
@@ -2094,67 +1596,44 @@ msgstr "Выклік xcb_connection_has_error() вярнуў true"
 #: src/pulse/client-conf-x11.c:102
 msgid "Failed to parse cookie data"
 msgstr "Не атрымалася разабраць дадзеныя cookie"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
-#: src/pulse/context.c:705
+#: src/pulse/context.c:706
 #, c-format
 msgid "fork(): %s"
-msgstr ""
+msgstr "fork(): %s"
 
-#: src/pulse/context.c:760
+#: src/pulse/context.c:761
 #, c-format
 msgid "waitpid(): %s"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "fork(): %s"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
-#: src/pulse/context.c:1466
+#: src/pulse/context.c:1467
 #, c-format
 msgid "Received message for unknown extension '%s'"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "Атрымана паведамленне для невядомага пашырэння «%s»"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/pulse/direction.c:37
 msgid "input"
-msgstr ""
+msgstr "увод"
 
 #: src/pulse/direction.c:39
 msgid "output"
-msgstr ""
+msgstr "вывад"
 
 #: src/pulse/direction.c:41
 msgid "bidirectional"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-
-#: src/pulse/direction.c:43
-msgid "invalid"
-msgstr ""
-
-#: src/pulsecore/core-util.c:1692
-=======
 msgstr "двунакіраваны"
 
 #: src/pulse/direction.c:43
 msgid "invalid"
 msgstr "некарэктны"
 
-#: src/pulsecore/core-util.c:1692
+#: src/pulsecore/core-util.c:1712
 #, fuzzy, c-format
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 #| msgid ""
 #| "XDG_RUNTIME_DIR (%s) is not owned by us (uid %d), but by uid %d! (This "
 #| "could e g happen if you try to connect to a non-root PulseAudio as a root "
 #| "user, over the native protocol. Don't do that.)"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgid "XDG_RUNTIME_DIR (%s) is not owned by us (uid %d), but by uid %d! (This could e.g. happen if you try to connect to a non-root PulseAudio as a root user, over the native protocol. Don't do that.)"
-msgstr ""
-=======
 msgid ""
 "XDG_RUNTIME_DIR (%s) is not owned by us (uid %d), but by uid %d! (This could "
 "e.g. happen if you try to connect to a non-root PulseAudio as a root user, "
@@ -2163,43 +1642,22 @@ msgstr ""
 "XDG_RUNTIME_DIR (%s) не належыць нам (uid %d), а — uid %d! (Гэта можа "
 "адбыцца, напрыклад, калі вы спрабуеце злучыцца з PulseAudio звычайнага "
 "карыстальніка як карыстальнік root па ўбудаваным пратаколе. Не рабіце так.)"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/pulsecore/core-util.h:96
 msgid "yes"
-msgstr ""
+msgstr "так"
 
 #: src/pulsecore/core-util.h:96
 msgid "no"
-msgstr ""
+msgstr "не"
 
 #: src/pulsecore/lock-autospawn.c:141 src/pulsecore/lock-autospawn.c:227
 msgid "Cannot access autospawn lock."
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "Не атрымалася даступіцца да блакіроўкі для аўтазапуску."
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/pulsecore/log.c:165
 #, c-format
 msgid "Failed to open target file '%s'."
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-
-#: src/pulsecore/log.c:188
-#, c-format
-msgid "Tried to open target file '%s', '%s.1', '%s.2' ... '%s.%d', but all failed."
-msgstr ""
-
-#: src/pulsecore/log.c:651
-msgid "Invalid log target."
-msgstr ""
-
-#: src/pulsecore/sink.c:3516
-msgid "Built-in Audio"
-msgstr ""
-=======
 msgstr "Не атрымалася адкрыць файл журнала «%s»."
 
 #: src/pulsecore/log.c:188
@@ -2212,182 +1670,150 @@ msgstr "Не атрымалася адкрыць файлы журнала «%s�
 msgid "Invalid log target."
 msgstr "Некарэктны журнал."
 
-#: src/pulsecore/sink.c:3516
+#: src/pulsecore/sink.c:3524
 msgid "Built-in Audio"
 msgstr "Убудаванае аўдыя"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
-#: src/pulsecore/sink.c:3521
+#: src/pulsecore/sink.c:3529
 msgid "Modem"
-msgstr ""
+msgstr "Мадэм"
 
 #: src/pulse/error.c:38
 msgid "OK"
-msgstr ""
+msgstr "Добра"
 
 #: src/pulse/error.c:39
 msgid "Access denied"
-msgstr ""
+msgstr "Доступ забаронены"
 
 #: src/pulse/error.c:40
 msgid "Unknown command"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-
-#: src/pulse/error.c:41
-msgid "Invalid argument"
-msgstr ""
-=======
 msgstr "Невядомая каманда"
 
 #: src/pulse/error.c:41
 msgid "Invalid argument"
 msgstr "Некарэктны аргумент"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/pulse/error.c:42
 msgid "Entity exists"
-msgstr ""
+msgstr "Абʼект існуе"
 
 #: src/pulse/error.c:43
 msgid "No such entity"
-msgstr ""
+msgstr "Няма такога абʼекта"
 
 #: src/pulse/error.c:44
 msgid "Connection refused"
-msgstr ""
+msgstr "Злучэнне адкінута"
 
 #: src/pulse/error.c:45
 msgid "Protocol error"
-msgstr ""
+msgstr "Памылка пратакола"
 
 #: src/pulse/error.c:46
 msgid "Timeout"
-msgstr ""
+msgstr "Таймаут"
 
 #: src/pulse/error.c:47
 msgid "No authentication key"
-msgstr ""
+msgstr "Няма ключа аўтэнтыфікацыі"
 
 #: src/pulse/error.c:48
 msgid "Internal error"
-msgstr ""
+msgstr "Унутраная памылка"
 
 #: src/pulse/error.c:49
 msgid "Connection terminated"
-msgstr ""
+msgstr "Злучэнне завяршылася"
 
 #: src/pulse/error.c:50
 msgid "Entity killed"
-msgstr ""
+msgstr "Абʼект знішчаны"
 
 #: src/pulse/error.c:51
 msgid "Invalid server"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "Некарэктны сервер"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/pulse/error.c:52
 msgid "Module initialization failed"
-msgstr ""
+msgstr "Не атрымалася ініцыялізаваць модуль"
 
 #: src/pulse/error.c:53
 msgid "Bad state"
-msgstr ""
+msgstr "Дрэнны стан"
 
 #: src/pulse/error.c:54
 msgid "No data"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "Няма дадзеных"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/pulse/error.c:55
 msgid "Incompatible protocol version"
-msgstr ""
+msgstr "Несумяшчальныя версіі пратаколу"
 
 #: src/pulse/error.c:56
 msgid "Too large"
-msgstr ""
+msgstr "Занадта вялікі"
 
 #: src/pulse/error.c:57
 msgid "Not supported"
-msgstr ""
+msgstr "Не падтрымліваецца"
 
 #: src/pulse/error.c:58
 msgid "Unknown error code"
-msgstr ""
+msgstr "Невядомы код памылкі"
 
 #: src/pulse/error.c:59
 msgid "No such extension"
-msgstr ""
+msgstr "Няма такога пашырэння"
 
 #: src/pulse/error.c:60
 msgid "Obsolete functionality"
-msgstr ""
+msgstr "Састарэлая функцыянальнасць"
 
 #: src/pulse/error.c:61
 msgid "Missing implementation"
-msgstr ""
+msgstr "Адсутнічае рэалізацыя"
 
 #: src/pulse/error.c:62
 msgid "Client forked"
-msgstr ""
+msgstr "Кліент падвоіўся"
 
 #: src/pulse/error.c:63
 msgid "Input/Output error"
-msgstr ""
+msgstr "Памылка ўводу/вываду"
 
 #: src/pulse/error.c:64
 msgid "Device or resource busy"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "Прылада ці рэсурс заняты"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/pulse/sample.c:179
 #, c-format
 msgid "%s %uch %uHz"
-msgstr ""
+msgstr "%s %u-канальны %u Гц"
 
 #: src/pulse/sample.c:191
 #, c-format
 msgid "%0.1f GiB"
-msgstr ""
+msgstr "%0.1f ГіБ"
 
 #: src/pulse/sample.c:193
 #, c-format
 msgid "%0.1f MiB"
-msgstr ""
+msgstr "%0.1f МіБ"
 
 #: src/pulse/sample.c:195
 #, c-format
 msgid "%0.1f KiB"
-msgstr ""
+msgstr "%0.1f КіБ"
 
 #: src/pulse/sample.c:197
 #, c-format
 msgid "%u B"
-msgstr ""
+msgstr "%u байт"
 
 #: src/utils/pacat.c:134
 #, c-format
 msgid "Failed to drain stream: %s"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-
-#: src/utils/pacat.c:139
-msgid "Playback stream drained."
-msgstr ""
-
-#: src/utils/pacat.c:150
-msgid "Draining connection to server."
-msgstr ""
-=======
 msgstr "Не атрымалася зліць паток: %s"
 
 #: src/utils/pacat.c:139
@@ -2397,153 +1823,93 @@ msgstr "Паток прайграванне зліты."
 #: src/utils/pacat.c:150
 msgid "Draining connection to server."
 msgstr "Зліццё злучэння з серверам."
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pacat.c:163
 #, c-format
 msgid "pa_stream_drain(): %s"
-msgstr ""
+msgstr "pa_stream_drain(): %s"
 
 #: src/utils/pacat.c:194 src/utils/pacat.c:543
 #, c-format
 msgid "pa_stream_begin_write() failed: %s"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "pa_stream_begin_write() пацярпела няўдачу: %s"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pacat.c:244 src/utils/pacat.c:274
 #, c-format
 msgid "pa_stream_peek() failed: %s"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-
-#: src/utils/pacat.c:324
-msgid "Stream successfully created."
-msgstr ""
-=======
 msgstr "pa_stream_peek() пацярпела няўдачу: %s"
 
 #: src/utils/pacat.c:324
 msgid "Stream successfully created."
 msgstr "Паток паспяхова створаны."
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pacat.c:327
 #, c-format
 msgid "pa_stream_get_buffer_attr() failed: %s"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "pa_stream_get_buffer_attr() пацярпела няўдачу: %s"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pacat.c:331
 #, c-format
 msgid "Buffer metrics: maxlength=%u, tlength=%u, prebuf=%u, minreq=%u"
-msgstr ""
+msgstr "Метрыкі буфера: maxlength=%u, tlength=%u, prebuf=%u, minreq=%u"
 
 #: src/utils/pacat.c:334
 #, c-format
 msgid "Buffer metrics: maxlength=%u, fragsize=%u"
-msgstr ""
+msgstr "Метрыкі буфера: maxlength=%u, fragsize=%u"
 
 #: src/utils/pacat.c:338
 #, c-format
 msgid "Using sample spec '%s', channel map '%s'."
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "Выкарыстоўваецца спецыфікацыя сэмплаў «%s» і схема каналаў «%s»."
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pacat.c:342
 #, c-format
 msgid "Connected to device %s (index: %u, suspended: %s)."
-msgstr ""
+msgstr "Злучаны з прыладай %s (нумар: %u, прыпынены: %s)."
 
 #: src/utils/pacat.c:352
 #, c-format
 msgid "Stream error: %s"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "Памылка патоку: %s"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pacat.c:362
 #, c-format
 msgid "Stream device suspended.%s"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "Паток прыпынены.%s"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pacat.c:364
 #, c-format
 msgid "Stream device resumed.%s"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "Паток узноўлены.%s"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pacat.c:372
 #, c-format
 msgid "Stream underrun.%s"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "Паток спустошаны.%s"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pacat.c:379
 #, c-format
 msgid "Stream overrun.%s"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "Паток перапоўнены.%s"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pacat.c:386
 #, c-format
 msgid "Stream started.%s"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "Паток запушчаны.%s"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pacat.c:393
 #, c-format
 msgid "Stream moved to device %s (%u, %ssuspended).%s"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "Паток перасунуты ў прыладу %s (%u, %sпрыпынены).%s"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pacat.c:393
 msgid "not "
-msgstr ""
+msgstr "не"
 
 #: src/utils/pacat.c:400
 #, c-format
 msgid "Stream buffer attributes changed.%s"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-
-#: src/utils/pacat.c:415
-msgid "Cork request stack is empty: corking stream"
-msgstr ""
-
-#: src/utils/pacat.c:421
-msgid "Cork request stack is empty: uncorking stream"
-msgstr ""
-=======
 msgstr "Змяніліся атрыбуты буфера патоку.%s"
 
 #: src/utils/pacat.c:415
@@ -2553,125 +1919,142 @@ msgstr "Стэк запытаў закаркавання пусты — пато
 #: src/utils/pacat.c:421
 msgid "Cork request stack is empty: uncorking stream"
 msgstr "Стэк запытаў закаркавання пусты — паток адкаркоўваецца"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pacat.c:425
 msgid "Warning: Received more uncork requests than cork requests."
 msgstr ""
-<<<<<<< HEAD:be/sources/pulseaudio.po
-=======
 "Папярэджанне: Атрымана запытаў адкаркавання больш, чым запытаў закаркавання."
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pacat.c:450
 #, c-format
 msgid "Connection established.%s"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "Злучэнне ўстаноўлена.%s"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pacat.c:453
 #, c-format
 msgid "pa_stream_new() failed: %s"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "pa_stream_new() пацярпела няўдачу: %s"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pacat.c:491
 #, c-format
 msgid "pa_stream_connect_playback() failed: %s"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "pa_stream_connect_playback() пацярпела няўдачу: %s"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pacat.c:497
 #, c-format
 msgid "Failed to set monitor stream: %s"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "Не атрымалася ўсталяваць маніторны паток: %s"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pacat.c:501
 #, c-format
 msgid "pa_stream_connect_record() failed: %s"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "pa_stream_connect_record() пацярпела няўдачу: %s"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pacat.c:514 src/utils/pactl.c:1454
 #, c-format
 msgid "Connection failure: %s"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "Злучэнне не ўдалося: %s"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pacat.c:557
 msgid "Got EOF."
-msgstr ""
+msgstr "Дасягнуты канец файла."
 
 #: src/utils/pacat.c:581
 #, c-format
 msgid "pa_stream_write() failed: %s"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "pa_stream_write() пацярпела няўдачу: %s"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pacat.c:605
 #, c-format
 msgid "write() failed: %s"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-
-#: src/utils/pacat.c:626
-msgid "Got signal, exiting."
-msgstr ""
-=======
 msgstr "write() пацярпела няўдачу: %s"
 
 #: src/utils/pacat.c:626
 msgid "Got signal, exiting."
 msgstr "Атрыманы сігнал — выхад."
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pacat.c:640
 #, c-format
 msgid "Failed to get latency: %s"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "Не атрымалася атрымаць затрымку: %s"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pacat.c:645
 #, c-format
 msgid "Time: %0.3f sec; Latency: %0.0f usec."
-msgstr ""
+msgstr "Час: %0.3f с; Затрымка: %0.0f мкс."
 
 #: src/utils/pacat.c:666
 #, c-format
 msgid "pa_stream_update_timing_info() failed: %s"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "pa_stream_update_timing_info() пацярпела няўдачу: %s"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pacat.c:676
-#, c-format
+#, fuzzy, c-format
+#| msgid ""
+#| "%s [options]\n"
+#| "%s\n"
+#| "\n"
+#| "  -h, --help                            Show this help\n"
+#| "      --version                         Show version\n"
+#| "\n"
+#| "  -r, --record                          Create a connection for "
+#| "recording\n"
+#| "  -p, --playback                        Create a connection for playback\n"
+#| "\n"
+#| "  -v, --verbose                         Enable verbose operations\n"
+#| "\n"
+#| "  -s, --server=SERVER                   The name of the server to connect "
+#| "to\n"
+#| "  -d, --device=DEVICE                   The name of the sink/source to "
+#| "connect to\n"
+#| "  -n, --client-name=NAME                How to call this client on the "
+#| "server\n"
+#| "      --stream-name=NAME                How to call this stream on the "
+#| "server\n"
+#| "      --volume=VOLUME                   Specify the initial (linear) "
+#| "volume in range 0...65536\n"
+#| "      --rate=SAMPLERATE                 The sample rate in Hz (defaults "
+#| "to 44100)\n"
+#| "      --format=SAMPLEFORMAT             The sample type, one of s16le, "
+#| "s16be, u8, float32le,\n"
+#| "                                        float32be, ulaw, alaw, s32le, "
+#| "s32be, s24le, s24be,\n"
+#| "                                        s24-32le, s24-32be (defaults to "
+#| "s16ne)\n"
+#| "      --channels=CHANNELS               The number of channels, 1 for "
+#| "mono, 2 for stereo\n"
+#| "                                        (defaults to 2)\n"
+#| "      --channel-map=CHANNELMAP          Channel map to use instead of the "
+#| "default\n"
+#| "      --fix-format                      Take the sample format from the "
+#| "sink/source the stream is\n"
+#| "                                        being connected to.\n"
+#| "      --fix-rate                        Take the sampling rate from the "
+#| "sink/source the stream is\n"
+#| "                                        being connected to.\n"
+#| "      --fix-channels                    Take the number of channels and "
+#| "the channel map\n"
+#| "                                        from the sink/source the stream "
+#| "is being connected to.\n"
+#| "      --no-remix                        Don't upmix or downmix channels.\n"
+#| "      --no-remap                        Map channels by index instead of "
+#| "name.\n"
+#| "      --latency=BYTES                   Request the specified latency in "
+#| "bytes.\n"
+#| "      --process-time=BYTES              Request the specified process "
+#| "time per request in bytes.\n"
+#| "      --latency-msec=MSEC               Request the specified latency in "
+#| "msec.\n"
+#| "      --process-time-msec=MSEC          Request the specified process "
+#| "time per request in msec.\n"
+#| "      --property=PROPERTY=VALUE         Set the specified property to the "
+#| "specified value.\n"
+#| "      --raw                             Record/play raw PCM data.\n"
+#| "      --passthrough                     Passthrough data.\n"
+#| "      --file-format[=FFORMAT]           Record/play formatted PCM data.\n"
+#| "      --list-file-formats               List available file formats.\n"
+#| "      --monitor-stream=INDEX            Record from the sink input with "
+#| "index INDEX.\n"
 msgid ""
 "%s [options]\n"
 "%s\n"
@@ -2696,11 +2079,10 @@ msgid ""
 "in range 0...65536\n"
 "      --rate=SAMPLERATE                 The sample rate in Hz (defaults to "
 "44100)\n"
-"      --format=SAMPLEFORMAT             The sample type, one of s16le, "
-"s16be, u8, float32le,\n"
-"                                        float32be, ulaw, alaw, s32le, s32be, "
-"s24le, s24be,\n"
-"                                        s24-32le, s24-32be (defaults to "
+"      --format=SAMPLEFORMAT             The sample format, see\n"
+"                                        https://www.freedesktop.org/wiki/"
+"Software/PulseAudio/Documentation/User/SupportedAudioFormats/\n"
+"                                        for possible values (defaults to "
 "s16ne)\n"
 "      --channels=CHANNELS               The number of channels, 1 for mono, "
 "2 for stereo\n"
@@ -2734,26 +2116,6 @@ msgid ""
 "      --passthrough                     Passthrough data.\n"
 "      --file-format[=FFORMAT]           Record/play formatted PCM data.\n"
 "      --list-file-formats               List available file formats.\n"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-"      --monitor-stream=INDEX            Record from the sink input with index INDEX.\n"
-msgstr ""
-
-#: src/utils/pacat.c:793
-msgid "Play back encoded audio files on a PulseAudio sound server."
-msgstr ""
-
-#: src/utils/pacat.c:797
-msgid "Capture audio data from a PulseAudio sound server and write it to a file."
-msgstr ""
-
-#: src/utils/pacat.c:801
-msgid "Capture audio data from a PulseAudio sound server and write it to STDOUT or the specified file."
-msgstr ""
-
-#: src/utils/pacat.c:805
-msgid "Play back audio data from STDIN or the specified file on a PulseAudio sound server."
-msgstr ""
-=======
 "      --monitor-stream=INDEX            Record from the sink input with "
 "index INDEX.\n"
 msgstr ""
@@ -2840,7 +2202,6 @@ msgid ""
 msgstr ""
 "Прайграванне аўдыёдадзеных з STDIN ці зададзенага аўдыёфайла на гукавым "
 "серверы PulseAudio."
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pacat.c:819
 #, c-format
@@ -2849,131 +2210,76 @@ msgid ""
 "Compiled with libpulse %s\n"
 "Linked with libpulse %s\n"
 msgstr ""
-<<<<<<< HEAD:be/sources/pulseaudio.po
-=======
 "pacat %s\n"
 "Скампілявана з libpulse %s\n"
 "Звязана з libpulse %s\n"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pacat.c:852 src/utils/pactl.c:1656
 #, c-format
 msgid "Invalid client name '%s'"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "Некарэктная назва кліента «%s»"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pacat.c:867
 #, c-format
 msgid "Invalid stream name '%s'"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "Некарэктная назва патоку «%s»"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pacat.c:904
 #, c-format
 msgid "Invalid channel map '%s'"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "Некарэктная схема каналаў «%s»"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pacat.c:933 src/utils/pacat.c:947
 #, c-format
 msgid "Invalid latency specification '%s'"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "Некарэктная затрымка «%s»"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pacat.c:940 src/utils/pacat.c:954
 #, c-format
 msgid "Invalid process time specification '%s'"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "Некарэктная спецыфікацыя часу працэсу «%s»"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pacat.c:966
 #, c-format
 msgid "Invalid property '%s'"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "Некарэктная ўласцівасць «%s»"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pacat.c:985
 #, c-format
 msgid "Unknown file format %s."
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "Невядомая фармат файла %s."
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pacat.c:1000
 msgid "Failed to parse the argument for --monitor-stream"
-msgstr ""
+msgstr "Не атрымалася разабраць значэнне для --monitor-stream"
 
 #: src/utils/pacat.c:1011
 msgid "Invalid sample specification"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "Некарэктная спецыфікацыя сэмплаў"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pacat.c:1021
 #, c-format
 msgid "open(): %s"
-msgstr ""
+msgstr "open(): %s"
 
 #: src/utils/pacat.c:1026
 #, c-format
 msgid "dup2(): %s"
-msgstr ""
+msgstr "dup2(): %s"
 
 #: src/utils/pacat.c:1033
 msgid "Too many arguments."
-msgstr ""
+msgstr "Занадта шмат аргументаў."
 
 #: src/utils/pacat.c:1044
 msgid "Failed to generate sample specification for file."
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "Не атрымалася згенераваць спецыфікацыю сэмплаў для файла."
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pacat.c:1070
 msgid "Failed to open audio file."
-msgstr ""
+msgstr "Не атрымалася адкрыць аўдыяфайл."
 
 #: src/utils/pacat.c:1076
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgid "Warning: specified sample specification will be overwritten with specification from file."
-msgstr ""
-
-#: src/utils/pacat.c:1079 src/utils/pactl.c:1720
-msgid "Failed to determine sample specification from file."
-msgstr ""
-
-#: src/utils/pacat.c:1088
-msgid "Warning: Failed to determine channel map from file."
-msgstr ""
-
-#: src/utils/pacat.c:1099
-msgid "Channel map doesn't match sample specification"
-msgstr ""
-=======
 msgid ""
 "Warning: specified sample specification will be overwritten with "
 "specification from file."
@@ -2992,48 +2298,27 @@ msgstr "Папярэджанне: Не атрымалася вызначыць �
 #: src/utils/pacat.c:1099
 msgid "Channel map doesn't match sample specification"
 msgstr "Схема каналаў не адпавядае спецыфікацыі сэмплаў"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pacat.c:1110
 msgid "Warning: failed to write channel map to file."
-msgstr ""
+msgstr "Папярэджанне: не атрымалася запісаць схему каналаў у файл."
 
 #: src/utils/pacat.c:1125
 #, c-format
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgid "Opening a %s stream with sample specification '%s' and channel map '%s'."
-msgstr ""
-=======
 msgid ""
 "Opening a %s stream with sample specification '%s' and channel map '%s'."
 msgstr "Адкрыццё патоку %s з спецыфікацыяй сэмплаў «%s» і схемай каналаў «%s»."
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pacat.c:1126
 msgid "recording"
-msgstr ""
+msgstr "запіс"
 
 #: src/utils/pacat.c:1126
 msgid "playback"
-msgstr ""
+msgstr "прайграванне"
 
 #: src/utils/pacat.c:1150
 msgid "Failed to set media name."
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-
-#: src/utils/pacat.c:1160 src/utils/pactl.c:2070
-msgid "pa_mainloop_new() failed."
-msgstr ""
-
-#: src/utils/pacat.c:1183
-msgid "io_new() failed."
-msgstr ""
-
-#: src/utils/pacat.c:1190 src/utils/pactl.c:2082
-msgid "pa_context_new() failed."
-msgstr ""
-=======
 msgstr "Не атрымалася ўсталяваць назву патоку."
 
 #: src/utils/pacat.c:1160 src/utils/pactl.c:2070
@@ -3047,22 +2332,10 @@ msgstr "io_new() пацярпела няўдачу."
 #: src/utils/pacat.c:1190 src/utils/pactl.c:2082
 msgid "pa_context_new() failed."
 msgstr "pa_context_new() пацярпела няўдачу."
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pacat.c:1198 src/utils/pactl.c:2088
 #, c-format
 msgid "pa_context_connect() failed: %s"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-
-#: src/utils/pacat.c:1204
-msgid "pa_context_rttime_new() failed."
-msgstr ""
-
-#: src/utils/pacat.c:1211 src/utils/pactl.c:2093
-msgid "pa_mainloop_run() failed."
-msgstr ""
-=======
 msgstr "pa_context_connect() пацярпела няўдачу: %s"
 
 #: src/utils/pacat.c:1204
@@ -3072,112 +2345,95 @@ msgstr "pa_context_rttime_new() пацярпела няўдачу."
 #: src/utils/pacat.c:1211 src/utils/pactl.c:2093
 msgid "pa_mainloop_run() failed."
 msgstr "pa_mainloop_run() пацярпела няўдачу."
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pacmd.c:51 src/utils/pactl.c:1578
 msgid "NAME [ARGS ...]"
-msgstr ""
+msgstr "НАЗВА [АРГУМЕНТЫ …]"
 
 #: src/utils/pacmd.c:52 src/utils/pacmd.c:60 src/utils/pactl.c:1579
 msgid "NAME|#N"
-msgstr ""
+msgstr "НАЗВА|НУМАР"
 
 #: src/utils/pacmd.c:53 src/utils/pacmd.c:63 src/utils/pactl.c:1577
 #: src/utils/pactl.c:1583
 msgid "NAME"
-msgstr ""
+msgstr "НАЗВА"
 
 #: src/utils/pacmd.c:54
 msgid "NAME|#N VOLUME"
-msgstr ""
+msgstr "НАЗВА|НУМАР ГУЧНАСЦЬ"
 
 #: src/utils/pacmd.c:55
 msgid "#N VOLUME"
-msgstr ""
+msgstr "НУМАР ГУЧНАСЦЬ"
 
 #: src/utils/pacmd.c:56 src/utils/pacmd.c:70 src/utils/pactl.c:1581
 msgid "NAME|#N 1|0"
-msgstr ""
+msgstr "НАЗВА|НУМАР 1|0"
 
 #: src/utils/pacmd.c:57
 msgid "#N 1|0"
-msgstr ""
+msgstr "НУМАР 1|0"
 
 #: src/utils/pacmd.c:58
 msgid "NAME|#N KEY=VALUE"
-msgstr ""
+msgstr "НАЗВА|НУМАР КЛЮЧ=ЗНАЧЭННЕ"
 
 #: src/utils/pacmd.c:59
 msgid "#N KEY=VALUE"
-msgstr ""
+msgstr "НУМАР КЛЮЧ=ЗНАЧЭННЕ"
 
 #: src/utils/pacmd.c:61
 msgid "#N"
-msgstr ""
+msgstr "НУМАР"
 
 #: src/utils/pacmd.c:62
 msgid "NAME SINK|#N"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "НАЗВА ПРЫЁМНІК|НУМАР"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pacmd.c:64 src/utils/pacmd.c:65
 msgid "NAME FILENAME"
-msgstr ""
+msgstr "НАЗВА НАЗВА_ФАЙЛА"
 
 #: src/utils/pacmd.c:66
 msgid "PATHNAME"
-msgstr ""
+msgstr "ШЛЯХ"
 
 #: src/utils/pacmd.c:67
 msgid "FILENAME SINK|#N"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-
-#: src/utils/pacmd.c:69 src/utils/pactl.c:1580
-msgid "#N SINK|SOURCE"
-msgstr ""
-=======
 msgstr "НАЗВА_ФАЙЛА ПРЫЁМНІК|НУМАР"
 
 #: src/utils/pacmd.c:69 src/utils/pactl.c:1580
 msgid "#N SINK|SOURCE"
 msgstr "НУМАР ПРЫЁМНІК|КРЫНІЦА"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pacmd.c:71 src/utils/pacmd.c:77 src/utils/pacmd.c:78
 msgid "1|0"
-msgstr ""
+msgstr "1|0"
 
 #: src/utils/pacmd.c:72 src/utils/pactl.c:1582
 msgid "CARD PROFILE"
-msgstr ""
+msgstr "КАРТКА ПРОФІЛЬ"
 
 #: src/utils/pacmd.c:73 src/utils/pactl.c:1584
 msgid "NAME|#N PORT"
-msgstr ""
+msgstr "НАЗВА|НУМАР ПОРТ"
 
 #: src/utils/pacmd.c:74 src/utils/pactl.c:1590
 msgid "CARD-NAME|CARD-#N PORT OFFSET"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "НАЗВА_КАРТКІ|№_КАРТЫ ПОРТ ЗРУХ"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pacmd.c:75
 msgid "TARGET"
-msgstr ""
+msgstr "МЭТА"
 
 #: src/utils/pacmd.c:76
 msgid "NUMERIC-LEVEL"
-msgstr ""
+msgstr "ЛІКАВЫ ЎЗРОВЕНЬ"
 
 #: src/utils/pacmd.c:79
 msgid "FRAMES"
-msgstr ""
+msgstr "КАДРАЎ"
 
 #: src/utils/pacmd.c:81
 #, c-format
@@ -3187,13 +2443,10 @@ msgid ""
 "      --version                         Show version\n"
 "When no command is given pacmd starts in the interactive mode.\n"
 msgstr ""
-<<<<<<< HEAD:be/sources/pulseaudio.po
-=======
 "\n"
 "  -h, --help                            Паказаць гэтую даведку\n"
 "      --version                         Паказаць версію\n"
 "Калі каманда не азначана, pacmd запусціцца ў інтэрактыўным рэжыме.\n"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pacmd.c:128
 #, c-format
@@ -3202,12 +2455,6 @@ msgid ""
 "Compiled with libpulse %s\n"
 "Linked with libpulse %s\n"
 msgstr ""
-<<<<<<< HEAD:be/sources/pulseaudio.po
-
-#: src/utils/pacmd.c:142
-msgid "No PulseAudio daemon running, or not running as session daemon."
-msgstr ""
-=======
 "pacmd %s\n"
 "Скампілявана з libpulse %s\n"
 "Звязана з libpulse %s\n"
@@ -3215,85 +2462,51 @@ msgstr ""
 #: src/utils/pacmd.c:142
 msgid "No PulseAudio daemon running, or not running as session daemon."
 msgstr "Няма запушчанага сэрвісу PulseAudio ці ён не працуе як сесійны сэрвіс."
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pacmd.c:147
 #, c-format
 msgid "socket(PF_UNIX, SOCK_STREAM, 0): %s"
-msgstr ""
+msgstr "socket(PF_UNIX, SOCK_STREAM, 0): %s"
 
 #: src/utils/pacmd.c:164
 #, c-format
 msgid "connect(): %s"
-msgstr ""
+msgstr "connect(): %s"
 
 #: src/utils/pacmd.c:172
 msgid "Failed to kill PulseAudio daemon."
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-
-#: src/utils/pacmd.c:180
-msgid "Daemon not responding."
-msgstr ""
-=======
 msgstr "Не атрымалася знішчыць фонавы сэрвіс PulseAudio."
 
 #: src/utils/pacmd.c:180
 msgid "Daemon not responding."
 msgstr "Фонавы сэрвіс не адказвае."
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pacmd.c:212 src/utils/pacmd.c:321 src/utils/pacmd.c:339
 #, c-format
 msgid "write(): %s"
-msgstr ""
+msgstr "write(): %s"
 
 #: src/utils/pacmd.c:268
 #, c-format
 msgid "poll(): %s"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "read(): %s"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pacmd.c:279 src/utils/pacmd.c:299
 #, c-format
 msgid "read(): %s"
-msgstr ""
+msgstr "read(): %s"
 
 #: src/utils/pactl.c:164
 #, c-format
 msgid "Failed to get statistics: %s"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-
-#: src/utils/pactl.c:170
-=======
 msgstr "Не атрымалася атрымаць статыстыку: %s"
 
 #: src/utils/pactl.c:170
 #, fuzzy, c-format
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 #| msgid "Currently in use: %u blocks containing %s bytes total.\n"
 msgid "Currently in use: %u block containing %s bytes total.\n"
 msgid_plural "Currently in use: %u blocks containing %s bytes total.\n"
 msgstr[0] ""
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-
-#: src/utils/pactl.c:176
-#| msgid ""
-#| "Allocated during whole lifetime: %u blocks containing %s bytes total.\n"
-msgid "Allocated during whole lifetime: %u block containing %s bytes total.\n"
-msgid_plural "Allocated during whole lifetime: %u blocks containing %s bytes total.\n"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-=======
 "Выкарыстоўваецца ў дадзены момант: %u блокаў агульным памерам %s байтаў.\n"
 msgstr[1] ""
 "Выкарыстоўваецца ў дадзены момант: %u блокаў агульным памерам %s байтаў.\n"
@@ -3316,25 +2529,16 @@ msgstr[1] ""
 msgstr[2] ""
 "Выдзелена на працягу ўсяго тэрміну службы: %u блокаў агульным памерам %s "
 "байтаў.\n"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pactl.c:182
 #, c-format
 msgid "Sample cache size: %s\n"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "Памер кэшу сэмплаў: %s\n"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pactl.c:191
 #, c-format
 msgid "Failed to get server information: %s"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "Не атрымалася атрымаць інфармацыю аб серверы: %s"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pactl.c:196
 #, c-format
@@ -3346,15 +2550,12 @@ msgid ""
 "Client Index: %u\n"
 "Tile Size: %zu\n"
 msgstr ""
-<<<<<<< HEAD:be/sources/pulseaudio.po
-=======
 "Серверны радок: %s\n"
 "Версія пратакола бібліятэкі: %u\n"
 "Версія пратакола сервера: %u\n"
 "Ці лакальны: %s\n"
 "Нумар кліента: %u\n"
 "Памер блока: %zu\n"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pactl.c:212
 #, c-format
@@ -3369,8 +2570,6 @@ msgid ""
 "Default Source: %s\n"
 "Cookie: %04x:%04x\n"
 msgstr ""
-<<<<<<< HEAD:be/sources/pulseaudio.po
-=======
 "Імя карыстальніка: %s\n"
 "Назва вузла: %s\n"
 "Назва сервера: %s\n"
@@ -3380,16 +2579,11 @@ msgstr ""
 "Агаданы прыёмнік: %s\n"
 "Агаданая крыніца: %s\n"
 "Cookie: %04x:%04x\n"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pactl.c:261 src/utils/pactl.c:908 src/utils/pactl.c:986
 #, c-format
 msgid "Failed to get sink information: %s"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "Не атрымалася атрымаць інфармацыю аб прыёмніку: %s"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pactl.c:287
 #, c-format
@@ -3412,8 +2606,6 @@ msgid ""
 "\tProperties:\n"
 "\t\t%s\n"
 msgstr ""
-<<<<<<< HEAD:be/sources/pulseaudio.po
-=======
 "Прыёмнік № %u\n"
 "\tСтан: %s\n"
 "\tНазва: %s\n"
@@ -3431,31 +2623,26 @@ msgstr ""
 "\tФлагі: %s%s%s%s%s%s%s\n"
 "\tУласцівасці:\n"
 "\t\t%s\n"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pactl.c:331 src/utils/pactl.c:437 src/utils/pactl.c:598
 #, c-format
 msgid "\tPorts:\n"
-msgstr ""
+msgstr "\tПарты:\n"
 
 #: src/utils/pactl.c:338 src/utils/pactl.c:444
 #, c-format
 msgid "\tActive Port: %s\n"
-msgstr ""
+msgstr "\tАктыўны порт: %s\n"
 
 #: src/utils/pactl.c:344 src/utils/pactl.c:450
 #, c-format
 msgid "\tFormats:\n"
-msgstr ""
+msgstr "\tФарматы:\n"
 
 #: src/utils/pactl.c:368 src/utils/pactl.c:928 src/utils/pactl.c:1001
 #, c-format
 msgid "Failed to get source information: %s"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "Не атрымалася атрымаць інфармацыю аб крыніцы: %s"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pactl.c:394
 #, c-format
@@ -3478,8 +2665,6 @@ msgid ""
 "\tProperties:\n"
 "\t\t%s\n"
 msgstr ""
-<<<<<<< HEAD:be/sources/pulseaudio.po
-=======
 "Крыніца № %u\n"
 "\tСтан: %s\n"
 "\tНазва: %s\n"
@@ -3497,7 +2682,6 @@ msgstr ""
 "\tФлагі: %s%s%s%s%s%s\n"
 "\tУласцівасці:\n"
 "\t\t%s\n"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pactl.c:422 src/utils/pactl.c:492 src/utils/pactl.c:535
 #: src/utils/pactl.c:577 src/utils/pactl.c:675 src/utils/pactl.c:676
@@ -3505,16 +2689,12 @@ msgstr ""
 #: src/utils/pactl.c:757 src/utils/pactl.c:808 src/utils/pactl.c:809
 #: src/utils/pactl.c:815
 msgid "n/a"
-msgstr ""
+msgstr "н/д"
 
 #: src/utils/pactl.c:461 src/utils/pactl.c:865
 #, c-format
 msgid "Failed to get module information: %s"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "Не атрымалася атрымаць інфармацыю аб модулі: %s"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pactl.c:484
 #, c-format
@@ -3526,24 +2706,17 @@ msgid ""
 "\tProperties:\n"
 "\t\t%s\n"
 msgstr ""
-<<<<<<< HEAD:be/sources/pulseaudio.po
-=======
 "Модуль № %u\n"
 "\tНазва: %s\n"
 "\tАргументы: %s\n"
 "\tЛічыльнік выкарыстання: %s\n"
 "\tУласцівасці:\n"
 "\t\t%s\n"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pactl.c:503
 #, c-format
 msgid "Failed to get client information: %s"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "Не атрымалася атрымаць інфармацыю аб кліенце: %s"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pactl.c:529
 #, c-format
@@ -3554,23 +2727,16 @@ msgid ""
 "\tProperties:\n"
 "\t\t%s\n"
 msgstr ""
-<<<<<<< HEAD:be/sources/pulseaudio.po
-=======
 "Кліент № %u\n"
 "\tДрайвер: %s\n"
 "\tМодуль-уладальнік: %s\n"
 "\tУласцівасці:\n"
 "\t\t%s\n"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pactl.c:546
 #, c-format
 msgid "Failed to get card information: %s"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "Не атрымалася атрымаць інфармацыю аб картцы: %s"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pactl.c:569
 #, c-format
@@ -3582,34 +2748,27 @@ msgid ""
 "\tProperties:\n"
 "\t\t%s\n"
 msgstr ""
-<<<<<<< HEAD:be/sources/pulseaudio.po
-=======
 "Картка № %u\n"
 "\tНазва: %s\n"
 "\tДрайвер: %s\n"
 "\tМодуль-уладальнік: %s\n"
 "\tУласцівасці:\n"
 "\t\t%s\n"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pactl.c:585
 #, c-format
 msgid "\tProfiles:\n"
-msgstr ""
+msgstr "\tПрофілі:\n"
 
 #: src/utils/pactl.c:587
 #, c-format
 msgid "\t\t%s: %s (sinks: %u, sources: %u, priority: %u, available: %s)\n"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "\t\t%s: %s (прыёмнікаў: %u, крыніц: %u, прыярытэт: %u, даступны: %s)\n"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pactl.c:592
 #, c-format
 msgid "\tActive Profile: %s\n"
-msgstr ""
+msgstr "\tАктыўны профіль: %s\n"
 
 #: src/utils/pactl.c:606
 #, c-format
@@ -3617,29 +2776,18 @@ msgid ""
 "\t\t\tProperties:\n"
 "\t\t\t\t%s\n"
 msgstr ""
-<<<<<<< HEAD:be/sources/pulseaudio.po
-=======
 "\t\t\tУласцівасці:\n"
 "\t\t\t\t%s\n"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pactl.c:611
 #, c-format
 msgid "\t\t\tPart of profile(s): %s"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "\t\t\tЧастка профілю(яў): %s"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pactl.c:628 src/utils/pactl.c:948 src/utils/pactl.c:1016
 #, c-format
 msgid "Failed to get sink input information: %s"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "Не атрымалася атрымаць інфармацыю аб уваходзе прыёмніка: %s"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pactl.c:657
 #, c-format
@@ -3662,8 +2810,6 @@ msgid ""
 "\tProperties:\n"
 "\t\t%s\n"
 msgstr ""
-<<<<<<< HEAD:be/sources/pulseaudio.po
-=======
 "Уваход прыёмніка № %u\n"
 "\tДрайвер: %s\n"
 "\tМодуль-уладальнік: %s\n"
@@ -3681,16 +2827,11 @@ msgstr ""
 "\tМетад перадыскрэтызацыі: %s\n"
 "\tУласцівасці:\n"
 "\t\t%s\n"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pactl.c:698 src/utils/pactl.c:968 src/utils/pactl.c:1031
 #, c-format
 msgid "Failed to get source output information: %s"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "Не атрымалася атрымаць інфармацыю аб выхадзе крыніцы: %s"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pactl.c:727
 #, c-format
@@ -3713,8 +2854,6 @@ msgid ""
 "\tProperties:\n"
 "\t\t%s\n"
 msgstr ""
-<<<<<<< HEAD:be/sources/pulseaudio.po
-=======
 "Выхад крыніцы № %u\n"
 "\tДрайвер: %s\n"
 "\tМодуль-уладальнік: %s\n"
@@ -3732,16 +2871,11 @@ msgstr ""
 "\tМетад перадыскрэтызацыі: %s\n"
 "\tУласцівасці:\n"
 "\t\t%s\n"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pactl.c:768
 #, c-format
 msgid "Failed to get sample information: %s"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "Не атрымалася атрымаць інфармацыю аб сэмпле: %s"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pactl.c:795
 #, c-format
@@ -3759,8 +2893,6 @@ msgid ""
 "\tProperties:\n"
 "\t\t%s\n"
 msgstr ""
-<<<<<<< HEAD:be/sources/pulseaudio.po
-=======
 "Сэмпл № %u\n"
 "\tНазва: %s\n"
 "\tСпецыфікацыя: %s\n"
@@ -3773,29 +2905,13 @@ msgstr ""
 "\tНазва файла: %s\n"
 "\tУласцівасці:\n"
 "\t\t%s\n"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pactl.c:823 src/utils/pactl.c:833
 #, c-format
 msgid "Failure: %s"
-msgstr ""
+msgstr "Няўдача: %s"
 
 #: src/utils/pactl.c:872
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgid "Failed to unload module: Module %s not loaded"
-msgstr ""
-
-#: src/utils/pactl.c:890
-#| msgid ""
-#| "Failed to set volume: You tried to set volumes for %d channels, whereas "
-#| "channel/s supported = %d\n"
-msgid "Failed to set volume: You tried to set volumes for %d channel, whereas channel(s) supported = %d\n"
-msgid_plural "Failed to set volume: You tried to set volumes for %d channels, whereas channel(s) supported = %d\n"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-=======
 #, fuzzy, c-format
 msgid "Failed to unload module: Module %s not loaded"
 msgstr "Не атрымалася выгрузіць модуль: модуль не загружаны"
@@ -3820,115 +2936,75 @@ msgstr[1] ""
 msgstr[2] ""
 "Не атрымалася задаць гучнасць: вы спрабуеце задаць гучнасць для %d каналаў, "
 "але агульная колькасць каналаў %d\n"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pactl.c:1101
 #, c-format
 msgid "Failed to upload sample: %s"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "Не атрымалася выгрузіць сэмпл: %s"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pactl.c:1118
 msgid "Premature end of file"
-msgstr ""
+msgstr "Заўчасны канец файла"
 
 #: src/utils/pactl.c:1138
 msgid "new"
-msgstr ""
+msgstr "зʼяўленне"
 
 #: src/utils/pactl.c:1141
 msgid "change"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "змяненне"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pactl.c:1144
 msgid "remove"
-msgstr ""
+msgstr "выдаленне"
 
 #: src/utils/pactl.c:1147 src/utils/pactl.c:1182
 msgid "unknown"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-
-#: src/utils/pactl.c:1155
-msgid "sink"
-msgstr ""
-=======
 msgstr "невядомая"
 
 #: src/utils/pactl.c:1155
 msgid "sink"
 msgstr "прыёмніка"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pactl.c:1158
 msgid "source"
-msgstr ""
+msgstr "крыніцы"
 
 #: src/utils/pactl.c:1161
 msgid "sink-input"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "уваходу прыёмніка"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pactl.c:1164
 msgid "source-output"
-msgstr ""
+msgstr "выхаду крыніцы"
 
 #: src/utils/pactl.c:1167
 msgid "module"
-msgstr ""
+msgstr "модуля"
 
 #: src/utils/pactl.c:1170
 msgid "client"
-msgstr ""
+msgstr "кліента"
 
 #: src/utils/pactl.c:1173
 msgid "sample-cache"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "кэша сэмплаў"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pactl.c:1176
 msgid "server"
-msgstr ""
+msgstr "сервера"
 
 #: src/utils/pactl.c:1179
 msgid "card"
-msgstr ""
+msgstr "карткі"
 
 #: src/utils/pactl.c:1188
 #, c-format
 msgid "Event '%s' on %s #%u\n"
-msgstr ""
+msgstr "Падзея %s %s № %u\n"
 
 #: src/utils/pactl.c:1460
 msgid "Got SIGINT, exiting."
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-
-#: src/utils/pactl.c:1493
-msgid "Invalid volume specification"
-msgstr ""
-
-#: src/utils/pactl.c:1516
-msgid "Volume outside permissible range.\n"
-msgstr ""
-
-#: src/utils/pactl.c:1529
-msgid "Invalid number of volume specifications.\n"
-msgstr ""
-=======
 msgstr "Атрыманы сігнал SIGINT — выхад."
 
 #: src/utils/pactl.c:1493
@@ -3942,11 +3018,10 @@ msgstr "Гучнасць па-за дапушчальны дыяпазоне.\n"
 #: src/utils/pactl.c:1529
 msgid "Invalid number of volume specifications.\n"
 msgstr "Некарэктная колькасць значэнняў гучнасці.\n"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pactl.c:1541
 msgid "Inconsistent volume specification.\n"
-msgstr ""
+msgstr "Супярэчлівае значэнне гучнасці.\n"
 
 #: src/utils/pactl.c:1571 src/utils/pactl.c:1572 src/utils/pactl.c:1573
 #: src/utils/pactl.c:1574 src/utils/pactl.c:1575 src/utils/pactl.c:1576
@@ -3956,43 +3031,39 @@ msgstr ""
 #: src/utils/pactl.c:1586 src/utils/pactl.c:1587 src/utils/pactl.c:1588
 #: src/utils/pactl.c:1589 src/utils/pactl.c:1590 src/utils/pactl.c:1591
 msgid "[options]"
-msgstr ""
+msgstr "[параметры]"
 
 #: src/utils/pactl.c:1573
 msgid "[TYPE]"
-msgstr ""
+msgstr "[ТЫП]"
 
 #: src/utils/pactl.c:1575
 msgid "FILENAME [NAME]"
-msgstr ""
+msgstr "НАЗВА_ФАЙЛА [НАЗВА]"
 
 #: src/utils/pactl.c:1576
 msgid "NAME [SINK]"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "НАЗВА [ПРЫЁМНІК]"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pactl.c:1585
 msgid "NAME|#N VOLUME [VOLUME ...]"
-msgstr ""
+msgstr "НАЗВА|НУМАР ГУЧНАСЦЬ [ГУЧНАСЦЬ …]"
 
 #: src/utils/pactl.c:1586
 msgid "#N VOLUME [VOLUME ...]"
-msgstr ""
+msgstr "НУМАР ГУЧНАСЦЬ [ГУЧНАСЦЬ …]"
 
 #: src/utils/pactl.c:1587
 msgid "NAME|#N 1|0|toggle"
-msgstr ""
+msgstr "НАЗВА|НУМАР 1|0|toggle"
 
 #: src/utils/pactl.c:1588
 msgid "#N 1|0|toggle"
-msgstr ""
+msgstr "НУМАР 1|0|toggle"
 
 #: src/utils/pactl.c:1589
 msgid "#N FORMATS"
-msgstr ""
+msgstr "НУМАР ФАРМАТЫ"
 
 #: src/utils/pactl.c:1592
 #, c-format
@@ -4001,25 +3072,16 @@ msgid ""
 "The special names @DEFAULT_SINK@, @DEFAULT_SOURCE@ and @DEFAULT_MONITOR@\n"
 "can be used to specify the default sink, source and monitor.\n"
 msgstr ""
-<<<<<<< HEAD:be/sources/pulseaudio.po
-=======
 "\n"
 "Адмысловыя назвы: @DEFAULT_SINK@, @DEFAULT_SOURCE@ і @DEFAULT_MONITOR@ —\n"
 "могуць быць скарыстаны для ўказання агаданага прыёмніка, крыніцы ці "
 "манітора.\n"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pactl.c:1595
 #, c-format
 msgid ""
 "\n"
 "  -h, --help                            Show this help\n"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-"      --version                         Show version\n\n"
-"  -s, --server=SERVER                   The name of the server to connect to\n"
-"  -n, --client-name=NAME                How to call this client on the server\n"
-msgstr ""
-=======
 "      --version                         Show version\n"
 "\n"
 "  -s, --server=SERVER                   The name of the server to connect "
@@ -4033,7 +3095,6 @@ msgstr ""
 "\n"
 "  -s, --server=СЕРВЕР                   Назва сервера для злучэння\n"
 "  -n, --client-name=НАЗВА               Назва гэтага кліента на серверы\n"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pactl.c:1636
 #, c-format
@@ -4042,123 +3103,25 @@ msgid ""
 "Compiled with libpulse %s\n"
 "Linked with libpulse %s\n"
 msgstr ""
-<<<<<<< HEAD:be/sources/pulseaudio.po
-=======
 "pactl %s\n"
 "Скампілявана з libpulse %s\n"
 "Звязана з libpulse %s\n"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pactl.c:1692
 #, c-format
 msgid "Specify nothing, or one of: %s"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-
-#: src/utils/pactl.c:1702
-msgid "Please specify a sample file to load"
-msgstr ""
-=======
 msgstr "Нічога не задавайце ці адно з: %s"
 
 #: src/utils/pactl.c:1702
 msgid "Please specify a sample file to load"
 msgstr "Калі ласка, задайце файл сэмплаў для загрузкі"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pactl.c:1715
 msgid "Failed to open sound file."
-msgstr ""
+msgstr "Не атрымалася адкрыць аўдыяфайл."
 
 #: src/utils/pactl.c:1727
 msgid "Warning: Failed to determine sample specification from file."
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-
-#: src/utils/pactl.c:1737
-msgid "You have to specify a sample name to play"
-msgstr ""
-
-#: src/utils/pactl.c:1749
-msgid "You have to specify a sample name to remove"
-msgstr ""
-
-#: src/utils/pactl.c:1758
-msgid "You have to specify a sink input index and a sink"
-msgstr ""
-
-#: src/utils/pactl.c:1768
-msgid "You have to specify a source output index and a source"
-msgstr ""
-
-#: src/utils/pactl.c:1783
-msgid "You have to specify a module name and arguments."
-msgstr ""
-
-#: src/utils/pactl.c:1803
-msgid "You have to specify a module index or name"
-msgstr ""
-
-#: src/utils/pactl.c:1816
-msgid "You may not specify more than one sink. You have to specify a boolean value."
-msgstr ""
-
-#: src/utils/pactl.c:1821 src/utils/pactl.c:1841
-msgid "Invalid suspend specification."
-msgstr ""
-
-#: src/utils/pactl.c:1836
-msgid "You may not specify more than one source. You have to specify a boolean value."
-msgstr ""
-
-#: src/utils/pactl.c:1853
-msgid "You have to specify a card name/index and a profile name"
-msgstr ""
-
-#: src/utils/pactl.c:1864
-msgid "You have to specify a sink name/index and a port name"
-msgstr ""
-
-#: src/utils/pactl.c:1875
-msgid "You have to specify a sink name"
-msgstr ""
-
-#: src/utils/pactl.c:1885
-msgid "You have to specify a source name/index and a port name"
-msgstr ""
-
-#: src/utils/pactl.c:1896
-msgid "You have to specify a source name"
-msgstr ""
-
-#: src/utils/pactl.c:1906
-msgid "You have to specify a sink name/index and a volume"
-msgstr ""
-
-#: src/utils/pactl.c:1919
-msgid "You have to specify a source name/index and a volume"
-msgstr ""
-
-#: src/utils/pactl.c:1932
-msgid "You have to specify a sink input index and a volume"
-msgstr ""
-
-#: src/utils/pactl.c:1937
-msgid "Invalid sink input index"
-msgstr ""
-
-#: src/utils/pactl.c:1948
-msgid "You have to specify a source output index and a volume"
-msgstr ""
-
-#: src/utils/pactl.c:1953
-msgid "Invalid source output index"
-msgstr ""
-
-#: src/utils/pactl.c:1964
-msgid "You have to specify a sink name/index and a mute action (0, 1, or 'toggle')"
-msgstr ""
-=======
 msgstr "Папярэджанне: Не атрымалася вызначыць спецыфікацыю сэмплаў з файла."
 
 #: src/utils/pactl.c:1737
@@ -4252,42 +3215,10 @@ msgid ""
 msgstr ""
 "Неабходна задаць нумар ці назву прыёмніка і дзеянне абязгучвання (0 — "
 "адключыць, 1 — уключыць, toggle — пераключыць)"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pactl.c:1969 src/utils/pactl.c:1984 src/utils/pactl.c:2004
 #: src/utils/pactl.c:2022
 msgid "Invalid mute specification"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-
-#: src/utils/pactl.c:1979
-msgid "You have to specify a source name/index and a mute action (0, 1, or 'toggle')"
-msgstr ""
-
-#: src/utils/pactl.c:1994
-msgid "You have to specify a sink input index and a mute action (0, 1, or 'toggle')"
-msgstr ""
-
-#: src/utils/pactl.c:1999
-msgid "Invalid sink input index specification"
-msgstr ""
-
-#: src/utils/pactl.c:2012
-msgid "You have to specify a source output index and a mute action (0, 1, or 'toggle')"
-msgstr ""
-
-#: src/utils/pactl.c:2017
-msgid "Invalid source output index specification"
-msgstr ""
-
-#: src/utils/pactl.c:2034
-msgid "You have to specify a sink index and a semicolon-separated list of supported formats"
-msgstr ""
-
-#: src/utils/pactl.c:2046
-msgid "You have to specify a card name/index, a port name and a latency offset"
-msgstr ""
-=======
 msgstr "Некарэктная спецыфікацыя абязгучвання"
 
 #: src/utils/pactl.c:1979
@@ -4331,76 +3262,57 @@ msgstr ""
 #: src/utils/pactl.c:2046
 msgid "You have to specify a card name/index, a port name and a latency offset"
 msgstr "Неабходна задаць нумар ці назву карткі, назву порту і зрух затрымкі."
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pactl.c:2053
 msgid "Could not parse latency offset"
-msgstr ""
+msgstr "Немагчыма разабраць зрух затрымкі"
 
 #: src/utils/pactl.c:2065
 msgid "No valid command specified."
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "Зададзена некарэктная каманда."
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pasuspender.c:79
 #, c-format
 msgid "fork(): %s\n"
-msgstr ""
+msgstr "fork(): %s\n"
 
 #: src/utils/pasuspender.c:92
 #, c-format
 msgid "execvp(): %s\n"
-msgstr ""
+msgstr "execvp(): %s\n"
 
 #: src/utils/pasuspender.c:111
 #, c-format
 msgid "Failure to resume: %s\n"
-msgstr ""
+msgstr "Не ўдалося ўзнавіць: %s\n"
 
 #: src/utils/pasuspender.c:145
 #, c-format
 msgid "Failure to suspend: %s\n"
-msgstr ""
+msgstr "Не ўдалося прыпыніць: %s\n"
 
 #: src/utils/pasuspender.c:170
 #, c-format
 msgid "WARNING: Sound server is not local, not suspending.\n"
-msgstr ""
+msgstr "Папярэджанне: Нелакальны гукавы сервер не прыпыняецца.\n"
 
 #: src/utils/pasuspender.c:183
 #, c-format
 msgid "Connection failure: %s\n"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "Злучэнне не ўдалося: %s\n"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pasuspender.c:201
 #, c-format
 msgid "Got SIGINT, exiting.\n"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "Атрыманы сігнал SIGINT — выхад.\n"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pasuspender.c:219
 #, c-format
 msgid "WARNING: Child process terminated by signal %u\n"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-
-#: src/utils/pasuspender.c:228
-=======
 msgstr "Папярэджанне: даччын працэс завяршыўся па сігналу %u\n"
 
 #: src/utils/pasuspender.c:228
 #, fuzzy, c-format
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 #| msgid ""
 #| "%s [options] ... \n"
 #| "\n"
@@ -4409,14 +3321,6 @@ msgstr "Папярэджанне: даччын працэс завяршыўся
 #| "  -s, --server=SERVER                   The name of the server to connect "
 #| "to\n"
 #| "\n"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgid "%s [options] -- PROGRAM [ARGUMENTS ...]\n\n"
-"Temporarily suspend PulseAudio while PROGRAM runs.\n\n"
-"  -h, --help                            Show this help\n"
-"      --version                         Show version\n"
-"  -s, --server=SERVER                   The name of the server to connect to\n\n"
-msgstr ""
-=======
 msgid ""
 "%s [options] -- PROGRAM [ARGUMENTS ...]\n"
 "\n"
@@ -4434,7 +3338,6 @@ msgstr ""
 "      --version                         Паказаць версію.\n"
 "  -s, --server=СЕРВЕР                   Назва сервера для злучэння.\n"
 "\n"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pasuspender.c:267
 #, c-format
@@ -4443,39 +3346,24 @@ msgid ""
 "Compiled with libpulse %s\n"
 "Linked with libpulse %s\n"
 msgstr ""
-<<<<<<< HEAD:be/sources/pulseaudio.po
-=======
 "pasuspender %s\n"
 "Скампілявана з libpulse %s\n"
 "Звязана з libpulse %s\n"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pasuspender.c:296
 #, c-format
 msgid "pa_mainloop_new() failed.\n"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "pa_mainloop_new() пацярпела няўдачу.\n"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pasuspender.c:309
 #, c-format
 msgid "pa_context_new() failed.\n"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "pa_context_new() пацярпела няўдачу.\n"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pasuspender.c:321
 #, c-format
 msgid "pa_mainloop_run() failed.\n"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "pa_mainloop_run() пацярпела няўдачу.\n"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pax11publish.c:58
 #, c-format
@@ -4488,8 +3376,6 @@ msgid ""
 "variables and cookie file.\n"
 " -r    Remove PulseAudio data from X11 display\n"
 msgstr ""
-<<<<<<< HEAD:be/sources/pulseaudio.po
-=======
 "%s [-D дысплей] [-S сервер] [-O прыёмнік] [-I крыніца] [-c файл] [-d|-e|-i|-"
 "r]\n"
 "\n"
@@ -4499,85 +3385,56 @@ msgstr ""
 " -i    Імпартаваць дадзеныя PulseAudio з X11-дысплея ў лакальныя зменныя "
 "асяроддзя.\n"
 " -r    Выдаліць дадзеныя PulseAudio з X11-дысплея\n"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pax11publish.c:91
 #, c-format
 msgid "Failed to parse command line.\n"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "Не атрымалася разабраць камандны радок.\n"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pax11publish.c:110
 #, c-format
 msgid "Server: %s\n"
-msgstr ""
+msgstr "Сервер: %s\n"
 
 #: src/utils/pax11publish.c:112
 #, c-format
 msgid "Source: %s\n"
-msgstr ""
+msgstr "Крыніца: %s\n"
 
 #: src/utils/pax11publish.c:114
 #, c-format
 msgid "Sink: %s\n"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "Прыёмнік: %s\n"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pax11publish.c:116
 #, c-format
 msgid "Cookie: %s\n"
-msgstr ""
+msgstr "Cookie: %s\n"
 
 #: src/utils/pax11publish.c:134
 #, c-format
 msgid "Failed to parse cookie data\n"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "Не атрымалася разабраць дадзеныя cookie\n"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pax11publish.c:139
 #, c-format
 msgid "Failed to save cookie data\n"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "Не атрымалася захаваць дадзеныя cookie\n"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pax11publish.c:168
 #, c-format
 msgid "Failed to get FQDN.\n"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "Не атрымалася атрымаць поўнае даменнае імя (FQDN).\n"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pax11publish.c:188
 #, c-format
 msgid "Failed to load cookie data\n"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "Не атрымалася загрузіць дадзеныя cookie\n"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #: src/utils/pax11publish.c:206
 #, c-format
 msgid "Not yet implemented.\n"
-<<<<<<< HEAD:be/sources/pulseaudio.po
-msgstr ""
-=======
 msgstr "Не рэалізованы.\n"
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po
 
 #~ msgid "Failed to initialize daemon."
 #~ msgstr "Не атрымалася ініцыялізаваць фонавы сэрвіс."
@@ -4611,7 +3468,3 @@ msgstr "Не рэалізованы.\n"
 #~ "аб гэтым распрацоўнікам ALSA.\n"
 #~ "Мы прачнуліся з устаноўленым POLLIN, аднак наступны выклік "
 #~ "snd_pcm_avail() вярнуў 0 або іншае значэнне, меншае за min_avail."
-<<<<<<< HEAD:be/sources/pulseaudio.po
-
-=======
->>>>>>> master:sources/pulseaudio/PulseAudio.master.be.po

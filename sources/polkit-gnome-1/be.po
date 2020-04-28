@@ -1,5 +1,5 @@
 # Belarusian translation for polkit.
-# Copyright (C) 2019 polkit's COPYRIGHT HOLDER
+# Copyright (C) 2020 polkit's COPYRIGHT HOLDER
 # This file is distributed under the same license as the polkit package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: polkit master\n"
 "Report-Msgid-Bugs-To: https://gitlab.freedesktop.org/polkit/polkit/issues\n"
-"POT-Creation-Date: 2019-09-20 03:29+0000\n"
-"PO-Revision-Date: 2019-09-20 03:29+0000\n"
+"POT-Creation-Date: 2020-04-28 15:34+0000\n"
+"PO-Revision-Date: 2020-04-28 15:34+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Belarusian <i18n-bel-gnome@googlegroups.com>\n"
 "Language: be\n"
