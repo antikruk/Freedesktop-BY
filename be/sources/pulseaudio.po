@@ -1,18 +1,18 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: freedesktop-by\n"
+"Project-Id-Version: 62373625822c7a3ac99a3ebd451752a1\n"
 "Report-Msgid-Bugs-To: https://gitlab.freedesktop.org/pulseaudio/pulseaudio/issues\n"
-"POT-Creation-Date: 2019-09-17 15:42+0000\n"
-"PO-Revision-Date: 2019-10-03 05:59\n"
-"Last-Translator: Zmicer Turok (zmicer)\n"
+"POT-Creation-Date: 2020-04-23 15:33+0000\n"
+"PO-Revision-Date: 2020-04-28 19:59\n"
+"Last-Translator: Viktar Vaŭčkievič <victorenator@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || n%10>=5 && n%10<=9 || n%100>=11 && n%100<=14 ? 2 : 3);\n"
-"X-Generator: crowdin.com\n"
-"X-Crowdin-Project: freedesktop-by\n"
+"X-Generator: Lokalize 2.0\n"
+"X-Crowdin-Project: 62373625822c7a3ac99a3ebd451752a1\n"
 "X-Crowdin-Language: be\n"
 "X-Crowdin-File: /master/sources/pulseaudio/PulseAudio.master.be.po\n"
 
@@ -284,76 +284,76 @@ msgstr "--disable-shm чакае лагічны аргумент"
 msgid "--enable-memfd expects boolean argument"
 msgstr "--enable-memfd чакае лагічны аргумент"
 
-#: src/daemon/daemon-conf.c:268
+#: src/daemon/daemon-conf.c:270
 #, c-format
 msgid "[%s:%u] Invalid log target '%s'."
 msgstr "[%s:%u] Хібны журнал \"%s\"."
 
-#: src/daemon/daemon-conf.c:283
+#: src/daemon/daemon-conf.c:285
 #, c-format
 msgid "[%s:%u] Invalid log level '%s'."
 msgstr "[%s:%u] Хібны ўзровень інфарматыўнасці \"%s\"."
 
-#: src/daemon/daemon-conf.c:298
+#: src/daemon/daemon-conf.c:300
 #, c-format
 msgid "[%s:%u] Invalid resample method '%s'."
 msgstr "[%s:%u] Хібны метад перадыскрэтызацыі \"%s\"."
 
-#: src/daemon/daemon-conf.c:320
+#: src/daemon/daemon-conf.c:322
 #, c-format
 msgid "[%s:%u] Invalid rlimit '%s'."
 msgstr "[%s:%u] Хібны rlimit \"%s\"."
 
-#: src/daemon/daemon-conf.c:340
+#: src/daemon/daemon-conf.c:342
 #, c-format
 msgid "[%s:%u] Invalid sample format '%s'."
 msgstr "[%s:%u] Хібны фармат дыскрэтызацыі \"%s\"."
 
-#: src/daemon/daemon-conf.c:357 src/daemon/daemon-conf.c:374
+#: src/daemon/daemon-conf.c:359 src/daemon/daemon-conf.c:376
 #, c-format
 msgid "[%s:%u] Invalid sample rate '%s'."
 msgstr "[%s:%u] Хібная чашчыня дыскрэтызацыі \"%s\"."
 
-#: src/daemon/daemon-conf.c:397
+#: src/daemon/daemon-conf.c:399
 #, c-format
 msgid "[%s:%u] Invalid sample channels '%s'."
 msgstr "[%s:%u] Хібная колькасць каналаў \"%s\"."
 
-#: src/daemon/daemon-conf.c:414
+#: src/daemon/daemon-conf.c:416
 #, c-format
 msgid "[%s:%u] Invalid channel map '%s'."
 msgstr "[%s:%u] Хібная схема каналаў \"%s\"."
 
-#: src/daemon/daemon-conf.c:431
+#: src/daemon/daemon-conf.c:433
 #, c-format
 msgid "[%s:%u] Invalid number of fragments '%s'."
 msgstr "[%s:%u] Хібная колькасць фрагментаў \"%s\"."
 
-#: src/daemon/daemon-conf.c:448
+#: src/daemon/daemon-conf.c:450
 #, c-format
 msgid "[%s:%u] Invalid fragment size '%s'."
 msgstr "[%s:%u] Хібная даўжыня фрагмента \"%s\"."
 
-#: src/daemon/daemon-conf.c:465
+#: src/daemon/daemon-conf.c:467
 #, c-format
 msgid "[%s:%u] Invalid nice level '%s'."
 msgstr "[%s:%u] Хібны ўзровень прыярытэту (nice) \"%s\"."
 
-#: src/daemon/daemon-conf.c:508
+#: src/daemon/daemon-conf.c:552
 #, c-format
 msgid "[%s:%u] Invalid server type '%s'."
 msgstr "[%s:%u] Хібны тып сервера \"%s\"."
 
-#: src/daemon/daemon-conf.c:626
+#: src/daemon/daemon-conf.c:673
 #, c-format
 msgid "Failed to open configuration file: %s"
 msgstr "Не атрымалася адкрыць файл канфігурацыі: %s"
 
-#: src/daemon/daemon-conf.c:642
+#: src/daemon/daemon-conf.c:689
 msgid "The specified default channel map has a different number of channels than the specified default number of channels."
 msgstr "У прадвызначанай схеме каналаў колькасць каналаў не супадае з прадвызначанай колькасцюканалаў."
 
-#: src/daemon/daemon-conf.c:729
+#: src/daemon/daemon-conf.c:776
 #, c-format
 msgid "### Read from configuration file: %s ###\n"
 msgstr "### Прачытана з файла канфігурацыі: %s ###\n"
@@ -561,17 +561,17 @@ msgstr "pa_pid_file_create() схібіў."
 msgid "pa_core_new() failed."
 msgstr "pa_core_new() схібіў."
 
-#: src/daemon/main.c:1108
+#: src/daemon/main.c:1110
 #| msgid "Too many arguments."
 msgid "command line arguments"
 msgstr "аргументы загаднага радка"
 
-#: src/daemon/main.c:1115
+#: src/daemon/main.c:1117
 #, c-format
 msgid "Failed to initialize daemon due to errors while executing startup commands. Source of commands: %s"
 msgstr "Не атрымалася запусціць дэман праз узнікшыя падчас выканання загадаў запуску памылкі. Крыніца загадаў: %s"
 
-#: src/daemon/main.c:1120
+#: src/daemon/main.c:1122
 msgid "Daemon startup without any loaded modules, refusing to work."
 msgstr "Запуск дэмана без загружаных модуляў, адмова ад працы."
 
@@ -583,168 +583,168 @@ msgstr "Гукавая сістэма PulseAudio"
 msgid "Start the PulseAudio Sound System"
 msgstr "Запуск гукавой сістэмы PulseAudio"
 
-#: src/modules/alsa/alsa-mixer.c:2443
+#: src/modules/alsa/alsa-mixer.c:2544
 msgid "Input"
 msgstr "Уваход"
 
-#: src/modules/alsa/alsa-mixer.c:2444
+#: src/modules/alsa/alsa-mixer.c:2545
 msgid "Docking Station Input"
 msgstr "Уваход док-станцыі"
 
-#: src/modules/alsa/alsa-mixer.c:2445
+#: src/modules/alsa/alsa-mixer.c:2546
 msgid "Docking Station Microphone"
 msgstr "Мікрафон док-станцыі"
 
-#: src/modules/alsa/alsa-mixer.c:2446
+#: src/modules/alsa/alsa-mixer.c:2547
 msgid "Docking Station Line In"
 msgstr "Лінейны ўваход док-станцыі"
 
-#: src/modules/alsa/alsa-mixer.c:2447 src/modules/alsa/alsa-mixer.c:2532
+#: src/modules/alsa/alsa-mixer.c:2548 src/modules/alsa/alsa-mixer.c:2639
 msgid "Line In"
 msgstr "Лінейны ўваход"
 
-#: src/modules/alsa/alsa-mixer.c:2448 src/modules/alsa/alsa-mixer.c:2526
-#: src/modules/bluetooth/module-bluez5-device.c:1757
+#: src/modules/alsa/alsa-mixer.c:2549 src/modules/alsa/alsa-mixer.c:2633
+#: src/modules/bluetooth/module-bluez5-device.c:1788
 msgid "Microphone"
 msgstr "Мікрафон"
 
-#: src/modules/alsa/alsa-mixer.c:2449 src/modules/alsa/alsa-mixer.c:2527
+#: src/modules/alsa/alsa-mixer.c:2550 src/modules/alsa/alsa-mixer.c:2634
 msgid "Front Microphone"
 msgstr "Пярэдні мікрафон"
 
-#: src/modules/alsa/alsa-mixer.c:2450 src/modules/alsa/alsa-mixer.c:2528
+#: src/modules/alsa/alsa-mixer.c:2551 src/modules/alsa/alsa-mixer.c:2635
 msgid "Rear Microphone"
 msgstr "Задні мікрафон"
 
-#: src/modules/alsa/alsa-mixer.c:2451
+#: src/modules/alsa/alsa-mixer.c:2552
 msgid "External Microphone"
 msgstr "Знешні мікрафон"
 
-#: src/modules/alsa/alsa-mixer.c:2452 src/modules/alsa/alsa-mixer.c:2530
+#: src/modules/alsa/alsa-mixer.c:2553 src/modules/alsa/alsa-mixer.c:2637
 msgid "Internal Microphone"
 msgstr "Убудаваны мікрафон"
 
-#: src/modules/alsa/alsa-mixer.c:2453 src/modules/alsa/alsa-mixer.c:2533
+#: src/modules/alsa/alsa-mixer.c:2554 src/modules/alsa/alsa-mixer.c:2640
 msgid "Radio"
 msgstr "Радыё"
 
-#: src/modules/alsa/alsa-mixer.c:2454 src/modules/alsa/alsa-mixer.c:2534
+#: src/modules/alsa/alsa-mixer.c:2555 src/modules/alsa/alsa-mixer.c:2641
 msgid "Video"
 msgstr "Відэа"
 
-#: src/modules/alsa/alsa-mixer.c:2455
+#: src/modules/alsa/alsa-mixer.c:2556
 msgid "Automatic Gain Control"
 msgstr "Аўтаматычнае рэгуляванне ўзмацнення"
 
-#: src/modules/alsa/alsa-mixer.c:2456
+#: src/modules/alsa/alsa-mixer.c:2557
 msgid "No Automatic Gain Control"
 msgstr "Без аўтаматычнага рэгулявання ўзмацнення"
 
-#: src/modules/alsa/alsa-mixer.c:2457
+#: src/modules/alsa/alsa-mixer.c:2558
 msgid "Boost"
 msgstr "Узмацненне"
 
-#: src/modules/alsa/alsa-mixer.c:2458
+#: src/modules/alsa/alsa-mixer.c:2559
 msgid "No Boost"
 msgstr "Без узмацнення"
 
-#: src/modules/alsa/alsa-mixer.c:2459
+#: src/modules/alsa/alsa-mixer.c:2560
 msgid "Amplifier"
 msgstr "Узмацняльнік"
 
-#: src/modules/alsa/alsa-mixer.c:2460
+#: src/modules/alsa/alsa-mixer.c:2561
 msgid "No Amplifier"
 msgstr "Без узмацняльніка"
 
-#: src/modules/alsa/alsa-mixer.c:2461
+#: src/modules/alsa/alsa-mixer.c:2562
 msgid "Bass Boost"
 msgstr "Узмацненне басоў"
 
-#: src/modules/alsa/alsa-mixer.c:2462
+#: src/modules/alsa/alsa-mixer.c:2563
 msgid "No Bass Boost"
 msgstr "Без узмацнення басоў"
 
-#: src/modules/alsa/alsa-mixer.c:2463
-#: src/modules/bluetooth/module-bluez5-device.c:1764
+#: src/modules/alsa/alsa-mixer.c:2564
+#: src/modules/bluetooth/module-bluez5-device.c:1795
 msgid "Speaker"
 msgstr "Дынамік"
 
-#: src/modules/alsa/alsa-mixer.c:2464 src/modules/alsa/alsa-mixer.c:2536
+#: src/modules/alsa/alsa-mixer.c:2565 src/modules/alsa/alsa-mixer.c:2643
 msgid "Headphones"
 msgstr "Навушнікі"
 
-#: src/modules/alsa/alsa-mixer.c:2525
+#: src/modules/alsa/alsa-mixer.c:2632
 msgid "Analog Input"
 msgstr "Аналагавы ўваход"
 
-#: src/modules/alsa/alsa-mixer.c:2529
+#: src/modules/alsa/alsa-mixer.c:2636
 msgid "Dock Microphone"
 msgstr "Мікрафон док-станцыі"
 
-#: src/modules/alsa/alsa-mixer.c:2531
+#: src/modules/alsa/alsa-mixer.c:2638
 msgid "Headset Microphone"
 msgstr "Мікрафон навушнікаў"
 
-#: src/modules/alsa/alsa-mixer.c:2535
+#: src/modules/alsa/alsa-mixer.c:2642
 msgid "Analog Output"
 msgstr "Аналагавы выхад"
 
-#: src/modules/alsa/alsa-mixer.c:2537
+#: src/modules/alsa/alsa-mixer.c:2644
 #| msgid "Analog Mono Output"
 msgid "Headphones Mono Output"
 msgstr "Монавыхад навушнікаў"
 
-#: src/modules/alsa/alsa-mixer.c:2538
+#: src/modules/alsa/alsa-mixer.c:2645
 msgid "LFE on Separate Mono Output"
 msgstr "Аналагавы выхад нізкіх чашчынь"
 
-#: src/modules/alsa/alsa-mixer.c:2539
+#: src/modules/alsa/alsa-mixer.c:2646
 msgid "Line Out"
 msgstr "Лінейны выхад"
 
-#: src/modules/alsa/alsa-mixer.c:2540
+#: src/modules/alsa/alsa-mixer.c:2647
 msgid "Analog Mono Output"
 msgstr "Аналагавы монавыхад"
 
-#: src/modules/alsa/alsa-mixer.c:2541
+#: src/modules/alsa/alsa-mixer.c:2648
 msgid "Speakers"
 msgstr "Дынамікі"
 
-#: src/modules/alsa/alsa-mixer.c:2542
+#: src/modules/alsa/alsa-mixer.c:2649
 msgid "HDMI / DisplayPort"
-msgstr "HDMI / DisplayPort"
+msgstr ""
 
-#: src/modules/alsa/alsa-mixer.c:2543
+#: src/modules/alsa/alsa-mixer.c:2650
 msgid "Digital Output (S/PDIF)"
 msgstr "Лічбавы выхад (S/PDIF)"
 
-#: src/modules/alsa/alsa-mixer.c:2544
+#: src/modules/alsa/alsa-mixer.c:2651
 msgid "Digital Input (S/PDIF)"
 msgstr "Лічбавы ўваход (S/PDIF)"
 
-#: src/modules/alsa/alsa-mixer.c:2545
+#: src/modules/alsa/alsa-mixer.c:2652
 msgid "Digital Passthrough (S/PDIF)"
 msgstr "Лічбавы скразны (S/PDIF)"
 
-#: src/modules/alsa/alsa-mixer.c:2546
+#: src/modules/alsa/alsa-mixer.c:2653
 msgid "Multichannel Input"
 msgstr "Шматканальны ўваход"
 
-#: src/modules/alsa/alsa-mixer.c:2547
+#: src/modules/alsa/alsa-mixer.c:2654
 msgid "Multichannel Output"
 msgstr "Шматканальны выхад"
 
-#: src/modules/alsa/alsa-mixer.c:2548
+#: src/modules/alsa/alsa-mixer.c:2655
 #| msgid "%s Output"
 msgid "Game Output"
 msgstr "Гульянявы выхад"
 
-#: src/modules/alsa/alsa-mixer.c:2549
+#: src/modules/alsa/alsa-mixer.c:2656
 #| msgid "%s Output"
 msgid "Chat Output"
 msgstr "Размоўны выхад"
 
-#: src/modules/alsa/alsa-mixer.c:4063
+#: src/modules/alsa/alsa-mixer.c:4225
 msgid "Analog Mono"
 msgstr "Аналагавы мона"
 
@@ -753,134 +753,134 @@ msgstr "Аналагавы мона"
 #. * here would lead to the source name to become "Analog Stereo Input
 #. * Input". The same logic applies to analog-stereo-output,
 #. * multichannel-input and multichannel-output.
-#: src/modules/alsa/alsa-mixer.c:4064 src/modules/alsa/alsa-mixer.c:4072
-#: src/modules/alsa/alsa-mixer.c:4073
+#: src/modules/alsa/alsa-mixer.c:4226 src/modules/alsa/alsa-mixer.c:4234
+#: src/modules/alsa/alsa-mixer.c:4235
 msgid "Analog Stereo"
 msgstr "Аналагавы стэрэа"
 
-#: src/modules/alsa/alsa-mixer.c:4065 src/pulse/channelmap.c:103
+#: src/modules/alsa/alsa-mixer.c:4227 src/pulse/channelmap.c:103
 #: src/pulse/channelmap.c:771
 msgid "Mono"
 msgstr "Мона"
 
-#: src/modules/alsa/alsa-mixer.c:4066 src/pulse/channelmap.c:775
+#: src/modules/alsa/alsa-mixer.c:4228 src/pulse/channelmap.c:775
 msgid "Stereo"
 msgstr "Стэрэа"
 
-#: src/modules/alsa/alsa-mixer.c:4074 src/modules/alsa/alsa-mixer.c:4075
+#: src/modules/alsa/alsa-mixer.c:4236 src/modules/alsa/alsa-mixer.c:4237
 msgid "Multichannel"
 msgstr "Шматканальны"
 
-#: src/modules/alsa/alsa-mixer.c:4076
+#: src/modules/alsa/alsa-mixer.c:4238
 msgid "Analog Surround 2.1"
 msgstr "Аналагавы абʼёмны 2.1"
 
-#: src/modules/alsa/alsa-mixer.c:4077
+#: src/modules/alsa/alsa-mixer.c:4239
 msgid "Analog Surround 3.0"
 msgstr "Аналагавы абʼёмны 3.0"
 
-#: src/modules/alsa/alsa-mixer.c:4078
+#: src/modules/alsa/alsa-mixer.c:4240
 msgid "Analog Surround 3.1"
 msgstr "Аналагавы абʼёмны 3.1"
 
-#: src/modules/alsa/alsa-mixer.c:4079
+#: src/modules/alsa/alsa-mixer.c:4241
 msgid "Analog Surround 4.0"
 msgstr "Аналагавы абʼёмны 4.0"
 
-#: src/modules/alsa/alsa-mixer.c:4080
+#: src/modules/alsa/alsa-mixer.c:4242
 msgid "Analog Surround 4.1"
 msgstr "Аналагавы абʼёмны 4.1"
 
-#: src/modules/alsa/alsa-mixer.c:4081
+#: src/modules/alsa/alsa-mixer.c:4243
 msgid "Analog Surround 5.0"
 msgstr "Аналагавы абʼёмны 5.0"
 
-#: src/modules/alsa/alsa-mixer.c:4082
+#: src/modules/alsa/alsa-mixer.c:4244
 msgid "Analog Surround 5.1"
 msgstr "Аналагавы абʼёмны 5.1"
 
-#: src/modules/alsa/alsa-mixer.c:4083
+#: src/modules/alsa/alsa-mixer.c:4245
 msgid "Analog Surround 6.0"
 msgstr "Аналагавы абʼёмны 6.0"
 
-#: src/modules/alsa/alsa-mixer.c:4084
+#: src/modules/alsa/alsa-mixer.c:4246
 msgid "Analog Surround 6.1"
 msgstr "Аналагавы абʼёмны 6.1"
 
-#: src/modules/alsa/alsa-mixer.c:4085
+#: src/modules/alsa/alsa-mixer.c:4247
 msgid "Analog Surround 7.0"
 msgstr "Аналагавы абʼёмны 7.0"
 
-#: src/modules/alsa/alsa-mixer.c:4086
+#: src/modules/alsa/alsa-mixer.c:4248
 msgid "Analog Surround 7.1"
 msgstr "Аналагавы абʼёмны 7.1"
 
-#: src/modules/alsa/alsa-mixer.c:4087
+#: src/modules/alsa/alsa-mixer.c:4249
 msgid "Digital Stereo (IEC958)"
 msgstr "Лічбавы стэрэа (IEC958)"
 
-#: src/modules/alsa/alsa-mixer.c:4088
+#: src/modules/alsa/alsa-mixer.c:4250
 #| msgid "Digital Passthrough  (IEC958)"
 msgid "Digital Passthrough (IEC958)"
 msgstr "Лічбавы скразны (IEC958)"
 
-#: src/modules/alsa/alsa-mixer.c:4089
+#: src/modules/alsa/alsa-mixer.c:4251
 msgid "Digital Surround 4.0 (IEC958/AC3)"
 msgstr "Лічбавы абʼёмны 4.0 (IEC958/AC3)"
 
-#: src/modules/alsa/alsa-mixer.c:4090
+#: src/modules/alsa/alsa-mixer.c:4252
 msgid "Digital Surround 5.1 (IEC958/AC3)"
 msgstr "Лічбавы абʼёмны 5.1 (IEC958/AC3)"
 
-#: src/modules/alsa/alsa-mixer.c:4091
+#: src/modules/alsa/alsa-mixer.c:4253
 msgid "Digital Surround 5.1 (IEC958/DTS)"
 msgstr "Лічбавы абʼёмны 5.1 (IEC958/DTS)"
 
-#: src/modules/alsa/alsa-mixer.c:4092
+#: src/modules/alsa/alsa-mixer.c:4254
 msgid "Digital Stereo (HDMI)"
 msgstr "Лічбавы стэрэа (HDMI)"
 
-#: src/modules/alsa/alsa-mixer.c:4093
+#: src/modules/alsa/alsa-mixer.c:4255
 msgid "Digital Surround 5.1 (HDMI)"
 msgstr "Лічбавы абʼёмны 5.1 (HDMI)"
 
-#: src/modules/alsa/alsa-mixer.c:4226
+#: src/modules/alsa/alsa-mixer.c:4388
 msgid "Analog Mono Duplex"
 msgstr "Аналагавы мона дуплекс"
 
-#: src/modules/alsa/alsa-mixer.c:4227
+#: src/modules/alsa/alsa-mixer.c:4389
 msgid "Analog Stereo Duplex"
 msgstr "Аналагавы стэрэа дуплекс"
 
-#: src/modules/alsa/alsa-mixer.c:4228
+#: src/modules/alsa/alsa-mixer.c:4390
 msgid "Digital Stereo Duplex (IEC958)"
 msgstr "Лічбавы стэрэа дуплекс (IEC958)"
 
-#: src/modules/alsa/alsa-mixer.c:4229
+#: src/modules/alsa/alsa-mixer.c:4391
 msgid "Multichannel Duplex"
 msgstr "Шматканальны дуплекс"
 
-#: src/modules/alsa/alsa-mixer.c:4230
+#: src/modules/alsa/alsa-mixer.c:4392
 #| msgid "Analog Stereo Duplex"
 msgid "Stereo Duplex"
 msgstr "Стэрэа дуплекс"
 
-#: src/modules/alsa/alsa-mixer.c:4231 src/modules/alsa/module-alsa-card.c:189
-#: src/modules/bluetooth/module-bluez5-device.c:2012
+#: src/modules/alsa/alsa-mixer.c:4393 src/modules/alsa/module-alsa-card.c:188
+#: src/modules/bluetooth/module-bluez5-device.c:2043
 msgid "Off"
 msgstr "Выключана"
 
-#: src/modules/alsa/alsa-mixer.c:4330
+#: src/modules/alsa/alsa-mixer.c:4492
 #, c-format
 msgid "%s Output"
 msgstr "%s выхад"
 
-#: src/modules/alsa/alsa-mixer.c:4338
+#: src/modules/alsa/alsa-mixer.c:4500
 #, c-format
 msgid "%s Input"
 msgstr "%s уваход"
 
-#: src/modules/alsa/alsa-sink.c:651 src/modules/alsa/alsa-sink.c:841
+#: src/modules/alsa/alsa-sink.c:652 src/modules/alsa/alsa-sink.c:842
 #, c-format
 msgid "ALSA woke us up to write new data to the device, but there was actually nothing to write.\n"
 "Most likely this is a bug in the ALSA driver '%s'. Please report this issue to the ALSA developers.\n"
@@ -889,7 +889,7 @@ msgstr "ALSA паведаміла пра магчымасць запісаць �
 "Хутчэй за ўсё, гэта памылка ў ALSA-драйверы \"%s\". Калі ласка, паведаміце пра гэта распрацоўшчыкам ALSA.\n"
 "Працэс абуджаны з вызначаным POLLOUT, аднак наступны выклік snd_pcm_avail() вярнуў 0 або іншае значэнне, меншае за min_avail."
 
-#: src/modules/alsa/alsa-source.c:610 src/modules/alsa/alsa-source.c:776
+#: src/modules/alsa/alsa-source.c:611 src/modules/alsa/alsa-source.c:777
 #, c-format
 msgid "ALSA woke us up to read new data from the device, but there was actually nothing to read.\n"
 "Most likely this is a bug in the ALSA driver '%s'. Please report this issue to the ALSA developers.\n"
@@ -898,7 +898,7 @@ msgstr "ALSA паведаміла пра магчымасць прачытаць
 "Хутчэй за ўсё, гэта памылка ў драйверы ALSA \"%s\". Калі ласка, паведаміце прагэта распрацоўшчыкам ALSA.\n"
 "Працэс абуджаны з вызначаным POLLIN, аднак наступны выклік snd_pcm_avail() вярнуў 0 або іншае значэнне, меншае за min_avail."
 
-#: src/modules/alsa/alsa-util.c:1173 src/modules/alsa/alsa-util.c:1267
+#: src/modules/alsa/alsa-util.c:1183 src/modules/alsa/alsa-util.c:1277
 #| msgid ""
 #| "snd_pcm_avail() returned a value that is exceptionally large: %lu bytes "
 #| "(%lu ms).\n"
@@ -917,7 +917,7 @@ msgstr[2] "snd_pcm_avail() вярнуў выключна вялікае знач
 msgstr[3] "snd_pcm_avail() вярнуў выключна вялікае значэнне: %lu байтаў (%lu мс).\n"
 "Хутчэй за ўсё, гэта памылка ў драйверы ALSA \"%s\". Калі ласка, паведаміце пра гэта распрацоўшчыкам ALSA."
 
-#: src/modules/alsa/alsa-util.c:1239
+#: src/modules/alsa/alsa-util.c:1249
 #| msgid ""
 #| "snd_pcm_delay() returned a value that is exceptionally large: %li bytes "
 #| "(%s%lu ms).\n"
@@ -936,14 +936,14 @@ msgstr[2] "snd_pcm_delay() вярнуў выключна вялікае знач
 msgstr[3] "snd_pcm_delay() вярнуў выключна вялікае значэнне: %li байтаў (%s%lu мс).\n"
 "Хутчэй за ўсё, гэта памылка ў драйверы ALSA \"%s\". Калі ласка, паведаміце пра гэта распрацоўшчыкам ALSA."
 
-#: src/modules/alsa/alsa-util.c:1286
+#: src/modules/alsa/alsa-util.c:1296
 #, c-format
 msgid "snd_pcm_avail_delay() returned strange values: delay %lu is less than avail %lu.\n"
 "Most likely this is a bug in the ALSA driver '%s'. Please report this issue to the ALSA developers."
 msgstr "snd_pcm_avail_delay() вярнуў дзіўнае значэнне: затрымка %lu меншая за даступную %lu.\n"
 "Хутчэй за ўсё, гэта памылка ў ALSA-драйверы \"%s\". Калі ласка, паведаміце пра гэта распрацоўшчыкам ALSA."
 
-#: src/modules/alsa/alsa-util.c:1329
+#: src/modules/alsa/alsa-util.c:1339
 #| msgid ""
 #| "snd_pcm_mmap_begin() returned a value that is exceptionally large: %lu "
 #| "bytes (%lu ms).\n"
@@ -962,60 +962,60 @@ msgstr[2] "snd_pcm_mmap_begin() вярнуў выключна вялікае з�
 msgstr[3] "snd_pcm_mmap_begin() вярнуў выключна вялікае значэнне: %lu байтаў (%lu мс).\n"
 "Хутчэй за ўсё, гэта памылка ў драйверы ALSA \"%s\". Калі ласка, паведаміце пра гэта распрацоўшчыкам ALSA."
 
-#: src/modules/bluetooth/module-bluez5-device.c:1741
-#: src/modules/bluetooth/module-bluez5-device.c:1763
-#: src/modules/bluetooth/module-bluez5-device.c:1769
-#: src/modules/bluetooth/module-bluez5-device.c:1795
+#: src/modules/bluetooth/module-bluez5-device.c:1772
+#: src/modules/bluetooth/module-bluez5-device.c:1794
+#: src/modules/bluetooth/module-bluez5-device.c:1800
+#: src/modules/bluetooth/module-bluez5-device.c:1826
 msgid "Bluetooth Input"
 msgstr "Уваход Bluetooth"
 
-#: src/modules/bluetooth/module-bluez5-device.c:1742
-#: src/modules/bluetooth/module-bluez5-device.c:1758
-#: src/modules/bluetooth/module-bluez5-device.c:1796
+#: src/modules/bluetooth/module-bluez5-device.c:1773
+#: src/modules/bluetooth/module-bluez5-device.c:1789
+#: src/modules/bluetooth/module-bluez5-device.c:1827
 msgid "Bluetooth Output"
 msgstr "Выхад Bluetooth"
 
-#: src/modules/bluetooth/module-bluez5-device.c:1747
+#: src/modules/bluetooth/module-bluez5-device.c:1778
 msgid "Headset"
 msgstr "Гарнітура"
 
-#: src/modules/bluetooth/module-bluez5-device.c:1752
+#: src/modules/bluetooth/module-bluez5-device.c:1783
 msgid "Handsfree"
 msgstr "Хэндс-фры"
 
-#: src/modules/bluetooth/module-bluez5-device.c:1770
+#: src/modules/bluetooth/module-bluez5-device.c:1801
 msgid "Headphone"
 msgstr "Навушнік"
 
-#: src/modules/bluetooth/module-bluez5-device.c:1775
+#: src/modules/bluetooth/module-bluez5-device.c:1806
 msgid "Portable"
 msgstr "Партатыўная сістэма"
 
-#: src/modules/bluetooth/module-bluez5-device.c:1780
+#: src/modules/bluetooth/module-bluez5-device.c:1811
 msgid "Car"
 msgstr "Аўтамабільная сістэма"
 
-#: src/modules/bluetooth/module-bluez5-device.c:1785
+#: src/modules/bluetooth/module-bluez5-device.c:1816
 msgid "HiFi"
 msgstr "Hi-Fi"
 
-#: src/modules/bluetooth/module-bluez5-device.c:1790
+#: src/modules/bluetooth/module-bluez5-device.c:1821
 msgid "Phone"
 msgstr "Тэлефон"
 
-#: src/modules/bluetooth/module-bluez5-device.c:1837
+#: src/modules/bluetooth/module-bluez5-device.c:1868
 msgid "High Fidelity Playback (A2DP Sink)"
 msgstr "Прайграванне высокай якасці (прымач A2DP)"
 
-#: src/modules/bluetooth/module-bluez5-device.c:1849
+#: src/modules/bluetooth/module-bluez5-device.c:1880
 msgid "High Fidelity Capture (A2DP Source)"
 msgstr "Захоп высокай якасці (крыніца A2DP)"
 
-#: src/modules/bluetooth/module-bluez5-device.c:1861
+#: src/modules/bluetooth/module-bluez5-device.c:1892
 msgid "Headset Head Unit (HSP/HFP)"
 msgstr "Слухаўкі гарнітуры (HSP/HFP)"
 
-#: src/modules/bluetooth/module-bluez5-device.c:1874
+#: src/modules/bluetooth/module-bluez5-device.c:1905
 msgid "Headset Audio Gateway (HSP/HFP)"
 msgstr "Аўдыяшлюз гарнітуры (HSP/HFP)"
 
@@ -1138,7 +1138,7 @@ msgstr "sink_name=<назва прымача> sink_properties=<уласціва�
 msgid "Unknown device model"
 msgstr "Невядомая мадэль прылады"
 
-#: src/modules/raop/raop-sink.c:511
+#: src/modules/raop/raop-sink.c:653
 msgid "RAOP standard profile"
 msgstr "Стандартны профіль ROAP"
 
@@ -1384,17 +1384,17 @@ msgstr "xcb_connection_has_error() вярнуў true"
 msgid "Failed to parse cookie data"
 msgstr "Не атрымалася разабраць даныя cookie"
 
-#: src/pulse/context.c:705
+#: src/pulse/context.c:706
 #, c-format
 msgid "fork(): %s"
-msgstr "fork(): %s"
+msgstr ""
 
-#: src/pulse/context.c:760
+#: src/pulse/context.c:761
 #, c-format
 msgid "waitpid(): %s"
-msgstr "waitpid(): %s"
+msgstr ""
 
-#: src/pulse/context.c:1466
+#: src/pulse/context.c:1467
 #, c-format
 msgid "Received message for unknown extension '%s'"
 msgstr "Атрымана паведамленне для невядомага пашырэння \"%s\""
@@ -1415,7 +1415,7 @@ msgstr "двухнапрамкавы"
 msgid "invalid"
 msgstr "хібны"
 
-#: src/pulsecore/core-util.c:1692
+#: src/pulsecore/core-util.c:1712
 #| msgid ""
 #| "XDG_RUNTIME_DIR (%s) is not owned by us (uid %d), but by uid %d! (This "
 #| "could e g happen if you try to connect to a non-root PulseAudio as a root "
@@ -1449,11 +1449,11 @@ msgstr "Не атрымалася адкрыць файлы журнала \"%s\
 msgid "Invalid log target."
 msgstr "Хібны журнал."
 
-#: src/pulsecore/sink.c:3516
+#: src/pulsecore/sink.c:3524
 msgid "Built-in Audio"
 msgstr "Убудаванае аўдыё"
 
-#: src/pulsecore/sink.c:3521
+#: src/pulsecore/sink.c:3529
 msgid "Modem"
 msgstr "Мадэм"
 
@@ -1606,7 +1606,7 @@ msgstr "Закрыццё злучэння з серверам."
 #: src/utils/pacat.c:163
 #, c-format
 msgid "pa_stream_drain(): %s"
-msgstr "pa_stream_drain(): %s"
+msgstr ""
 
 #: src/utils/pacat.c:194 src/utils/pacat.c:543
 #, c-format
@@ -1767,7 +1767,71 @@ msgid "pa_stream_update_timing_info() failed: %s"
 msgstr "pa_stream_update_timing_info() схібіў: %s"
 
 #: src/utils/pacat.c:676
-#, c-format
+#| msgid ""
+#| "%s [options]\n"
+#| "%s\n"
+#| "\n"
+#| "  -h, --help                            Show this help\n"
+#| "      --version                         Show version\n"
+#| "\n"
+#| "  -r, --record                          Create a connection for "
+#| "recording\n"
+#| "  -p, --playback                        Create a connection for playback\n"
+#| "\n"
+#| "  -v, --verbose                         Enable verbose operations\n"
+#| "\n"
+#| "  -s, --server=SERVER                   The name of the server to connect "
+#| "to\n"
+#| "  -d, --device=DEVICE                   The name of the sink/source to "
+#| "connect to\n"
+#| "  -n, --client-name=NAME                How to call this client on the "
+#| "server\n"
+#| "      --stream-name=NAME                How to call this stream on the "
+#| "server\n"
+#| "      --volume=VOLUME                   Specify the initial (linear) "
+#| "volume in range 0...65536\n"
+#| "      --rate=SAMPLERATE                 The sample rate in Hz (defaults "
+#| "to 44100)\n"
+#| "      --format=SAMPLEFORMAT             The sample type, one of s16le, "
+#| "s16be, u8, float32le,\n"
+#| "                                        float32be, ulaw, alaw, s32le, "
+#| "s32be, s24le, s24be,\n"
+#| "                                        s24-32le, s24-32be (defaults to "
+#| "s16ne)\n"
+#| "      --channels=CHANNELS               The number of channels, 1 for "
+#| "mono, 2 for stereo\n"
+#| "                                        (defaults to 2)\n"
+#| "      --channel-map=CHANNELMAP          Channel map to use instead of the "
+#| "default\n"
+#| "      --fix-format                      Take the sample format from the "
+#| "sink/source the stream is\n"
+#| "                                        being connected to.\n"
+#| "      --fix-rate                        Take the sampling rate from the "
+#| "sink/source the stream is\n"
+#| "                                        being connected to.\n"
+#| "      --fix-channels                    Take the number of channels and "
+#| "the channel map\n"
+#| "                                        from the sink/source the stream "
+#| "is being connected to.\n"
+#| "      --no-remix                        Don't upmix or downmix channels.\n"
+#| "      --no-remap                        Map channels by index instead of "
+#| "name.\n"
+#| "      --latency=BYTES                   Request the specified latency in "
+#| "bytes.\n"
+#| "      --process-time=BYTES              Request the specified process "
+#| "time per request in bytes.\n"
+#| "      --latency-msec=MSEC               Request the specified latency in "
+#| "msec.\n"
+#| "      --process-time-msec=MSEC          Request the specified process "
+#| "time per request in msec.\n"
+#| "      --property=PROPERTY=VALUE         Set the specified property to the "
+#| "specified value.\n"
+#| "      --raw                             Record/play raw PCM data.\n"
+#| "      --passthrough                     Passthrough data.\n"
+#| "      --file-format[=FFORMAT]           Record/play formatted PCM data.\n"
+#| "      --list-file-formats               List available file formats.\n"
+#| "      --monitor-stream=INDEX            Record from the sink input with "
+#| "index INDEX.\n"
 msgid "%s [options]\n"
 "%s\n\n"
 "  -h, --help                            Show this help\n"
@@ -1781,9 +1845,9 @@ msgid "%s [options]\n"
 "      --stream-name=NAME                How to call this stream on the server\n"
 "      --volume=VOLUME                   Specify the initial (linear) volume in range 0...65536\n"
 "      --rate=SAMPLERATE                 The sample rate in Hz (defaults to 44100)\n"
-"      --format=SAMPLEFORMAT             The sample type, one of s16le, s16be, u8, float32le,\n"
-"                                        float32be, ulaw, alaw, s32le, s32be, s24le, s24be,\n"
-"                                        s24-32le, s24-32be (defaults to s16ne)\n"
+"      --format=SAMPLEFORMAT             The sample format, see\n"
+"                                        https://www.freedesktop.org/wiki/Software/PulseAudio/Documentation/User/SupportedAudioFormats/\n"
+"                                        for possible values (defaults to s16ne)\n"
 "      --channels=CHANNELS               The number of channels, 1 for mono, 2 for stereo\n"
 "                                        (defaults to 2)\n"
 "      --channel-map=CHANNELMAP          Channel map to use instead of the default\n"
@@ -1805,56 +1869,7 @@ msgid "%s [options]\n"
 "      --file-format[=FFORMAT]           Record/play formatted PCM data.\n"
 "      --list-file-formats               List available file formats.\n"
 "      --monitor-stream=INDEX            Record from the sink input with index INDEX.\n"
-msgstr "%s [параметры]\n"
-"%s\n\n"
-"  -h, --help                            Паказаць гэтую даведку.\n"
-"      --version                         Паказаць версію.\n\n"
-"  -r, --record                          Стварыць злучэнне для запісу.\n"
-"  -p, --playback                        Стварыць злучэнне для прайгравання.\n\n"
-"  -v, --verbose                         Павялічыць узровень інфарматыўнасці.\n\n"
-"  -s, --server=СЕРВЕР                   Назва сервера для злучэння.\n"
-"  -d, --device=ПРЫЛАДА                  Назва прымача/крыніцы для\n"
-"                                        злучэння.\n"
-"  -n, --client-name=НАЗВА               Назва гэтага кліента на серверы.\n"
-"      --stream-name=НАЗВА               Назва гэтага струменя на серверы.\n"
-"      --volume=ГУЧНАСЦЬ                 Пачатковая (лінейная) гучнасць у\n"
-"                                        дыяпазоне 0–65536.\n"
-"--rate=ЧАШЧЫНЯ                    Чашчыня дыскрэтызацыі ў Гц (прадвызначаная\n"
-"                                        44100).\n"
-"--format=ФАРМАТ_ДЫСКРЭТЫЗАЦЫІ           Тып дыскрэтызацыі,  адзін з s16le, s16be,\n"
-"                                        u8, float32le, float32be, ulaw,\n"
-"                                        alaw, s32le, s32be, s24le, s24be,\n"
-"                                        s24-32le, s24-32be (агаданы s16ne)\n"
-"      --channels=КАНАЛЫ                Колькасць каналаў: 1 для мона,\n"
-"                                        2 для стэрэа.\n"
-"                                        (defaults to 2)\n"
-"      --channel-map=СХЕМА_КАНАЛАЎ       Схема каналаў замест прадвызначанай.\n"
-"      --fix-format                      Узяць фармат дыскрэтызацыі з прымача\n"
-"або крыніцы, з якімі злучаны струмень.\n"
-"--fix-rate                        Узяць чашчыню дыскрэтызацыі з прымача\n"
-"або крыніцы, з якімі злучаны струмень.\n"
-"      --fix-channels                    Узяць колькасць і схему каналаў з\n"
-"                                        прымача або крыніцы, з якімі злучаны\n"
-"                                        струмень.\n"
-"      --no-remix                        Не змешваць каналы.\n"
-"      --no-remap                        Сумяшчаць каналы па нумары,\n"
-"                                        а не па назве.\n"
-"      --latency=БАЙТЫ                   Запытаць затрымку ў байтах.\n"
-"      --process-time=БАЙТЫ              Запытаць час апрацоўкі аднаго запыту\n"
-"                                        ў байтах.\n"
-"      --latency-msec=МКС                Запытаць затрымку ў мікрасекундах.\n"
-"      --process-time-msec=МКС           Запытаць час апрацоўкі аднаго запыту\n"
-"                                        ў мікрасекундах.\n"
-"      --property=УЛАСЦІВАСЦЬ=ЗНАЧЭННЕ   Вызначыць значэнне уласцівасці.\n"
-"      --raw                             Запісваць або прайграваць сырыя\n"
-"                                       даныя PCM.\n"
-"      --passthrough                     Перадаваць даныя наскрозь.\n"
-"      --file-format[=ФАРМАТ_ФАЙЛА]      Запісваць або прайграваць\n"
-"                                        фарматаваныя даныя PCM.\n"
-"      --list-file-formats               Паказаць спіс даступных фарматаў\n"
-"                                        файлаў.\n"
-"      --monitor-stream=НУМАР            Запісваць з увахода прымача з\n"
-"                                        вызначаным нумарам.\n"
+msgstr ""
 
 #: src/utils/pacat.c:793
 msgid "Play back encoded audio files on a PulseAudio sound server."
@@ -1927,12 +1942,12 @@ msgstr "Хібнае значэнне дыскрытызацыі"
 #: src/utils/pacat.c:1021
 #, c-format
 msgid "open(): %s"
-msgstr "open(): %s"
+msgstr ""
 
 #: src/utils/pacat.c:1026
 #, c-format
 msgid "dup2(): %s"
-msgstr "dup2(): %s"
+msgstr ""
 
 #: src/utils/pacat.c:1033
 msgid "Too many arguments."
@@ -2071,7 +2086,7 @@ msgstr "НУМАР ПРЫМАЧ|КРЫНІЦА"
 
 #: src/utils/pacmd.c:71 src/utils/pacmd.c:77 src/utils/pacmd.c:78
 msgid "1|0"
-msgstr "1|0"
+msgstr ""
 
 #: src/utils/pacmd.c:72 src/utils/pactl.c:1582
 msgid "CARD PROFILE"
@@ -2124,12 +2139,12 @@ msgstr "Дэман PulseAudio не запушчаны ці ён не працу�
 #: src/utils/pacmd.c:147
 #, c-format
 msgid "socket(PF_UNIX, SOCK_STREAM, 0): %s"
-msgstr "socket(PF_UNIX, SOCK_STREAM, 0): %s"
+msgstr ""
 
 #: src/utils/pacmd.c:164
 #, c-format
 msgid "connect(): %s"
-msgstr "connect(): %s"
+msgstr ""
 
 #: src/utils/pacmd.c:172
 msgid "Failed to kill PulseAudio daemon."
@@ -2142,17 +2157,17 @@ msgstr "Дэман не адказвае."
 #: src/utils/pacmd.c:212 src/utils/pacmd.c:321 src/utils/pacmd.c:339
 #, c-format
 msgid "write(): %s"
-msgstr "write(): %s"
+msgstr ""
 
 #: src/utils/pacmd.c:268
 #, c-format
 msgid "poll(): %s"
-msgstr "poll(): %s"
+msgstr ""
 
 #: src/utils/pacmd.c:279 src/utils/pacmd.c:299
 #, c-format
 msgid "read(): %s"
-msgstr "read(): %s"
+msgstr ""
 
 #: src/utils/pactl.c:164
 #, c-format
@@ -2856,12 +2871,12 @@ msgstr "Вызначаны хібны загад."
 #: src/utils/pasuspender.c:79
 #, c-format
 msgid "fork(): %s\n"
-msgstr "fork(): %s\n"
+msgstr ""
 
 #: src/utils/pasuspender.c:92
 #, c-format
 msgid "execvp(): %s\n"
-msgstr "execvp(): %s\n"
+msgstr ""
 
 #: src/utils/pasuspender.c:111
 #, c-format
@@ -2973,7 +2988,7 @@ msgstr "Прымач: %s\n"
 #: src/utils/pax11publish.c:116
 #, c-format
 msgid "Cookie: %s\n"
-msgstr "Cookie: %s\n"
+msgstr ""
 
 #: src/utils/pax11publish.c:134
 #, c-format
