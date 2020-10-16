@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: freedesktop-by\n"
+"Project-Id-Version: 62373625822c7a3ac99a3ebd451752a1\n"
 "Report-Msgid-Bugs-To: https://gitlab.freedesktop.org/pulseaudio/pulseaudio/issues\n"
 "POT-Creation-Date: 2020-04-23 15:33+0000\n"
-"PO-Revision-Date: 2020-10-15 06:43\n"
+"PO-Revision-Date: 2020-10-16 06:42\n"
 "Last-Translator: Viktar Vaŭčkievič <victorenator@gmail.com>\n"
 "Language-Team: Belarusian\n"
 "Language: be\n"
@@ -12,11 +12,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || n%10>=5 && n%10<=9 || n%100>=11 && n%100<=14 ? 2 : 3);\n"
 "X-Generator: Lokalize 2.0\n"
-"X-Crowdin-Project: freedesktop-by\n"
-"X-Crowdin-Project-ID: 373469\n"
+"X-Crowdin-Project: 62373625822c7a3ac99a3ebd451752a1\n"
+"X-Crowdin-Project-ID: 34\n"
 "X-Crowdin-Language: be\n"
 "X-Crowdin-File: /master/sources/pulseaudio/PulseAudio.master.be.po\n"
-"X-Crowdin-File-ID: 192\n"
+"X-Crowdin-File-ID: 428\n"
 
 #: src/daemon/cmdline.c:113
 #| msgid ""
@@ -190,7 +190,7 @@ msgstr "%s [параметры]\n\n"
 "  -v  --verbose                         Павялічыць узровень інфарматыўнасці.\n"
 "      --log-target={auto,syslog,stderr,file:PATH,newfile:PATH}\n"
 "                                        Вызначыць журнал.\n"
-"      --log-meta[=BOOL]                 Дадаць месца для коду ў паведамленні журнала.\n"
+"      --log-meta[=BOOL]                 Дадаць месца для кода ў паведамленні журнала.\n"
 "      --log-time[=BOOL]                 Дадаць час у паведамленні журнала.\n"
 "      --log-backtrace=FRAMES            Дадаць стэк выклікаў у паведамленні журнала.\n"
 "  -p, --dl-search-path=ШЛЯХ             Вызначыць шлях для пошуку дынамічных\n"
@@ -224,7 +224,7 @@ msgstr "--fail чакае лагічны аргумент"
 
 #: src/daemon/cmdline.c:265
 msgid "--log-level expects log level argument (either numeric in range 0..4 or one of debug, info, notice, warn, error)."
-msgstr "--log-level чакае значэнне ўзроўня інфарматыўнасці (лік у дыяпазоне 0–4 ці адно з debug, info, notice, warn, error)."
+msgstr "--log-level чакае значэнне ўзроўню інфарматыўнасці (лік у дыяпазоне 0–4 ці адно з debug, info, notice, warn, error)."
 
 #: src/daemon/cmdline.c:277
 msgid "--high-priority expects boolean argument"
@@ -353,7 +353,7 @@ msgstr "Не атрымалася адкрыць файл канфігурацы
 
 #: src/daemon/daemon-conf.c:689
 msgid "The specified default channel map has a different number of channels than the specified default number of channels."
-msgstr "У прадвызначанай схеме каналаў колькасць каналаў не супадае з прадвызначанай колькасцюканалаў."
+msgstr "У прадвызначанай схеме каналаў колькасць каналаў не супадае з прадвызначанай колькасцю каналаў."
 
 #: src/daemon/daemon-conf.c:776
 #, c-format
@@ -552,7 +552,7 @@ msgstr "Не ўдалося атрымаць ідэнтыфікатар машы
 #: src/daemon/main.c:991
 msgid "OK, so you are running PA in system mode. Please make sure that you actually do want to do that.\n"
 "Please read http://www.freedesktop.org/wiki/Software/PulseAudio/Documentation/User/WhatIsWrongWithSystemWide/ for an explanation why system mode is usually a bad idea."
-msgstr "Добра, вы запусцілі PA у агульнасістэмным рэжыме. Калі ласка, пераканайцеся, што вы на самай справе хочаце гэтага.\n"
+msgstr "Добра, вы запусцілі PA у агульнасістэмным рэжыме. Калі ласка, пераканайцеся, што вы на самой справе хочаце гэтага.\n"
 "Калі ласка, прачытайце http://www.freedesktop.org/wiki/Software/PulseAudio/Documentation/User/WhatIsWrongWithSystemWide/, каб даведацца, што агульнасістэмны рэжым звычайна дрэнная ідэя."
 
 #: src/daemon/main.c:1007
@@ -620,7 +620,7 @@ msgstr "Задні мікрафон"
 
 #: src/modules/alsa/alsa-mixer.c:2552
 msgid "External Microphone"
-msgstr "Знешні мікрафон"
+msgstr "Вонкавы мікрафон"
 
 #: src/modules/alsa/alsa-mixer.c:2553 src/modules/alsa/alsa-mixer.c:2637
 msgid "Internal Microphone"
@@ -739,7 +739,7 @@ msgstr "Шматканальны выхад"
 #: src/modules/alsa/alsa-mixer.c:2655
 #| msgid "%s Output"
 msgid "Game Output"
-msgstr "Гульянявы выхад"
+msgstr "Гульнявы выхад"
 
 #: src/modules/alsa/alsa-mixer.c:2656
 #| msgid "%s Output"
@@ -888,7 +888,7 @@ msgid "ALSA woke us up to write new data to the device, but there was actually n
 "Most likely this is a bug in the ALSA driver '%s'. Please report this issue to the ALSA developers.\n"
 "We were woken up with POLLOUT set -- however a subsequent snd_pcm_avail() returned 0 or another value < min_avail."
 msgstr "ALSA паведаміла пра магчымасць запісаць новыя даныя на прыладу, але, на самой справе, пісаць няма чаго.\n"
-"Хутчэй за ўсё, гэта памылка ў ALSA-драйверы \"%s\". Калі ласка, паведаміце пра гэта распрацоўшчыкам ALSA.\n"
+"Хутчэй за ўсё, гэта памылка ў драйверы ALSA \"%s\". Калі ласка, паведаміце пра гэта распрацоўшчыкам ALSA.\n"
 "Працэс абуджаны з вызначаным POLLOUT, аднак наступны выклік snd_pcm_avail() вярнуў 0 або іншае значэнне, меншае за min_avail."
 
 #: src/modules/alsa/alsa-source.c:611 src/modules/alsa/alsa-source.c:777
@@ -1076,7 +1076,7 @@ msgstr "Віртуальны прымач LADSPA"
 #| "separated list of input LADSPA port names> output_ladspaport_map=<comma "
 #| "separated list of output LADSPA port names> "
 msgid "sink_name=<name for the sink> sink_properties=<properties for the sink> sink_input_properties=<properties for the sink input> master=<name of sink to filter> sink_master=<name of sink to filter> format=<sample format> rate=<sample rate> channels=<number of channels> channel_map=<input channel map> plugin=<ladspa plugin name> label=<ladspa plugin label> control=<comma separated list of input control values> input_ladspaport_map=<comma separated list of input LADSPA port names> output_ladspaport_map=<comma separated list of output LADSPA port names> autoloaded=<set if this module is being loaded automatically> "
-msgstr "sink_name=<назва прымача> sink_properties=<уласцівасці прымача> sink_input_properties=<уласцівасці ўваходу прымача> master=<назва прымача> sink_master=<назва прымача для фільтрацыі> format=<фармат дыскрэтызацыі> rate=<чашчыня дыскрэтызацыі>channels=<колькасць каналаў> channel_map=<схема каналаў> plugin=<назва ўбудовы LADSPA> label=<адмеціна ўбудовы LADSPA> control=<спіс падзеленых коскамі кіруючых значэнняў> input_ladspaport_map=<спіс падзеленых коскамі назваў уваходных партоў LADSPA> output_ladspaport_map=<спіс падзеленых коскамі назваў выходных партоў LADSPA> autoloaded=<вызначана, калі модуль загружаецца аўтаматычна>"
+msgstr "sink_name=<назва прымача> sink_properties=<уласцівасці прымача> sink_input_properties=<уласцівасці ўваходу прымача> master=<назва прымача> sink_master=<назва прымача для фільтрацыі> format=<фармат дыскрэтызацыі> rate=<чашчыня дыскрэтызацыі>channels=<колькасць каналаў> channel_map=<схема каналаў> plugin=<назва ўбудовы LADSPA> label=<адмеціна ўбудовы LADSPA> control=<спіс падзеленых коскамі кіроўных значэнняў> input_ladspaport_map=<спіс падзеленых коскамі назваў уваходных партоў LADSPA> output_ladspaport_map=<спіс падзеленых коскамі назваў выходных партоў LADSPA> autoloaded=<вызначана, калі модуль загружаецца аўтаматычна>"
 
 #: src/modules/module-null-sink.c:46
 msgid "Clocked NULL sink"
@@ -1423,7 +1423,7 @@ msgstr "хібны"
 #| "could e g happen if you try to connect to a non-root PulseAudio as a root "
 #| "user, over the native protocol. Don't do that.)"
 msgid "XDG_RUNTIME_DIR (%s) is not owned by us (uid %d), but by uid %d! (This could e.g. happen if you try to connect to a non-root PulseAudio as a root user, over the native protocol. Don't do that.)"
-msgstr "XDG_RUNTIME_DIR (%s) не належыць гэтаму карыстальнікк (uid %d), а належыць карыстальніку з uid %d! (Гэта можаадбывацца, калі вы спрабуеце злучыцца з PulseAudio, запушчаным звычайным карыстальнікам як карыстальнік root па ўбудаваным пратаколе. Не рабіце так.)"
+msgstr "XDG_RUNTIME_DIR (%s) не належыць гэтаму карыстальнікк (uid %d), а належыць карыстальніку з uid %d! (Гэта можа адбывацца, калі вы спрабуеце злучыцца з PulseAudio, запушчаным звычайным карыстальнікам як карыстальнік root па ўбудаваным пратаколе. Не рабіце так.)"
 
 #: src/pulsecore/core-util.h:96
 msgid "yes"
@@ -1529,7 +1529,7 @@ msgstr "Няма даных"
 
 #: src/pulse/error.c:55
 msgid "Incompatible protocol version"
-msgstr "Несумяшчальныя версіі пратаколу"
+msgstr "Несумяшчальныя версіі пратакола"
 
 #: src/pulse/error.c:56
 msgid "Too large"
@@ -1599,7 +1599,7 @@ msgstr "Не атрымалася адправіць даныя струменя
 
 #: src/utils/pacat.c:139
 msgid "Playback stream drained."
-msgstr "Даныя струменя адпраўленыя ."
+msgstr "Даныя струменя адпраўленыя."
 
 #: src/utils/pacat.c:150
 msgid "Draining connection to server."
@@ -1871,7 +1871,40 @@ msgid "%s [options]\n"
 "      --file-format[=FFORMAT]           Record/play formatted PCM data.\n"
 "      --list-file-formats               List available file formats.\n"
 "      --monitor-stream=INDEX            Record from the sink input with index INDEX.\n"
-msgstr ""
+msgstr "%s [options]\n"
+"%s\n\n"
+"-h, --help                            Паказаць гэтую даведку.\n"
+"      --version                         Паказаць версію\n"
+"  -r, --record                          Наладзіць злучэнне для запісу\n"
+"  -p, --playback                        Наладзіць злучэнне для прайгравання\n\n"
+"  -v, --verbose                         Павялічыць узровень інфарматыўнасці.\n\n"
+"  -s, --server=SERVER                   Назва сервера для злучэння\n"
+"  -d, --device=DEVICE                 Назва прымача / крыніцы для злучэння\n"
+"  -n, --client-name=NAME                Як выклікаць гэты кліент на серверы\n"
+"      --stream-name=NAME                Як выклікаць гэты струмень на серверы\n"
+"      --volume=VOLUME                   Вызначыць пачатковую гучнасць у дыяпазоне 0...65536\n"
+"      --rate=SAMPLERATE                 Чашчыня дыскрэтызацыі ў Гц (прадвызначана 44100)\n"
+"      --format=SAMPLEFORMAT             Фармат дыскрэтызацыі, падрабязней глядзіце на\n"
+"                                        https://www.freedesktop.org/wiki/Software/PulseAudio/Documentation/User/SupportedAudioFormats/\n"
+"                                         (прадвызначана s16ne)\n"
+"      --channels=CHANNELS               Колькасць каналаў, 1 - мона, 2 - стэрэа\n"
+"                                        (прадвызначана 2)\n"
+"      --channel-map=CHANNELMAP          Мапа каналаў замест прадвызначанай\n"
+"      --fix-format                      Узяць фармат дыскрэтызацыі з прымача ці крыніцы, з якой злучаны струмень.\n"
+"      --fix-rate                        Узяць чашчыню дыскрэтызацыі з прымача ці крыніцы, з якой злучаны струмень.\n"
+"      --fix-channels                    Узяць колькасць каналаў з прымача ці крыніцы, з якой злучаны струмень.\n"
+"      --no-remix                        Не мікшаваць каналы.\n"
+"      --no-remap                        Супастаўляць каналы па індэксе, а не назве.\n"
+"      --latency=BYTES                   Запытаць вызначаную затрымку ў байтах.\n"
+"      --process-time=BYTES              Запытаць вызначаны час апрацоўкі запытаў у байтах..\n"
+"      --latency-msec=MSEC               Запытаць вызначаную затрымку ў мсек.\n"
+"      --process-time-msec=MSEC          Запытаць вызначаны час апрацоўкі запытаў у мсек.\n"
+"      --property=PROPERTY=VALUE         Прызначыць вызначаную ўласцівасць у вызначанае значэнне.\n"
+"      --raw                             Запісваць / прайграваць неапрацаваныя даныя PCM.\n"
+"      --passthrough                     Скразныя даныя.\n"
+"      --file-format[=FFORMAT]           Запісваць / прайграваць фарматаваныя даныя PCM.\n"
+"      --list-file-formats               Спіс даступных фарматаў.\n"
+"      --monitor-stream=INDEX            Запісваць з уваходу прымача з індэксам INDEX.\n"
 
 #: src/utils/pacat.c:793
 msgid "Play back encoded audio files on a PulseAudio sound server."
@@ -1939,7 +1972,7 @@ msgstr "Не атрымалася разабраць значэнне для --m
 
 #: src/utils/pacat.c:1011
 msgid "Invalid sample specification"
-msgstr "Хібнае значэнне дыскрытызацыі"
+msgstr "Хібнае значэнне дыскрэтызацыі"
 
 #: src/utils/pacat.c:1021
 #, c-format
@@ -2136,7 +2169,7 @@ msgstr "pacmd %s\n"
 
 #: src/utils/pacmd.c:142
 msgid "No PulseAudio daemon running, or not running as session daemon."
-msgstr "Дэман PulseAudio не запушчаны ці ён не працуе як дэман сеансу."
+msgstr "Дэман PulseAudio не запушчаны ці не працуе як дэман сеанса."
 
 #: src/utils/pacmd.c:147
 #, c-format
@@ -2743,7 +2776,7 @@ msgstr "Не атрымалася адкрыць аўдыяфайл."
 
 #: src/utils/pactl.c:1727
 msgid "Warning: Failed to determine sample specification from file."
-msgstr "Папярэджанне: Не атрымалася вызначыць спецыфікацыю дыскрэтызацыі з файла."
+msgstr "Папярэджанне: не атрымалася вызначыць спецыфікацыю дыскрэтызацыі з файла."
 
 #: src/utils/pactl.c:1737
 msgid "You have to specify a sample name to play"
@@ -2860,7 +2893,7 @@ msgstr "Неабходна вызначыць нумар прымача і сп�
 
 #: src/utils/pactl.c:2046
 msgid "You have to specify a card name/index, a port name and a latency offset"
-msgstr "Неабходна вызначыць нумар ці назву карткі, назву порту і зрух затрымкі."
+msgstr "Неабходна вызначыць нумар ці назву карткі, назву порта і зрух затрымкі"
 
 #: src/utils/pactl.c:2053
 msgid "Could not parse latency offset"
@@ -2893,7 +2926,7 @@ msgstr "Не ўдалося прыпыніць: %s\n"
 #: src/utils/pasuspender.c:170
 #, c-format
 msgid "WARNING: Sound server is not local, not suspending.\n"
-msgstr "Папярэджанне: Нелакальны гукавы сервер не прыпыняецца.\n"
+msgstr "Папярэджанне: нелакальны гукавы сервер не прыпыняецца.\n"
 
 #: src/utils/pasuspender.c:183
 #, c-format
